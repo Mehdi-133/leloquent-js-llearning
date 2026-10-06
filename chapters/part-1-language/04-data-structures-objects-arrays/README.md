@@ -47,8 +47,14 @@ In progress - focused preparation for the class presentation.
 | Array basics | Not started | `exercises/01-array-basics.js` | To complete after the exercise |
 | Study session queue | Not started | `exercises/02-study-session-queue.js` | To complete after the challenge |
 | Student results report | Not started | `exercises/03-student-results-report.js` | To complete after the challenge |
-| Car statistics API | Not started | `exercises/04-car-stats-api.js` | To complete after the challenge |
+| Car statistics API | In progress | `exercises/04-car-stats-api.js` | Syntax can pass while calculations and endpoint behavior are still incorrect |
 
 ## Verification
 
-All four starter files pass JavaScript syntax checks. Their behavior cannot be fully tested until the learner writes the solutions.
+All four starter files pass JavaScript syntax checks.
+
+The first Challenge 04 attempt was reviewed:
+
+- Correct: total cars, total price, and the dataset's average value.
+- Needs correction: city counts, most expensive car, missing cheapest car, average rounding, route path, and plain-text response.
+- Runtime blocker: this repository does not currently contain a `package.json` or the Express dependency.

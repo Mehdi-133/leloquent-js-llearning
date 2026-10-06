@@ -91,7 +91,7 @@ If a check cannot be run, state exactly what remains unverified and why.
 
 At the start of a learning session, use `sessions/CURRENT.md` to resume from the last known state.
 
-After meaningful learning or code work:
+After every saved learner coding attempt, code review, or meaningful learning or code change:
 
 1. Update the current chapter `README.md` with completed sections, exercises, discoveries, and checks.
 2. Update `PROGRESS.md` only when chapter-level progress changes.
@@ -100,6 +100,8 @@ After meaningful learning or code work:
 5. Archive a copy in `sessions/history/YYYY-MM-DD-short-topic.md` only for a substantial milestone or handoff.
 
 Do not invent progress. Record only work that was actually completed and verified.
+
+Track incomplete learner attempts as `In progress` or `Review needed`, including the checks that passed and failed. Mark work `Complete` only after the required behavior is verified. Do not create progress records for unsaved keystrokes or wording-only changes.
 
 If Notion is unavailable, record the pending sync in `sessions/CURRENT.md` and retry it in the next connected session. Never store a Notion token or other credential in this repository.
 

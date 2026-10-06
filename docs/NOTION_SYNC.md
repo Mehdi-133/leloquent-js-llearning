@@ -19,7 +19,7 @@ Notion mirrors these files so the learner can see progress from the dashboard.
 
 ## When to sync
 
-Sync Notion after meaningful learning or code work has been completed and verified. Do not create a log entry for wording-only changes or unverified attempts.
+Sync Notion after every saved learner coding attempt and code review, as well as meaningful verified learning or code work. Record incomplete attempts as `In progress` or `Review needed`, including both passing and failing checks. Do not mark them complete until the required behavior is verified. Do not create a log entry for unsaved keystrokes or wording-only changes.
 
 During an active connected session:
 
