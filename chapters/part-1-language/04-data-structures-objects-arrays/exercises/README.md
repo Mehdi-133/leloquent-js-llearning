@@ -16,5 +16,6 @@ For each exercise:
 1. `01-array-basics.js` - basic array operations.
 2. `02-study-session-queue.js` - arrays of objects, queue operations, mutation, conditions, and totals.
 3. `03-student-results-report.js` - nested arrays, functions, averages, comparisons, and JSON.
+4. `04-car-stats-api.js` - API-style statistics, dynamic city counting, averages, and minimum/maximum objects.
 
-The two exam-practice challenges intentionally have no solutions. Complete Challenge 02 before Challenge 03.
+The three exam-practice challenges intentionally have no solutions. Complete them in order: Challenge 02, Challenge 03, then Challenge 04.

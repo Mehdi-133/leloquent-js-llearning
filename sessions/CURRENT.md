@@ -15,14 +15,16 @@
 - Added a tracker for all 21 chapters and a learning log for verified progress updates.
 - Added two progressive exam-practice challenges covering arrays of objects, queue operations, nested arrays, averages, and JSON.
 - Updated the Notion hub, Chapter 4 row, and existing Chapter 4 learning-log entry with the new practice plan.
+- Added an API-style `GET /cars/stats` challenge with a verified 12-car dataset and exact expected output.
 
 ## Files to read next
 
 1. `chapters/part-1-language/04-data-structures-objects-arrays/README.md`
 2. `chapters/part-1-language/04-data-structures-objects-arrays/exercises/02-study-session-queue.js`
 3. `chapters/part-1-language/04-data-structures-objects-arrays/exercises/03-student-results-report.js`
-4. `docs/NOTION_SYNC.md`
-5. Printed pages 58-80 in `Eloquent_JavaScript.pdf`
+4. `chapters/part-1-language/04-data-structures-objects-arrays/exercises/04-car-stats-api.js`
+5. `docs/NOTION_SYNC.md`
+6. Printed pages 58-80 in `Eloquent_JavaScript.pdf`
 
 ## Open questions
 
@@ -40,3 +42,4 @@ Write the four predictions and complete `02-study-session-queue.js`, then run it
 - The Notion hub was fetched after creation, and the current Chapter 4 row and learning-log entries were verified.
 - Both new exam-practice starter files were checked with `node --check`.
 - The updated Notion hub, Chapter 4 row, and existing Chapter 4 learning-log properties were read back successfully.
+- The car statistics starter file passed `node --check`, and its dataset was verified against every required output value.

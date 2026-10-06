@@ -47,7 +47,8 @@ In progress - focused preparation for the class presentation.
 | Array basics | Not started | `exercises/01-array-basics.js` | To complete after the exercise |
 | Study session queue | Not started | `exercises/02-study-session-queue.js` | To complete after the challenge |
 | Student results report | Not started | `exercises/03-student-results-report.js` | To complete after the challenge |
+| Car statistics API | Not started | `exercises/04-car-stats-api.js` | To complete after the challenge |
 
 ## Verification
 
-All three starter files pass JavaScript syntax checks. Their behavior cannot be fully tested until the learner writes the solutions.
+All four starter files pass JavaScript syntax checks. Their behavior cannot be fully tested until the learner writes the solutions.

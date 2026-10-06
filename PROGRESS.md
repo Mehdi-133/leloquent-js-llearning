@@ -6,8 +6,8 @@
 - Current focus: Chapter 4 - Data Structures: Objects and Arrays
 - Chapter status: In progress for the class presentation preparation
 - Earlier chapters: Not completed; Chapter 1 remains not started
-- Last meaningful update: 2026-10-06 - two progressive Chapter 4 exam-practice challenges added
-- Next target: complete and review `02-study-session-queue.js`, then attempt `03-student-results-report.js`
+- Last meaningful update: 2026-10-06 - API-style car statistics challenge added
+- Next target: complete Challenges 02 and 03, then implement `GET /cars/stats` in Challenge 04
 
 ## Milestones
 
@@ -16,7 +16,7 @@
 | Learning workspace and shared agent rules | Complete | Root documentation, chapter structure, and handoff files |
 | Git repository initialized on `main` | Complete | Local `.git` repository |
 | Notion learning tracker connected | Complete | Learning hub, 21-chapter tracker, and progress log inside Mehdi's Board |
-| Chapter 4 class presentation preparation | In progress | Three progressive array and object exercises |
+| Chapter 4 class presentation preparation | In progress | Four progressive array, object, and statistics exercises |
 | Part 1 - JavaScript language | Not started | Chapters 1-12 |
 | Part 2 - Browser JavaScript | Not started | Chapters 13-19 |
 | Part 3 - Node.js | Not started | Chapters 20-21 |
