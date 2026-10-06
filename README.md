@@ -55,10 +55,14 @@ For each chapter:
 
 The book itself recommends reading code carefully, writing working solutions, using a real JavaScript interpreter for immediate feedback, and experimenting beyond the exercises. This repository is organized around that advice.
 
-## Current starting point
+## Current position
 
-The workspace is ready for Chapter 1: **Values, Types, and Operators**. See [the Chapter 1 workspace](./chapters/part-1-language/01-values-types-operators/README.md).
+The current focus is Chapter 4: **Data Structures: Objects and Arrays**, for class presentation preparation. Chapter 1 remains not started. See [the Chapter 4 workspace](./chapters/part-1-language/04-data-structures-objects-arrays/README.md).
+
+## Progress tracking
+
+The repository files are the source of truth. Verified progress is also synchronized to the private [Eloquent JavaScript Learning Hub](https://app.notion.com/p/3f1b01ad599b81bdafe3ed72828af487) inside **Mehdi's Board**. Read [docs/NOTION_SYNC.md](./docs/NOTION_SYNC.md) before updating the Notion trackers.
 
 ## Git
 
-Git is initialized with `main` as the default branch. No commit is created automatically. Read [docs/GIT_WORKFLOW.md](./docs/GIT_WORKFLOW.md) before creating the first checkpoint.
+Git uses `main` as the default branch and keeps meaningful changes in separate logical commits. Read [docs/GIT_WORKFLOW.md](./docs/GIT_WORKFLOW.md) before creating a checkpoint.

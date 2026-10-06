@@ -96,9 +96,12 @@ After meaningful learning or code work:
 1. Update the current chapter `README.md` with completed sections, exercises, discoveries, and checks.
 2. Update `PROGRESS.md` only when chapter-level progress changes.
 3. Rewrite `sessions/CURRENT.md` with the last completed action, files changed, checks run, open questions, and one precise next step.
-4. Archive a copy in `sessions/history/YYYY-MM-DD-short-topic.md` only for a substantial milestone or handoff.
+4. Sync the verified change to the Notion trackers described in `docs/NOTION_SYNC.md` while the connected Notion tools are available.
+5. Archive a copy in `sessions/history/YYYY-MM-DD-short-topic.md` only for a substantial milestone or handoff.
 
 Do not invent progress. Record only work that was actually completed and verified.
+
+If Notion is unavailable, record the pending sync in `sessions/CURRENT.md` and retry it in the next connected session. Never store a Notion token or other credential in this repository.
 
 ## Git workflow
 
