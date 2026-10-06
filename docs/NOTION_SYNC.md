@@ -30,6 +30,15 @@ During an active connected session:
 
 This is immediate session-based synchronization. It is not a background watcher when Codex is closed. If the Notion connection is unavailable, record the pending sync in `sessions/CURRENT.md` and retry it in the next connected session.
 
+## Free block limit fallback
+
+The Notion workspace reached its free block limit on 2026-10-06. Until capacity is available again:
+
+1. Keep the learning hub and current chapter row up to date.
+2. Update the existing in-progress log entry for the current chapter instead of creating a new row.
+3. Preserve earlier facts by extending the summary and Git commit list. Do not replace completed or unrelated history.
+4. Return to one new log entry per meaningful change when Notion allows new blocks again.
+
 ## Safety
 
 - Never store Notion credentials or tokens in the repository.

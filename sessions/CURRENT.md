@@ -14,6 +14,7 @@
 - Connected the repository progress system to the private Notion learning hub inside Mehdi's Board.
 - Added a tracker for all 21 chapters and a learning log for verified progress updates.
 - Added two progressive exam-practice challenges covering arrays of objects, queue operations, nested arrays, averages, and JSON.
+- Updated the Notion hub, Chapter 4 row, and existing Chapter 4 learning-log entry with the new practice plan.
 
 ## Files to read next
 
@@ -26,6 +27,7 @@
 ## Open questions
 
 - The date and expected duration of the class presentation are not known yet.
+- The Notion workspace has reached its free block limit, so new learning-log rows cannot be created until capacity is freed or the plan is upgraded. Current progress remains tracked in the hub, Chapter 4 row, and existing in-progress log entry.
 
 ## Exact next step
 
@@ -37,3 +39,4 @@ Write the four predictions and complete `02-study-session-queue.js`, then run it
 - The starter exercise was checked with `node --check`.
 - The Notion hub was fetched after creation, and the current Chapter 4 row and learning-log entries were verified.
 - Both new exam-practice starter files were checked with `node --check`.
+- The updated Notion hub, Chapter 4 row, and existing Chapter 4 learning-log properties were read back successfully.
