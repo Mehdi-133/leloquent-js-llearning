@@ -11,4 +11,10 @@ For each exercise:
 5. Compare the real output with your predictions.
 6. Ask for a hint before asking for the full solution.
 
-Current exercise: `01-array-basics.js`.
+## Practice order
+
+1. `01-array-basics.js` - basic array operations.
+2. `02-study-session-queue.js` - arrays of objects, queue operations, mutation, conditions, and totals.
+3. `03-student-results-report.js` - nested arrays, functions, averages, comparisons, and JSON.
+
+The two exam-practice challenges intentionally have no solutions. Complete Challenge 02 before Challenge 03.

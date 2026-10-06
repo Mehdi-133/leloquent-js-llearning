@@ -13,13 +13,15 @@
 - Updated the learning plan and progress tracker to record this focused detour.
 - Connected the repository progress system to the private Notion learning hub inside Mehdi's Board.
 - Added a tracker for all 21 chapters and a learning log for verified progress updates.
+- Added two progressive exam-practice challenges covering arrays of objects, queue operations, nested arrays, averages, and JSON.
 
 ## Files to read next
 
 1. `chapters/part-1-language/04-data-structures-objects-arrays/README.md`
-2. `chapters/part-1-language/04-data-structures-objects-arrays/exercises/01-array-basics.js`
-3. `docs/NOTION_SYNC.md`
-4. Printed pages 58-61 in `Eloquent_JavaScript.pdf`
+2. `chapters/part-1-language/04-data-structures-objects-arrays/exercises/02-study-session-queue.js`
+3. `chapters/part-1-language/04-data-structures-objects-arrays/exercises/03-student-results-report.js`
+4. `docs/NOTION_SYNC.md`
+5. Printed pages 58-80 in `Eloquent_JavaScript.pdf`
 
 ## Open questions
 
@@ -27,10 +29,11 @@
 
 ## Exact next step
 
-Write the four predictions and complete `01-array-basics.js`, then run it with Node.js and review the output.
+Write the four predictions and complete `02-study-session-queue.js`, then run it with Node.js and review the output before starting Challenge 03.
 
 ## Verification already completed
 
 - The relevant PDF chapter and repository structure were inspected.
 - The starter exercise was checked with `node --check`.
 - The Notion hub was fetched after creation, and the current Chapter 4 row and learning-log entries were verified.
+- Both new exam-practice starter files were checked with `node --check`.

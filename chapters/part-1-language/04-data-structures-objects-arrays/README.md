@@ -45,7 +45,9 @@ In progress - focused preparation for the class presentation.
 | Exercise | Status | File | What I learned |
 | --- | --- | --- | --- |
 | Array basics | Not started | `exercises/01-array-basics.js` | To complete after the exercise |
+| Study session queue | Not started | `exercises/02-study-session-queue.js` | To complete after the challenge |
+| Student results report | Not started | `exercises/03-student-results-report.js` | To complete after the challenge |
 
 ## Verification
 
-The starter exercise passes a JavaScript syntax check. Its behavior cannot be tested until the learner writes the solution.
+All three starter files pass JavaScript syntax checks. Their behavior cannot be fully tested until the learner writes the solutions.
