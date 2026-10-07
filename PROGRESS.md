@@ -31,6 +31,8 @@
 
 Complete these tasks in order because each step prepares the next one.
 
+The three unfinished tasks are mirrored as private all-day events in Mehdi's primary Google Calendar for today.
+
 ## Milestones
 
 | Milestone | Status | Evidence |
@@ -38,6 +40,7 @@ Complete these tasks in order because each step prepares the next one.
 | Learning workspace and shared agent rules | Complete | Root documentation, chapter structure, and handoff files |
 | Git repository initialized on `main` | Complete | Local `.git` repository |
 | Notion learning tracker connected | Complete | Learning hub, 21-chapter tracker, and progress log inside Mehdi's Board |
+| Daily plan connected to Google Calendar | Complete | Three verified private all-day events for the unfinished 2026-10-07 tasks |
 | Chapter 4 class presentation preparation | In progress | Challenge 04 server runs; logic and endpoint corrections are still needed |
 | Part 1 - JavaScript language | Not started | Chapters 1-12 |
 | Part 2 - Browser JavaScript | Not started | Chapters 13-19 |

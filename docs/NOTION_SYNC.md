@@ -8,6 +8,8 @@ It contains:
 - [Eloquent JavaScript Learning Log](https://app.notion.com/p/3166ff34068c4749bdacc063d74cec8e) - one entry for every meaningful, verified progress change.
 - [Eloquent JavaScript Daily Tasks](https://app.notion.com/p/87368ad1720b41f7a0e7bb4056f3ddc4) - the task database for daily work generated from the repository's exact next steps.
 
+The unfinished daily plan is also mirrored to Mehdi's primary Google Calendar so today's work is visible beside other events.
+
 ## Source of truth
 
 The repository remains the source of truth:
@@ -29,6 +31,18 @@ During an active connected session:
 3. Refresh the daily task list from `PROGRESS.md` and `sessions/CURRENT.md`, preserving unfinished tasks instead of duplicating them.
 4. Update the learning hub's current-position summary when the current chapter changes.
 5. Fetch the changed Notion item and confirm the saved values.
+
+## Google Calendar sync
+
+When the learner asks to plan the day:
+
+1. Read the verified unfinished tasks from the repository and Notion.
+2. Search the primary calendar for matching events before creating anything.
+3. Add only unfinished tasks, in their required order, with links back to the Notion learning hub and daily-task database.
+4. Use private, transparent all-day events when no working hours are provided. Use timed focus blocks only when the learner provides or approves times.
+5. Verify the saved calendar events after creation and avoid duplicates on later syncs.
+
+Google Calendar is a daily view of the plan. The repository remains the source of truth, and Notion remains the progress dashboard.
 
 This is immediate session-based synchronization. It is not a background watcher when Codex is closed. If the Notion connection is unavailable, record the pending sync in `sessions/CURRENT.md` and retry it in the next connected session.
 

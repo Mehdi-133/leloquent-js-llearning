@@ -32,6 +32,8 @@
 - Installed Express and EJS, moved the challenge server to port 3004 to avoid an occupied port, and verified the rendered test page.
 - Reevaluated Challenge 04 at 5/10 because the runtime requirement now passes; the learner's calculation code remains unchanged.
 - Preserved the verified dependency and port setup in local commit `5620e29`.
+- Mirrored the three unfinished Challenge 04 tasks from the Notion plan to Mehdi's primary Google Calendar as private, transparent all-day events for 2026-10-07.
+- Verified all three calendar events and saved links back to the Notion learning hub and Daily Tasks database in each event.
 
 ## Files to read next
 
@@ -49,6 +51,7 @@
 - The date and expected duration of the class presentation are not known yet.
 - The Notion workspace has reached its free block limit, so new learning-log rows cannot be created until capacity is freed or the plan is upgraded. Current progress remains tracked in the hub, Chapter 4 row, and existing in-progress log entry.
 - The Daily Tasks database exists, but individual task rows remain pending until Notion block capacity is available.
+- Today's calendar uses the verified fallback plan from the existing Notion dashboard and learning-log fields while Daily Tasks rows are unavailable.
 
 ## Exact next step
 
@@ -74,3 +77,4 @@ Fix the city-count initialization and confirm Casablanca and Rabat both equal 3 
 - `npm run challenge:04` started the server on port 3004, and `/cars/statistics` returned HTTP 200 with `text/html`.
 - Challenge 04 evaluation: 5/10. The runtime now passes; the remaining calculation and endpoint requirements still need work.
 - A controlled live check confirmed `/cars/stats` still returns HTTP 404, Casablanca is displayed as 4, and Dacia Logan is displayed as the most expensive car.
+- Three Google Calendar events were read back successfully for 2026-10-07: fix city counts, fix cheapest/most-expensive selection, and finish `/cars/stats` for reevaluation.
