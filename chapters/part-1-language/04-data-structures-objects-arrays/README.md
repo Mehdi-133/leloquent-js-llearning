@@ -1,8 +1,17 @@
 # Chapter 4 - Data Structures: Objects and Arrays
 
-## Status
+## 🎯 Status
 
-In progress - focused preparation for the class presentation.
+🟡 **In progress** — core concept study is ready; slide creation, final synthesis, quiz, and rehearsal remain.
+
+## 🎤 Presentation checkpoint
+
+- ✅ Studied `Array`, `Object`, `Map`, and `Set` through MERN examples.
+- ✅ Practised choosing structures for ordered lists, lookup by ID, and unique values.
+- ✅ Compared traversal, transformation, search, filtering, sorting, and grouping.
+- ✅ Connected source data, derived structures, object identity, and JSON boundaries.
+- 🟡 Build the final comparison and two mini-cases into the Canva deck.
+- ⬜ Create the final quiz and rehearse the oral explanation.
 
 ## Source
 

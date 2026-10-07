@@ -6,8 +6,25 @@
 - Current focus: Chapter 4 - Data Structures: Objects and Arrays
 - Chapter status: In progress for the class presentation preparation
 - Earlier chapters: Not completed; Chapter 1 remains not started
-- Last meaningful update: 2026-10-07 - Brief 3 validated by the mentor; strengths and improvement priorities recorded
-- Next target: prepare the data-structures presentation, then begin the independent `/hotels` practice variants
+- Last meaningful update: 2026-10-07 - Core data-structures study completed and saved as presentation-ready concept notes
+- Next target: build the data-structures slide deck in Canva, including the final comparison and synthesis
+
+## 🎤 Data-structures presentation checkpoint
+
+> 🟢 **Ready to begin slide creation.** The core concepts have been studied through predictions, corrections, and MERN examples.
+
+| Presentation area | Status |
+| --- | --- |
+| Arrays, objects, references, mutation, and identity | ✅ Covered |
+| `Map` for key-value lookup | ✅ Covered |
+| `Set` for unique values | ✅ Covered |
+| Traverse, transform, search, filter, sort, and group | ✅ Covered |
+| Source data, derived structures, and JSON boundaries | ✅ Covered |
+| Final `Array` vs `Object` vs `Map` vs `Set` comparison | 🟡 Complete inside the slides |
+| Required mini-cases | 🟡 Turn the learned examples into audience questions |
+| Slide design, final quiz, and oral rehearsal | ⬜ Not started |
+
+> 🧭 **Honest status:** the concept-learning foundation is ready; the final synthesis, audience activities, and presentation delivery still need to be built.
 
 ## 🧑‍🏫 Mentor checkpoint — Brief 3
 
@@ -79,7 +96,7 @@ The three unfinished tasks are mirrored as private all-day events in Mehdi's pri
 | Git repository initialized on `main` | Complete | Local `.git` repository |
 | Notion learning tracker connected | Complete | Learning hub, 21-chapter tracker, and progress log inside Mehdi's Board |
 | Daily plan connected to Google Calendar | Complete | Three verified private all-day events for the unfinished 2026-10-07 tasks |
-| Chapter 4 class presentation preparation | In progress | Challenge 04 server runs; logic and endpoint corrections are still needed |
+| Chapter 4 class presentation preparation | In progress | Core concepts are documented; Canva deck, quiz, and rehearsal remain |
 | Part 1 - JavaScript language | Not started | Chapters 1-12 |
 | Part 2 - Browser JavaScript | Not started | Chapters 13-19 |
 | Part 3 - Node.js | Not started | Chapters 20-21 |

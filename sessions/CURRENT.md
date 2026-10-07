@@ -56,6 +56,8 @@
 - Saved a polished comparison note with method results, common traps, MERN context, and a presentation summary.
 - Completed the source-and-derived-structures lesson and correctly predicted that an existing `Map` does not update when its source array changes.
 - Saved a polished note covering source-of-truth design, stale derived data, synchronization strategies, and JSON boundaries.
+- Closed the repository concept-study checkpoint and confirmed that the core material is ready to become a slide deck.
+- Recorded the remaining presentation work honestly: final comparison, audience mini-cases, Canva design, quiz, and oral rehearsal.
 
 ## Files to read next
 
@@ -75,7 +77,7 @@
 
 ## Open questions
 
-- The date and expected duration of the class presentation are not known yet.
+- The presentation is scheduled for the morning of 2026-10-08; its expected duration is still unknown.
 - The Notion workspace has reached its free block limit, so new learning-log rows cannot be created until capacity is freed or the plan is upgraded. Current progress remains tracked in the hub, Chapter 4 row, and existing in-progress log entry.
 - The Daily Tasks database exists, but individual task rows remain pending until Notion block capacity is available.
 - Today's calendar uses the verified fallback plan from the existing Notion dashboard and learning-log fields while Daily Tasks rows are unavailable.
@@ -83,7 +85,7 @@
 
 ## Exact next step
 
-Build and explain the final decision framework for choosing between `Array`, `Object`, `Map`, and `Set`.
+Create the Canva slide deck, beginning with the visual direction and slide structure, then integrate the final `Array`/`Object`/`Map`/`Set` decision framework.
 
 ## Verification already completed
 
@@ -113,3 +115,4 @@ Build and explain the final decision framework for choosing between `Array`, `Ob
 - The learner correctly chose `Array`, `Map`, and `Set` for three MERN scenarios; the completed `Set` note passed documentation checks.
 - The learner correctly selected `map()` to create a new array of course titles; the complete data-operations note passed documentation checks.
 - The learner correctly identified that derived `Map` data can become stale after the source array changes; the source-and-derived-structures note passed documentation checks.
+- The pre-Canva checkpoint was cleaned without marking the presentation, quiz, or rehearsal complete.
