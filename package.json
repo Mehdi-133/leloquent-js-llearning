@@ -6,5 +6,9 @@
   "description": "A beginner-friendly learning workspace for Eloquent JavaScript.",
   "scripts": {
     "challenge:04": "node chapters/part-1-language/04-data-structures-objects-arrays/exercises/04-car-stats-server.js"
+  },
+  "dependencies": {
+    "ejs": "^7.0.1",
+    "express": "^5.2.1"
   }
 }

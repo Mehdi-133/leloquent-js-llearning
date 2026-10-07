@@ -3,7 +3,7 @@ import { fileURLToPath } from "node:url";
 import carsRouter from "./04-car-stats-api.js";
 
 const app = express();
-const port = 3000;
+const port = 3004;
 const viewsDirectory = fileURLToPath(new URL("./views", import.meta.url));
 
 app.set("view engine", "ejs");
