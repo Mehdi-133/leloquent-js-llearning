@@ -75,6 +75,22 @@ Use `playground/` only for experiments that do not belong to one chapter. Do not
 - Preserve working learner code. Make focused edits instead of broad rewrites.
 - Do not create unrelated files, features, or refactors.
 
+## Markdown style ✨
+
+Everything an assistant writes in this repository should be pleasant to review on GitHub, including concept notes, exercises, progress trackers, reviews, session handoffs, and documentation.
+
+- Use a clear title and short, meaningful sections.
+- Add useful emojis to important headings, statuses, warnings, wins, and takeaways.
+- Prefer checklists, small tables, short examples, and callouts when they make information easier to scan.
+- Make status labels immediately visible, such as `✅ Complete`, `🟡 In progress`, `🔁 Review needed`, and `⬜ Not started`.
+- Keep the language friendly, simple, and encouraging.
+- Highlight the big idea, the learner's progress, common traps, and the next action.
+- Keep exercises inviting, but never decorate them so heavily that the requirement or code becomes unclear.
+- Keep emojis meaningful and consistent; avoid decorative clutter.
+- Preserve exact technical details, commands, code, test results, and mentor feedback while improving their presentation.
+
+This visual style applies to both new Markdown files and Markdown sections updated during a task. Do not rewrite unrelated files only to change their appearance.
+
 ## Verification
 
 Choose checks that match the work:
@@ -130,6 +146,22 @@ If Notion is unavailable, record the pending sync in `sessions/CURRENT.md` and r
 ## Git workflow
 
 Follow `docs/GIT_WORKFLOW.md`.
+
+### `clean push` command 🧹🚀
+
+When the learner says **`clean push`**, treat that phrase as explicit permission for this complete workflow:
+
+1. Clean and polish only the files related to the work just completed.
+2. Apply the repository's Markdown style where relevant without changing technical meaning.
+3. Update the appropriate progress and session-tracking files.
+4. Run checks that match the changed code or documentation.
+5. Inspect the final diff and Git status.
+6. Stage only the related files; never include unrelated learner or tool changes.
+7. Create one clear, logical commit for the completed work.
+8. Push the current branch to its configured remote.
+9. Report the commit, push result, checks, and any files deliberately excluded.
+
+If verification fails, the branch has no safe configured remote, or unrelated changes overlap the same files, stop before committing or pushing and explain the exact blocker.
 
 - Keep `main` stable and understandable.
 - Use short-lived branches for chapter work, exercises, projects, fixes, or documentation.

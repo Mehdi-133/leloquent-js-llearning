@@ -43,6 +43,10 @@
 - Added a permanent `Web culture` section to the concept-note rule and applied it to the existing Data Structures, Express validation, and Mongoose notes.
 - Standardized concept notes with meaningful emojis, simple language, short review sections, common traps, and memorable takeaways.
 - Added a standing workflow to clean, verify, commit, and push each completed concept note while excluding unrelated learner changes.
+- Recorded the mentor evaluation for Brief 3: validated, with clear strengths and four measurable improvement tasks.
+- Kept every mentor practice task at `Not started` until Mehdi completes and explains it independently.
+- Added a repository-wide Markdown style rule so future concepts, exercises, progress updates, reviews, and handoffs stay clear, friendly, and visually engaging on GitHub.
+- Defined `clean push` as explicit permission to polish, verify, track, commit, and push only the completed work while excluding unrelated changes.
 
 ## Files to read next
 
@@ -54,6 +58,7 @@
 6. `chapters/part-1-language/04-data-structures-objects-arrays/exercises/views/test.ejs`
 7. `docs/NOTION_SYNC.md`
 8. Printed pages 58-80 in `Eloquent_JavaScript.pdf`
+9. `sessions/history/2026-10-07-mentor-evaluation-brief-3.md`
 
 ## Open questions
 
@@ -61,10 +66,11 @@
 - The Notion workspace has reached its free block limit, so new learning-log rows cannot be created until capacity is freed or the plan is upgraded. Current progress remains tracked in the hub, Chapter 4 row, and existing in-progress log entry.
 - The Daily Tasks database exists, but individual task rows remain pending until Notion block capacity is available.
 - Today's calendar uses the verified fallback plan from the existing Notion dashboard and learning-log fields while Daily Tasks rows are unavailable.
+- The mentor evaluation is saved in the repository; its Notion sync is pending while the free block limit remains active.
 
 ## Exact next step
 
-Fix the city-count initialization and confirm Casablanca and Rabat both equal 3 before continuing.
+Finish understanding Array, Object, Map, and Set for tomorrow's presentation. After the presentation, start the first independent mentor practice: plan and implement `/hotels` filtered by city, then explain the request flow in three minutes.
 
 ## Verification already completed
 
@@ -87,3 +93,6 @@ Fix the city-count initialization and confirm Casablanca and Rabat both equal 3 
 - Challenge 04 evaluation: 5/10. The runtime now passes; the remaining calculation and endpoint requirements still need work.
 - A controlled live check confirmed `/cars/stats` still returns HTTP 404, Casablanca is displayed as 4, and Dacia Logan is displayed as the most expensive car.
 - Three Google Calendar events were read back successfully for 2026-10-07: fix city counts, fix cheapest/most-expensive selection, and finish `/cars/stats` for reevaluation.
+- The mentor feedback supplied on 2026-10-07 was archived, and all derived practice tasks remain honestly marked `Not started`.
+- The new Markdown presentation rule was added to `AGENTS.md`, and the mentor checkpoint was restyled without changing its meaning.
+- The `clean push` command was documented in `AGENTS.md`; it has not been executed in this session.

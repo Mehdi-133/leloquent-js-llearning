@@ -6,8 +6,46 @@
 - Current focus: Chapter 4 - Data Structures: Objects and Arrays
 - Chapter status: In progress for the class presentation preparation
 - Earlier chapters: Not completed; Chapter 1 remains not started
-- Last meaningful update: 2026-10-07 - Express/EJS setup verified and Challenge 04 reevaluated at 5/10
-- Next target: correct the city counts, minimum/maximum selection, route contract, and plain-text response in Challenge 04
+- Last meaningful update: 2026-10-07 - Brief 3 validated by the mentor; strengths and improvement priorities recorded
+- Next target: prepare the data-structures presentation, then begin the independent `/hotels` practice variants
+
+## 🧑‍🏫 Mentor checkpoint — Brief 3
+
+> 🎉 **Result:** Brief 3 validated on 2026-10-07.
+>
+> The full feedback is archived in [`sessions/history/2026-10-07-mentor-evaluation-brief-3.md`](sessions/history/2026-10-07-mentor-evaluation-brief-3.md).
+
+### ✅ Validated strengths
+
+- Strong technical foundation: MVC, OOP, Repository pattern, interfaces/contracts, and Sequelize.
+- Functional Express/EJS understanding: routes, dynamic parameters, filtering, controllers, and views.
+- Healthy planning habit: describe the controller, route, view, and dynamic route in comments before coding.
+- Good separation of responsibilities with a controller class and `this.hotels = hotels`.
+- The remaining Express/EJS issues are mainly syntax recall, not missing understanding.
+- The *Eloquent JavaScript* repository shows responsible use of AI as a learning coach.
+
+### 🎯 Improvement priorities
+
+- Practise Express routes, EJS views, dynamic parameters, array filters, and raw SQL without generative AI.
+- Use short exercises regularly to make JavaScript syntax more automatic.
+- Keep writing meaningful parts of each deliverable personally, even when it takes longer.
+- Explain technical choices more clearly during oral presentations.
+- Strengthen raw SQL, especially `JOIN` and filtered queries without Sequelize.
+
+### 🛠️ Priority action tracker
+
+| Practice task | Completion evidence | Status |
+| --- | --- | --- |
+| 🏙️ `/hotels` filtered by city | Plan comments, controller, route, view, working result, and a 3-minute explanation | ⬜ Not started |
+| ⭐ `/hotels` filtered by star count | Plan comments, controller, route, view, working result, and a 3-minute explanation | ⬜ Not started |
+| 🛎️ `/hotels` filtered by `amenities` | Plan comments, controller, route, view, working result, and a 3-minute explanation | ⬜ Not started |
+| 🗃️ One simple raw SQL `JOIN` | Handwritten query, verified result, and a clear explanation without Sequelize | ⬜ Not started |
+
+### 🛡️ Learning rule
+
+The first attempt is completed without generative AI: write the plan in comments, implement it, and explain the flow. AI may give a small hint or review the saved attempt afterward. A task becomes complete only when its behavior and explanation are both verified.
+
+> 💡 **Remember:** AI is your coach and reviewer—not the person taking your practice attempt.
 
 ## Challenge statistics
 
@@ -54,4 +92,7 @@ None yet.
 
 Add topics here when they need spaced repetition or another explanation.
 
-- None yet.
+- Express/EJS syntax: `res.render`, EJS tags, routes, and dynamic parameters.
+- Array filtering without assistance.
+- Raw SQL `JOIN` and filter queries.
+- Three-minute explanations of technical choices.
