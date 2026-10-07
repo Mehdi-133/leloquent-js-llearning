@@ -1,0 +1,10 @@
+{
+  "name": "eloquent-js-learning",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A beginner-friendly learning workspace for Eloquent JavaScript.",
+  "scripts": {
+    "challenge:04": "node chapters/part-1-language/04-data-structures-objects-arrays/exercises/04-car-stats-server.js"
+  }
+}

@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge 04 - Car Statistics</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: #172033;
+        background: #eef2f7;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 32px 16px;
+      }
+
+      main {
+        width: min(900px, 100%);
+        margin: 0 auto;
+      }
+
+      header,
+      section {
+        margin-bottom: 20px;
+        padding: 24px;
+        border: 1px solid #d9e0ea;
+        border-radius: 16px;
+        background: #ffffff;
+        box-shadow: 0 8px 24px rgb(23 32 51 / 8%);
+      }
+
+      h1,
+      h2,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        margin-bottom: 8px;
+        font-size: clamp(1.75rem, 5vw, 2.5rem);
+      }
+
+      h2 {
+        margin-bottom: 16px;
+        font-size: 1.2rem;
+      }
+
+      p {
+        margin-bottom: 0;
+        color: #5a6476;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 16px;
+      }
+
+      .card {
+        padding: 18px;
+        border-radius: 12px;
+        background: #f6f8fb;
+      }
+
+      .label {
+        display: block;
+        margin-bottom: 6px;
+        color: #64748b;
+        font-size: 0.85rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      .value {
+        font-size: 1.35rem;
+        font-weight: 750;
+      }
+
+      .cities {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .cities li {
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 12px 14px;
+        border-radius: 10px;
+        background: #f6f8fb;
+      }
+
+      .hint {
+        border-left: 4px solid #2563eb;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Car statistics</h1>
+        <p>This page displays the values currently calculated by your Challenge 04 code.</p>
+      </header>
+
+      <section>
+        <h2>Summary</h2>
+        <div class="grid">
+          <article class="card">
+            <span class="label">Total cars</span>
+            <span class="value"><%= totalCars %></span>
+          </article>
+
+          <article class="card">
+            <span class="label">Total price</span>
+            <span class="value"><%= totalPrice.toLocaleString("en-US") %> MAD</span>
+          </article>
+
+          <article class="card">
+            <span class="label">Most expensive</span>
+            <span class="value">
+              <%= expensiveCar ? `${expensiveCar.brand} ${expensiveCar.model}` : "Not calculated" %>
+            </span>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2>Cars by city</h2>
+        <ul class="cities">
+          <% for (const city in belongsCarsCount) { %>
+            <li>
+              <span><%= city %></span>
+              <strong><%= belongsCarsCount[city] %></strong>
+            </li>
+          <% } %>
+        </ul>
+      </section>
+
+      <section class="hint">
+        <h2>Testing tip</h2>
+        <p>Compare these values with the exact expected output written in <code>04-car-stats-api.js</code>.</p>
+      </section>
+    </main>
+  </body>
+</html>

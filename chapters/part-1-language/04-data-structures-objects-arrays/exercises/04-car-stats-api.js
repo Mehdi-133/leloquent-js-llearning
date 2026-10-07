@@ -72,3 +72,69 @@ const cars = [
 // });
 
 // Write your calculation code below this line before moving it into the route.
+
+import express from "express";
+const route = express.Router();
+
+class Cars {
+  constructor() {
+    this.cars = cars;
+  }
+
+  totalCars() {
+    const total = this.cars.map((car) => car.model).length;
+    return total;
+  }
+
+  totalPrice() {
+    const totalPrice = this.cars.reduce((totalCars, car) => {
+      totalCars = totalCars + car.price;
+      return totalCars;
+    }, 0);
+    return totalPrice;
+  }
+
+  belongsCarsCount() {
+    // const city = {
+    //   casa: 4,
+    //   rabat: 7
+    // }
+
+    const group = this.cars.reduce((totalCars, car) => {
+      if (!totalCars[car.city]) {
+        totalCars[car.city] = 1;
+      }
+
+      totalCars[car.city] += 1;
+      return totalCars;
+    }, {});
+    return group;
+  }
+  expensiveCar() {
+    const expensive = this.cars.reduce((ex, car) => {
+      return ex.price > 0 ? ex : car;
+    }, 0);
+    return expensive;
+  }
+
+  avgPrice() {
+    const avg = this.totalPrice() / this.totalCars();
+    return avg;
+  }
+
+  info(req, res) {
+    res.render("test", {
+      totalCars: this.totalCars(),
+      totalPrice: this.totalPrice(),
+      belongsCarsCount: this.belongsCarsCount(),
+      expensiveCar: this.expensiveCar(),
+    });
+  }
+}
+
+const test = new Cars();
+route.get("/statistics", (req, res) => {
+  test.info(req, res);
+});
+
+export default route;
