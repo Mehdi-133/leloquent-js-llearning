@@ -40,6 +40,11 @@ In progress - focused preparation for the class presentation.
 
 - A data structure organizes values according to how a program needs to use them.
 - With `reduce()`, the accumulator must start with the correct type and each iteration must return the updated accumulated value.
+- An array is useful for an ordered collection; a `Map` is useful when a known key should retrieve one related value.
+- `Map.get()` returns a value or `undefined`, while `Map.has()` safely checks whether a key exists—even when its value is `0`.
+- `Map` keys preserve type and object identity, so `1`, `"1"`, and `{ id: 1 }` are different keys.
+- A `Set` removes repeated primitive values while preserving the order of their first appearance.
+- Separate objects remain separate `Set` values unless they share the exact same reference.
 
 ## Challenge statistics
 
@@ -65,6 +70,8 @@ In progress - focused preparation for the class presentation.
 ## Verification
 
 All four starter files pass JavaScript syntax checks.
+
+The completed `Map` and `Set` concept notes were checked for clean Markdown, accurate examples, Web culture connections, and presentation-ready takeaways.
 
 The latest Challenge 04 attempt was reviewed:
 

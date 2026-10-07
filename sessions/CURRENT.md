@@ -47,6 +47,11 @@
 - Kept every mentor practice task at `Not started` until Mehdi completes and explains it independently.
 - Added a repository-wide Markdown style rule so future concepts, exercises, progress updates, reviews, and handoffs stay clear, friendly, and visually engaging on GitHub.
 - Defined `clean push` as explicit permission to polish, verify, track, commit, and push only the completed work while excluding unrelated changes.
+- Completed the `Map` lookup lesson through prediction exercises covering `get()`, `has()`, `size`, falsy values, key types, and object identity.
+- Saved a polished `Map` review note with its MERN use case and presentation sentence.
+- Completed the `Set` lesson through predictions about duplicate primitives, insertion order, and object identity.
+- Correctly selected `Array`, `Map`, and `Set` for an ordered catalogue, lookup by course ID, and unique categories.
+- Saved a polished `Set` review note with MERN examples and a presentation-ready comparison.
 
 ## Files to read next
 
@@ -59,6 +64,8 @@
 7. `docs/NOTION_SYNC.md`
 8. Printed pages 58-80 in `Eloquent_JavaScript.pdf`
 9. `sessions/history/2026-10-07-mentor-evaluation-brief-3.md`
+10. `notes/concepts/data-structures/map-key-value-lookups.md`
+11. `notes/concepts/data-structures/set-unique-values.md`
 
 ## Open questions
 
@@ -70,7 +77,7 @@
 
 ## Exact next step
 
-Finish understanding Array, Object, Map, and Set for tomorrow's presentation. After the presentation, start the first independent mentor practice: plan and implement `/hotels` filtered by city, then explain the request flow in three minutes.
+Learn the difference between traversing, searching, filtering, sorting, and grouping data.
 
 ## Verification already completed
 
@@ -96,3 +103,5 @@ Finish understanding Array, Object, Map, and Set for tomorrow's presentation. Af
 - The mentor feedback supplied on 2026-10-07 was archived, and all derived practice tasks remain honestly marked `Not started`.
 - The new Markdown presentation rule was added to `AGENTS.md`, and the mentor checkpoint was restyled without changing its meaning.
 - The `clean push` command was documented in `AGENTS.md`; it has not been executed in this session.
+- The learner correctly explained `Map` lookup behavior after guided corrections; the saved note passed documentation checks.
+- The learner correctly chose `Array`, `Map`, and `Set` for three MERN scenarios; the completed `Set` note passed documentation checks.
