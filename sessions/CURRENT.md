@@ -34,6 +34,7 @@
 - Preserved the verified dependency and port setup in local commit `5620e29`.
 - Mirrored the three unfinished Challenge 04 tasks from the Notion plan to Mehdi's primary Google Calendar as private, transparent all-day events for 2026-10-07.
 - Verified all three calendar events and saved links back to the Notion learning hub and Daily Tasks database in each event.
+- Added `notes/review/` as the repository home for short topic summaries and saved the first Express and Zod validation note; Notion sync remains pending because of the free block limit.
 
 ## Files to read next
 

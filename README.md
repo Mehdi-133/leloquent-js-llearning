@@ -31,7 +31,8 @@ Every new learning session should read these files in order:
 |   `-- GIT_WORKFLOW.md       # Branch, commit, merge, and tag strategy
 |-- notes/
 |   |-- GLOSSARY.md           # Concepts explained in the learner's words
-|   `-- QUESTIONS.md          # Questions to revisit
+|   |-- QUESTIONS.md          # Questions to revisit
+|   `-- review/               # Short topic summaries for later review
 |-- playground/               # Small experiments not tied to one exercise
 |-- sessions/
 |   |-- CURRENT.md            # Current handoff for the next session
