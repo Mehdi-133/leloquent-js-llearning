@@ -6,6 +6,7 @@ It contains:
 
 - [Eloquent JavaScript Chapters](https://app.notion.com/p/8eebb4f6116b452898066d04c0b7131c) - one row for each of the 21 chapters.
 - [Eloquent JavaScript Learning Log](https://app.notion.com/p/3166ff34068c4749bdacc063d74cec8e) - one entry for every meaningful, verified progress change.
+- [Eloquent JavaScript Daily Tasks](https://app.notion.com/p/87368ad1720b41f7a0e7bb4056f3ddc4) - the task database for daily work generated from the repository's exact next steps.
 
 ## Source of truth
 
@@ -25,8 +26,9 @@ During an active connected session:
 
 1. Update the current chapter row when its status, focus, next step, or evidence changes.
 2. Add one learning-log entry describing what was completed, verification results, what was learned, the next step, and the Git commit when available.
-3. Update the learning hub's current-position summary when the current chapter changes.
-4. Fetch the changed Notion item and confirm the saved values.
+3. Refresh the daily task list from `PROGRESS.md` and `sessions/CURRENT.md`, preserving unfinished tasks instead of duplicating them.
+4. Update the learning hub's current-position summary when the current chapter changes.
+5. Fetch the changed Notion item and confirm the saved values.
 
 This is immediate session-based synchronization. It is not a background watcher when Codex is closed. If the Notion connection is unavailable, record the pending sync in `sessions/CURRENT.md` and retry it in the next connected session.
 
@@ -36,8 +38,9 @@ The Notion workspace reached its free block limit on 2026-10-06. Until capacity 
 
 1. Keep the learning hub and current chapter row up to date.
 2. Update the existing in-progress log entry for the current chapter instead of creating a new row.
-3. Preserve earlier facts by extending the summary and Git commit list. Do not replace completed or unrelated history.
-4. Return to one new log entry per meaningful change when Notion allows new blocks again.
+3. Store today's ordered task plan in the existing `Next Step` properties when new Daily Tasks rows cannot be created.
+4. Preserve earlier facts by extending the summary and Git commit list. Do not replace completed or unrelated history.
+5. Return to one new log or task entry per meaningful change when Notion allows new blocks again.
 
 ## Safety
 

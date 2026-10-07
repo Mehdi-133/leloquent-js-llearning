@@ -19,3 +19,16 @@ For each exercise:
 4. `04-car-stats-api.js` - API-style statistics, dynamic city counting, averages, and minimum/maximum objects.
 
 The three exam-practice challenges intentionally have no solutions. Complete them in order: Challenge 02, Challenge 03, then Challenge 04.
+
+## Run the Challenge 04 test page
+
+From the repository root:
+
+```powershell
+npm install
+npm run challenge:04
+```
+
+Then open `http://localhost:3004/cars/statistics`. The EJS page displays the values produced by the current Challenge 04 code so they can be compared with the expected output in `04-car-stats-api.js`.
+
+Press `Ctrl+C` in the terminal to stop the server.

@@ -3,7 +3,7 @@
 - Date: 2026-10-07
 - Current part: Part 1 - The JavaScript language
 - Current focus: Chapter 4 - Data Structures: Objects and Arrays
-- Status: Class presentation preparation has started; earlier chapters are not marked complete
+- Status: Challenge 04 is in review with a working Express/EJS test page; earlier chapters are not marked complete
 
 ## Last completed work
 
@@ -26,6 +26,12 @@
 - Evaluated Challenge 04 requirement by requirement and recorded a score of 4/10 (`Review needed`).
 - Added repository-wide challenge statistics: 3 prepared, 1 attempted, 0 complete, 1 review needed, and 2 not started.
 - Established the same check, evaluation, statistics, repository tracking, and Notion sync workflow for every saved challenge.
+- Created the `Eloquent JavaScript Daily Tasks` database inside the Notion learning hub.
+- Prepared four ordered tasks for 2026-10-07 from the repository's exact next steps.
+- Notion rejected new task rows because the workspace reached its free block limit, so the same plan was saved in the existing dashboard, Chapter 4 row, and learning-log `Next Step` properties.
+- Installed Express and EJS, moved the challenge server to port 3004 to avoid an occupied port, and verified the rendered test page.
+- Reevaluated Challenge 04 at 5/10 because the runtime requirement now passes; the learner's calculation code remains unchanged.
+- Preserved the verified dependency and port setup in local commit `5620e29`.
 
 ## Files to read next
 
@@ -33,18 +39,20 @@
 2. `chapters/part-1-language/04-data-structures-objects-arrays/exercises/02-study-session-queue.js`
 3. `chapters/part-1-language/04-data-structures-objects-arrays/exercises/03-student-results-report.js`
 4. `chapters/part-1-language/04-data-structures-objects-arrays/exercises/04-car-stats-api.js`
-5. `docs/NOTION_SYNC.md`
-6. Printed pages 58-80 in `Eloquent_JavaScript.pdf`
+5. `chapters/part-1-language/04-data-structures-objects-arrays/exercises/04-car-stats-server.js`
+6. `chapters/part-1-language/04-data-structures-objects-arrays/exercises/views/test.ejs`
+7. `docs/NOTION_SYNC.md`
+8. Printed pages 58-80 in `Eloquent_JavaScript.pdf`
 
 ## Open questions
 
 - The date and expected duration of the class presentation are not known yet.
 - The Notion workspace has reached its free block limit, so new learning-log rows cannot be created until capacity is freed or the plan is upgraded. Current progress remains tracked in the hub, Chapter 4 row, and existing in-progress log entry.
-- Challenge 04 now has a local server and EJS page, but its required Express and EJS dependencies are still missing.
+- The Daily Tasks database exists, but individual task rows remain pending until Notion block capacity is available.
 
 ## Exact next step
 
-Add Express and EJS as project dependencies, then fix the city-count initialization and confirm Casablanca and Rabat both equal 3 before continuing.
+Fix the city-count initialization and confirm Casablanca and Rabat both equal 3 before continuing.
 
 ## Verification already completed
 
@@ -60,3 +68,9 @@ Add Express and EJS as project dependencies, then fix the city-count initializat
 - `npm run challenge:04` failed with `ERR_MODULE_NOT_FOUND` for `express`; the package currently has no installed dependencies.
 - The repeated calculation check returned 12 cars, total price 1909992, and average 159166; it also returned incorrect city counts and Dacia Logan as the most expensive car.
 - Challenge 04 evaluation: 4/10. Passed dataset use, total cars, total/average calculation, and readable method organization.
+- The Notion Daily Tasks database was created successfully; creating its first four rows failed with Notion's `entitlement_required` free-block-limit response.
+- The fallback sync was verified through the existing dashboard, Chapter 4 row, and learning-log properties.
+- `npm install express ejs` completed successfully with zero reported vulnerabilities.
+- `npm run challenge:04` started the server on port 3004, and `/cars/statistics` returned HTTP 200 with `text/html`.
+- Challenge 04 evaluation: 5/10. The runtime now passes; the remaining calculation and endpoint requirements still need work.
+- A controlled live check confirmed `/cars/stats` still returns HTTP 404, Casablanca is displayed as 4, and Dacia Logan is displayed as the most expensive car.

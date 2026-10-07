@@ -47,7 +47,7 @@ In progress - focused preparation for the class presentation.
 | --- | --- | ---: |
 | Study session queue | Not started | - |
 | Student results report | Not started | - |
-| Car statistics API | Review needed | 4/10 |
+| Car statistics API | Review needed | 5/10 |
 
 - Attempted: 1 of 3
 - Complete: 0 of 3
@@ -60,7 +60,7 @@ In progress - focused preparation for the class presentation.
 | Array basics | Not started | `exercises/01-array-basics.js` | To complete after the exercise |
 | Study session queue | Not started | `exercises/02-study-session-queue.js` | To complete after the challenge |
 | Student results report | Not started | `exercises/03-student-results-report.js` | To complete after the challenge |
-| Car statistics API | Review needed | `exercises/04-car-stats-api.js` | A server and EJS result page were added, but calculation, route, response, and dependency issues remain |
+| Car statistics API | Review needed | `exercises/04-car-stats-api.js` | The server runs, but calculation, route, and response issues remain |
 
 ## Verification
 
@@ -72,10 +72,12 @@ The latest Challenge 04 attempt was reviewed:
 - Needs correction: city counts, most expensive car, missing cheapest car, average rounding, route path, and plain-text response.
 - Added: an Express server entry point, an EJS result page, and an npm start script for the challenge.
 - Passed: `node --check` for both JavaScript files.
-- Runtime blocker: `npm run challenge:04` fails because Express and EJS are not declared or installed.
+- Runtime: Express and EJS are installed, and the result page renders successfully at `/cars/statistics`.
+- Live route check: `/cars/statistics` returns HTTP 200, while the required `/cars/stats` returns HTTP 404.
 - Checkpoint: the learner attempt was preserved in local commit `1edbdfe` without marking the exercise complete.
+- Runtime checkpoint: dependencies and the port change were preserved in local commit `5620e29`.
 
-### Challenge 04 evaluation - 4/10
+### Challenge 04 evaluation - 5/10
 
 | Requirement | Point | Result |
 | --- | ---: | --- |
@@ -88,6 +90,6 @@ The latest Challenge 04 attempt was reviewed:
 | Implement `GET /cars/stats` | 0 | Failed: current path is `/cars/statistics` |
 | Return the required plain-text output | 0 | Failed: renders an EJS page instead |
 | Organize the solution into readable methods | 1 | Passed |
-| Start and run the endpoint | 0 | Failed: Express is not installed |
+| Start and run the endpoint | 1 | Passed: the EJS page returns HTTP 200 |
 
 The next review will replace this score only after rerunning the full requirement checklist.
