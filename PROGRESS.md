@@ -6,8 +6,21 @@
 - Current focus: Chapter 4 - Data Structures: Objects and Arrays
 - Chapter status: In progress for the class presentation preparation
 - Earlier chapters: Not completed; Chapter 1 remains not started
-- Last meaningful update: 2026-10-07 - Challenge 04 server and EJS attempt reviewed and preserved
+- Last meaningful update: 2026-10-07 - Challenge 04 evaluated at 4/10 and challenge statistics updated
 - Next target: add the required dependencies, then correct the city counts, minimum/maximum selection, route contract, and plain-text response in Challenge 04
+
+## Challenge statistics
+
+| Statistic | Count |
+| --- | ---: |
+| Practice challenges prepared | 3 |
+| Challenges attempted | 1 |
+| Challenges complete | 0 |
+| Challenges needing review | 1 |
+| Challenges not started | 2 |
+
+- Latest evaluation: Challenge 04 - **4/10** (`Review needed`)
+- Completion rate: **0%** - an attempt is counted as complete only after all required behavior is verified.
 
 ## Milestones
 

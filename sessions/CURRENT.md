@@ -23,6 +23,9 @@
 - Confirmed that both JavaScript files pass syntax checks.
 - Confirmed that the server cannot start because Express and EJS are not declared or installed.
 - Preserved the learner attempt in local commit `1edbdfe` as a separate exercise checkpoint.
+- Evaluated Challenge 04 requirement by requirement and recorded a score of 4/10 (`Review needed`).
+- Added repository-wide challenge statistics: 3 prepared, 1 attempted, 0 complete, 1 review needed, and 2 not started.
+- Established the same check, evaluation, statistics, repository tracking, and Notion sync workflow for every saved challenge.
 
 ## Files to read next
 
@@ -55,3 +58,5 @@ Add Express and EJS as project dependencies, then fix the city-count initializat
 - A calculation harness confirmed correct totals but found every city count one too high and returned Dacia Logan as the most expensive car.
 - `node --check` passed for `04-car-stats-api.js` and `04-car-stats-server.js` on 2026-10-07.
 - `npm run challenge:04` failed with `ERR_MODULE_NOT_FOUND` for `express`; the package currently has no installed dependencies.
+- The repeated calculation check returned 12 cars, total price 1909992, and average 159166; it also returned incorrect city counts and Dacia Logan as the most expensive car.
+- Challenge 04 evaluation: 4/10. Passed dataset use, total cars, total/average calculation, and readable method organization.

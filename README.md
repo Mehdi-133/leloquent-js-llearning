@@ -55,6 +55,19 @@ For each chapter:
 
 The book itself recommends reading code carefully, writing working solutions, using a real JavaScript interpreter for immediate feedback, and experimenting beyond the exercises. This repository is organized around that advice.
 
+## Challenge review cycle
+
+After every saved challenge attempt:
+
+1. Run syntax, runtime, and behavior checks that fit the challenge.
+2. Compare the actual result with every required output.
+3. Give a requirement-based score out of 10 and explain lost points.
+4. Record the attempt as `Not started`, `In progress`, `Review needed`, or `Complete`.
+5. Update the chapter README, `PROGRESS.md`, and `sessions/CURRENT.md`.
+6. Sync the verified evaluation to the Notion learning dashboard.
+
+An attempt counts as attempted immediately, but it counts as complete only after all required behavior passes.
+
 ## Current position
 
 The current focus is Chapter 4: **Data Structures: Objects and Arrays**, for class presentation preparation. Chapter 1 remains not started. See [the Chapter 4 workspace](./chapters/part-1-language/04-data-structures-objects-arrays/README.md).
