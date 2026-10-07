@@ -45,6 +45,10 @@ In progress - focused preparation for the class presentation.
 - `Map` keys preserve type and object identity, so `1`, `"1"`, and `{ id: 1 }` are different keys.
 - A `Set` removes repeated primitive values while preserving the order of their first appearance.
 - Separate objects remain separate `Set` values unless they share the exact same reference.
+- `find()` returns the first match or `undefined`, while `filter()` always returns a new array of all matches.
+- Default `sort()` compares values like text and mutates its array; copy first and provide a comparator when needed.
+- `forEach()` performs an action for every item, while `map()` transforms every item into a new array.
+- Grouping keeps all items but organizes them under shared keys.
 
 ## Challenge statistics
 
@@ -71,7 +75,7 @@ In progress - focused preparation for the class presentation.
 
 All four starter files pass JavaScript syntax checks.
 
-The completed `Map` and `Set` concept notes were checked for clean Markdown, accurate examples, Web culture connections, and presentation-ready takeaways.
+The completed `Map`, `Set`, and data-operations concept notes were checked for clean Markdown, accurate examples, Web culture connections, and presentation-ready takeaways.
 
 The latest Challenge 04 attempt was reviewed:
 

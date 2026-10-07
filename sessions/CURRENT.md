@@ -52,6 +52,8 @@
 - Completed the `Set` lesson through predictions about duplicate primitives, insertion order, and object identity.
 - Correctly selected `Array`, `Map`, and `Set` for an ordered catalogue, lookup by course ID, and unique categories.
 - Saved a polished `Set` review note with MERN examples and a presentation-ready comparison.
+- Completed the data-operations lesson: traverse with `forEach()`, transform with `map()`, search with `find()`, filter with `filter()`, sort safely, and group by a shared key.
+- Saved a polished comparison note with method results, common traps, MERN context, and a presentation summary.
 
 ## Files to read next
 
@@ -66,6 +68,7 @@
 9. `sessions/history/2026-10-07-mentor-evaluation-brief-3.md`
 10. `notes/concepts/data-structures/map-key-value-lookups.md`
 11. `notes/concepts/data-structures/set-unique-values.md`
+12. `notes/concepts/data-structures/data-operations.md`
 
 ## Open questions
 
@@ -77,7 +80,7 @@
 
 ## Exact next step
 
-Learn the difference between traversing, searching, filtering, sorting, and grouping data.
+Practise choosing between `Array`, `Object`, `Map`, and `Set` from the required data shape.
 
 ## Verification already completed
 
@@ -105,3 +108,4 @@ Learn the difference between traversing, searching, filtering, sorting, and grou
 - The `clean push` command was documented in `AGENTS.md`; it has not been executed in this session.
 - The learner correctly explained `Map` lookup behavior after guided corrections; the saved note passed documentation checks.
 - The learner correctly chose `Array`, `Map`, and `Set` for three MERN scenarios; the completed `Set` note passed documentation checks.
+- The learner correctly selected `map()` to create a new array of course titles; the complete data-operations note passed documentation checks.
