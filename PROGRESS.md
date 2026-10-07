@@ -6,8 +6,8 @@
 - Current focus: Chapter 4 - Data Structures: Objects and Arrays
 - Chapter status: In progress for the class presentation preparation
 - Earlier chapters: Not completed; Chapter 1 remains not started
-- Last meaningful update: 2026-10-06 - first `GET /cars/stats` implementation attempt reviewed
-- Next target: correct the city counts, minimum/maximum selection, route contract, and plain-text response in Challenge 04
+- Last meaningful update: 2026-10-07 - Challenge 04 server and EJS attempt reviewed and preserved
+- Next target: add the required dependencies, then correct the city counts, minimum/maximum selection, route contract, and plain-text response in Challenge 04
 
 ## Milestones
 
@@ -16,7 +16,7 @@
 | Learning workspace and shared agent rules | Complete | Root documentation, chapter structure, and handoff files |
 | Git repository initialized on `main` | Complete | Local `.git` repository |
 | Notion learning tracker connected | Complete | Learning hub, 21-chapter tracker, and progress log inside Mehdi's Board |
-| Chapter 4 class presentation preparation | In progress | Challenge 04 implementation attempt reviewed; logic corrections are still needed |
+| Chapter 4 class presentation preparation | In progress | Challenge 04 server attempt reviewed; dependency, logic, and endpoint corrections are still needed |
 | Part 1 - JavaScript language | Not started | Chapters 1-12 |
 | Part 2 - Browser JavaScript | Not started | Chapters 13-19 |
 | Part 3 - Node.js | Not started | Chapters 20-21 |

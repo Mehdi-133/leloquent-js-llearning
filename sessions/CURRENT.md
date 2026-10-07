@@ -1,6 +1,6 @@
 # Current Session Handoff
 
-- Date: 2026-10-06
+- Date: 2026-10-07
 - Current part: Part 1 - The JavaScript language
 - Current focus: Chapter 4 - Data Structures: Objects and Arrays
 - Status: Class presentation preparation has started; earlier chapters are not marked complete
@@ -19,6 +19,10 @@
 - Reviewed the learner's first Challenge 04 implementation without changing it.
 - Confirmed that total cars, total price, and the current average are correct, while city counts, minimum/maximum selection, and endpoint behavior still need work.
 - Adopted a standing rule to track every saved learner attempt and review in both the repository and Notion.
+- Reviewed the saved Challenge 04 Express/EJS attempt without changing the learner's calculation code.
+- Confirmed that both JavaScript files pass syntax checks.
+- Confirmed that the server cannot start because Express and EJS are not declared or installed.
+- Preserved the learner attempt in local commit `1edbdfe` as a separate exercise checkpoint.
 
 ## Files to read next
 
@@ -33,11 +37,11 @@
 
 - The date and expected duration of the class presentation are not known yet.
 - The Notion workspace has reached its free block limit, so new learning-log rows cannot be created until capacity is freed or the plan is upgraded. Current progress remains tracked in the hub, Chapter 4 row, and existing in-progress log entry.
-- Challenge 04 cannot run as an Express endpoint in this repository until it is moved into an Express project or the required project setup is added.
+- Challenge 04 now has a local server and EJS page, but its required Express and EJS dependencies are still missing.
 
 ## Exact next step
 
-Fix the city-count initialization in `04-car-stats-api.js`, rerun the calculation check, and confirm Casablanca and Rabat both equal 3 before continuing.
+Add Express and EJS as project dependencies, then fix the city-count initialization and confirm Casablanca and Rabat both equal 3 before continuing.
 
 ## Verification already completed
 
@@ -49,3 +53,5 @@ Fix the city-count initialization in `04-car-stats-api.js`, rerun the calculatio
 - The car statistics starter file passed `node --check`, and its dataset was verified against every required output value.
 - The learner's Challenge 04 code passed `node --check` but failed at runtime because Express is not installed.
 - A calculation harness confirmed correct totals but found every city count one too high and returned Dacia Logan as the most expensive car.
+- `node --check` passed for `04-car-stats-api.js` and `04-car-stats-server.js` on 2026-10-07.
+- `npm run challenge:04` failed with `ERR_MODULE_NOT_FOUND` for `express`; the package currently has no installed dependencies.
