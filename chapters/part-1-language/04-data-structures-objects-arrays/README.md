@@ -49,6 +49,8 @@ In progress - focused preparation for the class presentation.
 - Default `sort()` compares values like text and mutates its array; copy first and provide a comparator when needed.
 - `forEach()` performs an action for every item, while `map()` transforms every item into a new array.
 - Grouping keeps all items but organizes them under shared keys.
+- One source array can produce a `Set` for uniqueness and a `Map` for lookup, but those derived containers do not update automatically.
+- `Map` and `Set` should be converted to an object or array before crossing a JSON API boundary.
 
 ## Challenge statistics
 
@@ -75,7 +77,7 @@ In progress - focused preparation for the class presentation.
 
 All four starter files pass JavaScript syntax checks.
 
-The completed `Map`, `Set`, and data-operations concept notes were checked for clean Markdown, accurate examples, Web culture connections, and presentation-ready takeaways.
+The completed `Map`, `Set`, data-operations, and derived-structures concept notes were checked for clean Markdown, accurate examples, Web culture connections, and presentation-ready takeaways.
 
 The latest Challenge 04 attempt was reviewed:
 

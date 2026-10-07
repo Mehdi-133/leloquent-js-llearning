@@ -54,6 +54,8 @@
 - Saved a polished `Set` review note with MERN examples and a presentation-ready comparison.
 - Completed the data-operations lesson: traverse with `forEach()`, transform with `map()`, search with `find()`, filter with `filter()`, sort safely, and group by a shared key.
 - Saved a polished comparison note with method results, common traps, MERN context, and a presentation summary.
+- Completed the source-and-derived-structures lesson and correctly predicted that an existing `Map` does not update when its source array changes.
+- Saved a polished note covering source-of-truth design, stale derived data, synchronization strategies, and JSON boundaries.
 
 ## Files to read next
 
@@ -69,6 +71,7 @@
 10. `notes/concepts/data-structures/map-key-value-lookups.md`
 11. `notes/concepts/data-structures/set-unique-values.md`
 12. `notes/concepts/data-structures/data-operations.md`
+13. `notes/concepts/data-structures/source-and-derived-structures.md`
 
 ## Open questions
 
@@ -80,7 +83,7 @@
 
 ## Exact next step
 
-Practise choosing between `Array`, `Object`, `Map`, and `Set` from the required data shape.
+Build and explain the final decision framework for choosing between `Array`, `Object`, `Map`, and `Set`.
 
 ## Verification already completed
 
@@ -109,3 +112,4 @@ Practise choosing between `Array`, `Object`, `Map`, and `Set` from the required 
 - The learner correctly explained `Map` lookup behavior after guided corrections; the saved note passed documentation checks.
 - The learner correctly chose `Array`, `Map`, and `Set` for three MERN scenarios; the completed `Set` note passed documentation checks.
 - The learner correctly selected `map()` to create a new array of course titles; the complete data-operations note passed documentation checks.
+- The learner correctly identified that derived `Map` data can become stale after the source array changes; the source-and-derived-structures note passed documentation checks.
