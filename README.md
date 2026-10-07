@@ -32,7 +32,7 @@ Every new learning session should read these files in order:
 |-- notes/
 |   |-- GLOSSARY.md           # Concepts explained in the learner's words
 |   |-- QUESTIONS.md          # Questions to revisit
-|   `-- review/               # Short topic summaries for later review
+|   `-- concepts/             # Review notes grouped by programming concept
 |-- playground/               # Small experiments not tied to one exercise
 |-- sessions/
 |   |-- CURRENT.md            # Current handoff for the next session

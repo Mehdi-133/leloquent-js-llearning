@@ -91,6 +91,28 @@ If a check cannot be run, state exactly what remains unverified and why.
 
 At the start of a learning session, use `sessions/CURRENT.md` to resume from the last known state.
 
+### Automatic concept notes
+
+When the learner asks about a programming concept, teach it step by step and wait until the learner demonstrates understanding through an answer, explanation, or completed check. At that point, automatically save a short review note without waiting for another request.
+
+Store these notes under `notes/concepts/<concept-name>/`:
+
+1. Inspect `notes/concepts/` before creating anything.
+2. Reuse an existing concept folder when it matches the topic.
+3. Create a new kebab-case concept folder only when no suitable folder exists.
+4. Add or update a short kebab-case Markdown note for the understood subtopic.
+5. Keep notes beginner-friendly and focused on what was actually discussed and understood.
+6. Let the note length follow the concept and the learner's questions: use a few points for a simple topic and add more explanation, examples, or sections when the lesson covered more material.
+7. Include important syntax, methods, common mistakes, and useful examples only when they were relevant to the lesson.
+8. Include a short `Web culture` section explaining how the concept appears in real web development, the convention developers commonly follow, and a practical pitfall when relevant.
+9. Format notes for quick review with plain language, short sections, and meaningful emojis. Prefer a clear big idea, examples when useful, a common trap, and one memorable takeaway; avoid decorative clutter.
+10. Add a new concept folder to `notes/concepts/README.md`; do not create duplicate index entries.
+11. After an understood concept note is cleaned and verified, stage only the files related to that concept and its tracking update, create one logical documentation commit, and push the current branch so the learner can review it on GitHub. Never include unrelated learner changes in that commit or push; if pushing is unsafe or fails, report the exact blocker and keep the verified work locally.
+
+Example: an arrays explanation belongs in `notes/concepts/data-structures/`, while a Zod middleware explanation belongs in `notes/concepts/express-validation/`.
+
+Do not save a concept note while the learner is still confused or before their understanding has been checked. Incomplete topics remain part of the active lesson until they are understood.
+
 After every saved learner coding attempt, code review, or meaningful learning or code change:
 
 1. Update the current chapter `README.md` with completed sections, exercises, discoveries, and checks.

@@ -35,6 +35,14 @@
 - Mirrored the three unfinished Challenge 04 tasks from the Notion plan to Mehdi's primary Google Calendar as private, transparent all-day events for 2026-10-07.
 - Verified all three calendar events and saved links back to the Notion learning hub and Daily Tasks database in each event.
 - Added `notes/review/` as the repository home for short topic summaries and saved the first Express and Zod validation note; Notion sync remains pending because of the free block limit.
+- Reorganized review notes under `notes/concepts/<concept-name>/` and added a standing rule to save a concise note automatically after the learner demonstrates understanding.
+- Added a Mongoose core-concepts note and treated the overview as finished at the learner's request without running a knowledge check.
+- Updated the concept-notes rule so note length follows the topic and the number of questions instead of using a fixed five-point format.
+- Verified the learner's understanding of object references, identity, `const`, and shallow copying, then saved the concept under `notes/concepts/data-structures/`.
+- Verified nested copying with object spread and expanded the mutability note with an independent nested-object example.
+- Added a permanent `Web culture` section to the concept-note rule and applied it to the existing Data Structures, Express validation, and Mongoose notes.
+- Standardized concept notes with meaningful emojis, simple language, short review sections, common traps, and memorable takeaways.
+- Added a standing workflow to clean, verify, commit, and push each completed concept note while excluding unrelated learner changes.
 
 ## Files to read next
 
