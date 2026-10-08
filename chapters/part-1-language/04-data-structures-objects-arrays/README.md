@@ -4,6 +4,8 @@
 
 🟡 **In progress** — core concept study is ready; slide creation, final synthesis, quiz, and rehearsal remain.
 
+> 🎤 Activity workspace: [JavaScript Data Structures Presentation](../../../workstreams/presentations/javascript-data-structures/)
+
 ## 🎤 Presentation checkpoint
 
 - ✅ Studied `Array`, `Object`, `Map`, and `Set` through MERN examples.

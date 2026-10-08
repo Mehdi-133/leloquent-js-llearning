@@ -1,5 +1,7 @@
 # 🧭 Data Operations — Traverse, Search, Filter, Sort, and Group
 
+> 📍 **Workstream:** JavaScript Data Structures presentation
+
 > 🧠 **Big idea:** The operation you choose depends on the result you need: one item, many items, a new order, transformed values, or categorized collections.
 
 ## ⚡ Quick comparison
@@ -103,7 +105,7 @@ Possible result:
 - Sorting API data in place can unexpectedly change data reused elsewhere; copy first when the original order matters.
 - Database queries can filter, sort, and group before data reaches JavaScript, so developers choose where each operation belongs.
 
-## 🎤 Presentation summary
+## ✅ Quick summary
 
 > **Traverse visits, search finds one, filter keeps matches, sort changes order, and grouping organizes by category.**
 

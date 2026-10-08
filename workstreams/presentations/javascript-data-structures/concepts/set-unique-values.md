@@ -1,5 +1,7 @@
 # 🧺 Set — Unique Values
 
+> 📍 **Workstream:** JavaScript Data Structures presentation
+
 > 🧠 **Big idea:** A `Set` stores each value only once.
 
 ## ✨ Removing duplicates
@@ -74,7 +76,7 @@ For simple duplicate removal, store primitive values such as category names, tag
 - Convert it to an array before sending JSON because JSON does not directly preserve a JavaScript `Set`.
 - When objects must be unique by `id`, compare or store the IDs instead of relying on matching object properties.
 
-## 🎤 Presentation sentence
+## ✅ Quick takeaway
 
 > **Set is the right choice when the important rule is: no duplicate values.**
 

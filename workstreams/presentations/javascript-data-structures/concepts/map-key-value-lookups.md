@@ -1,5 +1,7 @@
 # 🗺️ Map — Key-Value Lookups
 
+> 📍 **Workstream:** JavaScript Data Structures presentation
+
 > 🧠 **Big idea:** Use a `Map` when one known key should lead directly to one related value.
 
 ## 🔑 Core methods
@@ -80,7 +82,7 @@ resultsByLearnerId.get("1"); // undefined
 - JSON does not directly preserve a JavaScript `Map`; convert it to an array or plain object before sending it through an API.
 - MongoDB documents usually arrive as objects or arrays, so a `Map` is often a useful in-memory lookup—not the original API format.
 
-## 🎤 Presentation sentence
+## ✅ Quick takeaway
 
 > **Array for the list; Map for lookup by key.**
 

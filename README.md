@@ -32,15 +32,29 @@ Every new learning session should read these files in order:
 |-- notes/
 |   |-- GLOSSARY.md           # Concepts explained in the learner's words
 |   |-- QUESTIONS.md          # Questions to revisit
-|   `-- concepts/             # Review notes grouped by programming concept
+|   `-- concepts/             # Shared review notes used across activities
 |-- playground/               # Small experiments not tied to one exercise
 |-- sessions/
 |   |-- CURRENT.md            # Current handoff for the next session
 |   `-- history/              # Archived handoffs after meaningful milestones
-`-- templates/                # Consistent chapter and session files
+|-- templates/                # Consistent chapter and session files
+`-- workstreams/              # Activity-specific learning material
+    |-- presentations/        # Concepts, slides, quiz, and rehearsal
+    |-- live-coding/          # Concepts, attempts, notes, and reviews
+    `-- briefs/               # Concepts, feedback, exercises, and deliverables
 ```
 
 Only the current chapter is scaffolded in detail. A new chapter folder is created from the template when that chapter starts. This avoids dozens of empty folders while keeping the naming and workflow consistent.
+
+## Activity workspaces
+
+Use [`workstreams/`](./workstreams/) when learning happens for a specific activity:
+
+- 🎤 A presentation keeps its concepts, notes, exercises, slides, quiz, and rehearsal together.
+- 💻 A live-coding session keeps its required concepts, learner attempts, reminders, and reviews together.
+- 📋 A brief keeps its technical concepts, feedback, improvement exercises, and verified deliverables together.
+
+The book chapters remain the learning roadmap. Workstreams explain **why and where** the knowledge is being applied.
 
 ## Learning cycle
 
@@ -71,7 +85,7 @@ An attempt counts as attempted immediately, but it counts as complete only after
 
 ## Current position
 
-The current focus is Chapter 4: **Data Structures: Objects and Arrays**, for class presentation preparation. Chapter 1 remains not started. See [the Chapter 4 workspace](./chapters/part-1-language/04-data-structures-objects-arrays/README.md).
+The current focus is Chapter 4: **Data Structures: Objects and Arrays**, for class presentation preparation. Chapter 1 remains not started. See the [presentation workspace](./workstreams/presentations/javascript-data-structures/) and [Chapter 4 workspace](./chapters/part-1-language/04-data-structures-objects-arrays/README.md).
 
 ## Progress tracking
 

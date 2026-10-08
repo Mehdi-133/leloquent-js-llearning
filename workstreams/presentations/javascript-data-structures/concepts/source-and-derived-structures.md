@@ -1,5 +1,7 @@
 # 🧱 Source Data and Derived Structures
 
+> 📍 **Workstream:** JavaScript Data Structures presentation
+
 > 🧠 **Big idea:** Keep one clear source of truth, then derive other structures for specific operations.
 
 ## 📚 One source, different views
@@ -91,7 +93,7 @@ Object.fromEntries(resourcesById);
 - Frontend components often derive filtered, sorted, or grouped views from one original collection.
 - Keeping multiple editable copies of the same information can create synchronization bugs.
 
-## 🎤 Presentation sentence
+## ✅ Quick takeaway
 
 > **One source of truth can produce several structures, but derived structures must be rebuilt or updated when the source changes.**
 

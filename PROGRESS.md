@@ -6,12 +6,14 @@
 - Current focus: Chapter 4 - Data Structures: Objects and Arrays
 - Chapter status: In progress for the class presentation preparation
 - Earlier chapters: Not completed; Chapter 1 remains not started
-- Last meaningful update: 2026-10-07 - Core data-structures study completed and saved as presentation-ready concept notes
-- Next target: build the data-structures slide deck in Canva, including the final comparison and synthesis
+- Last meaningful update: 2026-10-08 - Presentation, live-coding, and Brief 3 material separated into dedicated workstreams
+- Next target: continue the eight-slide data-structures presentation from its presentation workspace
 
 ## 🎤 Data-structures presentation checkpoint
 
 > 🟢 **Ready to begin slide creation.** The core concepts have been studied through predictions, corrections, and MERN examples.
+>
+> Workspace: [`workstreams/presentations/javascript-data-structures/`](workstreams/presentations/javascript-data-structures/)
 
 | Presentation area | Status |
 | --- | --- |
@@ -30,7 +32,7 @@
 
 > 🎉 **Result:** Brief 3 validated on 2026-10-07.
 >
-> The full feedback is archived in [`sessions/history/2026-10-07-mentor-evaluation-brief-3.md`](sessions/history/2026-10-07-mentor-evaluation-brief-3.md).
+> The full feedback is stored in [`workstreams/briefs/brief-3/feedback/mentor-evaluation.md`](workstreams/briefs/brief-3/feedback/mentor-evaluation.md).
 
 ### ✅ Validated strengths
 

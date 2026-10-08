@@ -1,5 +1,7 @@
 # Mutability, References, and Object Identity
 
+> 📍 **Workstream:** JavaScript Data Structures presentation
+
 > 🧠 **Big idea:** Two variables can share one object, so a change made through one variable can appear through the other.
 
 ## 🧊 Immutable and mutable values

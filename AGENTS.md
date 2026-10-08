@@ -64,6 +64,20 @@ When starting a chapter:
 
 Use `playground/` only for experiments that do not belong to one chapter. Do not turn it into permanent application code.
 
+### Activity workstreams
+
+Before creating concepts, notes, exercises, feedback, or deliverables, identify the activity that owns the work:
+
+- Presentation work belongs under `workstreams/presentations/<presentation-name>/`.
+- Live-coding work belongs under `workstreams/live-coding/<session-name>/`.
+- Brief or project-assessment work belongs under `workstreams/briefs/<brief-name>/`.
+
+Every activity workspace should keep its own `README.md`, `concepts/`, `notes/`, and `exercises/`. Add specialized folders only when they help the activity, such as `slides/`, `quiz/`, and `rehearsal/` for presentations; `reviews/` for live coding; or `feedback/` and `deliverables/` for briefs.
+
+Keep `chapters/` as the book-learning path and `notes/concepts/` as the shared concept library. When knowledge belongs to one activity, store it in that workstream. When the same concept genuinely serves several activities, keep one shared note and link to it instead of duplicating it.
+
+Do not move or recreate learner-owned exercise files merely to satisfy the folder pattern. Migrate them only when their state is understood and the move is part of the requested task.
+
 ## Coding rules
 
 - Use modern, understandable JavaScript supported by the current learning environment.
@@ -111,21 +125,24 @@ At the start of a learning session, use `sessions/CURRENT.md` to resume from the
 
 When the learner asks about a programming concept, teach it step by step and wait until the learner demonstrates understanding through an answer, explanation, or completed check. At that point, automatically save a short review note without waiting for another request.
 
-Store these notes under `notes/concepts/<concept-name>/`:
+Route the note before saving it:
+
+- If the concept belongs to an active presentation, live-coding session, or brief, store it under that workstream's `concepts/` folder.
+- Otherwise, store a reusable concept under `notes/concepts/<concept-name>/`.
 
 1. Inspect `notes/concepts/` before creating anything.
-2. Reuse an existing concept folder when it matches the topic.
-3. Create a new kebab-case concept folder only when no suitable folder exists.
+2. Inspect the active workstream before deciding whether the note is shared or activity-specific.
+3. Reuse an existing concept folder or workstream instead of creating a duplicate.
 4. Add or update a short kebab-case Markdown note for the understood subtopic.
 5. Keep notes beginner-friendly and focused on what was actually discussed and understood.
 6. Let the note length follow the concept and the learner's questions: use a few points for a simple topic and add more explanation, examples, or sections when the lesson covered more material.
 7. Include important syntax, methods, common mistakes, and useful examples only when they were relevant to the lesson.
 8. Include a short `Web culture` section explaining how the concept appears in real web development, the convention developers commonly follow, and a practical pitfall when relevant.
 9. Format notes for quick review with plain language, short sections, and meaningful emojis. Prefer a clear big idea, examples when useful, a common trap, and one memorable takeaway; avoid decorative clutter.
-10. Add a new concept folder to `notes/concepts/README.md`; do not create duplicate index entries.
+10. Add shared concepts to `notes/concepts/README.md`; add activity-specific concepts to that workstream's concept index.
 11. After an understood concept note is cleaned and verified, stage only the files related to that concept and its tracking update, create one logical documentation commit, and push the current branch so the learner can review it on GitHub. Never include unrelated learner changes in that commit or push; if pushing is unsafe or fails, report the exact blocker and keep the verified work locally.
 
-Example: an arrays explanation belongs in `notes/concepts/data-structures/`, while a Zod middleware explanation belongs in `notes/concepts/express-validation/`.
+Example: an arrays explanation prepared for the current class presentation belongs in `workstreams/presentations/javascript-data-structures/concepts/`, while a reusable Zod middleware explanation belongs in `notes/concepts/express-validation/`.
 
 Do not save a concept note while the learner is still confused or before their understanding has been checked. Incomplete topics remain part of the active lesson until they are understood.
 

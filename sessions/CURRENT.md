@@ -1,6 +1,6 @@
 # Current Session Handoff
 
-- Date: 2026-10-07
+- Date: 2026-10-08
 - Current part: Part 1 - The JavaScript language
 - Current focus: Chapter 4 - Data Structures: Objects and Arrays
 - Status: Challenge 04 is in review with a working Express/EJS test page; earlier chapters are not marked complete
@@ -38,7 +38,7 @@
 - Reorganized review notes under `notes/concepts/<concept-name>/` and added a standing rule to save a concise note automatically after the learner demonstrates understanding.
 - Added a Mongoose core-concepts note and treated the overview as finished at the learner's request without running a knowledge check.
 - Updated the concept-notes rule so note length follows the topic and the number of questions instead of using a fixed five-point format.
-- Verified the learner's understanding of object references, identity, `const`, and shallow copying, then saved the concept under `notes/concepts/data-structures/`.
+- Verified the learner's understanding of object references, identity, `const`, and shallow copying; the note now lives in the data-structures presentation workstream.
 - Verified nested copying with object spread and expanded the mutability note with an independent nested-object example.
 - Added a permanent `Web culture` section to the concept-note rule and applied it to the existing Data Structures, Express validation, and Mongoose notes.
 - Standardized concept notes with meaningful emojis, simple language, short review sections, common traps, and memorable takeaways.
@@ -58,6 +58,10 @@
 - Saved a polished note covering source-of-truth design, stale derived data, synchronization strategies, and JSON boundaries.
 - Closed the repository concept-study checkpoint and confirmed that the core material is ready to become a slide deck.
 - Recorded the remaining presentation work honestly: final comparison, audience mini-cases, Canva design, quiz, and oral rehearsal.
+- Separated activity-specific learning into presentation, live-coding, and brief workspaces, each with its own concepts, notes, exercises, and specialized evidence folders.
+- Moved the verified data-structures presentation concepts and Brief 3 mentor feedback into their owning workstreams without recreating the learner-owned deleted exercises.
+- Removed the empty duplicate legacy data-structures concept directory after confirming all five notes were safely present in the presentation workspace.
+- Reworked the presentation concept workspace as shared study material for colleagues and removed personal speaker-script wording.
 
 ## Files to read next
 
@@ -69,11 +73,15 @@
 6. `chapters/part-1-language/04-data-structures-objects-arrays/exercises/views/test.ejs`
 7. `docs/NOTION_SYNC.md`
 8. Printed pages 58-80 in `Eloquent_JavaScript.pdf`
-9. `sessions/history/2026-10-07-mentor-evaluation-brief-3.md`
-10. `notes/concepts/data-structures/map-key-value-lookups.md`
-11. `notes/concepts/data-structures/set-unique-values.md`
-12. `notes/concepts/data-structures/data-operations.md`
-13. `notes/concepts/data-structures/source-and-derived-structures.md`
+9. `workstreams/README.md`
+10. `workstreams/presentations/javascript-data-structures/README.md`
+11. `workstreams/presentations/javascript-data-structures/concepts/map-key-value-lookups.md`
+12. `workstreams/presentations/javascript-data-structures/concepts/set-unique-values.md`
+13. `workstreams/presentations/javascript-data-structures/concepts/data-operations.md`
+14. `workstreams/presentations/javascript-data-structures/concepts/source-and-derived-structures.md`
+15. `workstreams/live-coding/hotel-filters/README.md`
+16. `workstreams/briefs/brief-3/README.md`
+17. `workstreams/briefs/brief-3/feedback/mentor-evaluation.md`
 
 ## Open questions
 
@@ -85,7 +93,7 @@
 
 ## Exact next step
 
-Create the Canva slide deck, beginning with the visual direction and slide structure, then integrate the final `Array`/`Object`/`Map`/`Set` decision framework.
+Continue the JavaScript Data Structures presentation from its dedicated workstream: implement the eight-slide plan, then create the quiz and rehearse.
 
 ## Verification already completed
 
@@ -116,3 +124,6 @@ Create the Canva slide deck, beginning with the visual direction and slide struc
 - The learner correctly selected `map()` to create a new array of course titles; the complete data-operations note passed documentation checks.
 - The learner correctly identified that derived `Map` data can become stale after the source array changes; the source-and-derived-structures note passed documentation checks.
 - The pre-Canva checkpoint was cleaned without marking the presentation, quiz, or rehearsal complete.
+- Workstream links and moved files were checked after separating presentation, live-coding, and Brief 3 material.
+- Confirmed the removed legacy data-structures directory was empty and that no concept note was lost.
+- Confirmed the presentation concepts contain neutral quick-reference summaries instead of personal speaking notes.

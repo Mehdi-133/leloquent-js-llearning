@@ -1,10 +1,11 @@
 # Concept Notes
 
-This folder contains short review notes created after a programming concept has been understood.
+This folder contains reusable review notes that serve more than one activity. Activity-specific concepts live inside their presentation, live-coding, or brief workspace.
 
 ## Organization rule
 
-- Use one kebab-case folder for each broad concept.
+- First check [`workstreams/`](../../workstreams/) to decide whether the concept belongs to a specific activity.
+- Use one kebab-case folder here for each shared broad concept.
 - Reuse an existing concept folder instead of creating a duplicate.
 - Store each understood subtopic in a short kebab-case Markdown file.
 - Match the note length to the concept and the questions discussed during the lesson.
@@ -18,6 +19,6 @@ This folder contains short review notes created after a programming concept has 
 
 | Concept | Notes |
 | --- | --- |
-| Data structures | [data-structures](./data-structures/) |
+| Data structures presentation | [Presentation concepts](../../workstreams/presentations/javascript-data-structures/concepts/) |
 | Express validation | [express-validation](./express-validation/) |
 | Mongoose | [mongoose](./mongoose/) |
