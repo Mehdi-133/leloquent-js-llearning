@@ -4,6 +4,16 @@
 
 > 🧠 **Big idea:** The operation you choose depends on the result you need: one item, many items, a new order, transformed values, or categorized collections.
 
+## 🖼️ Visual guide
+
+![One ordered collection branching into transformation, search, filtering, sorting, and grouping](images/data-operations-concept-card.png)
+
+One source collection can follow different paths. The correct path depends on whether the result should be one item, many items, reordered items, grouped items, or transformed values.
+
+![Exact guide to JavaScript array operation results](images/data-operations-guide.svg)
+
+Start with the question in the left column, then confirm the method and its result. Notice that `sort()` is the mutating exception in this comparison.
+
 ## ⚡ Quick comparison
 
 | Need | Common tool | Result |
@@ -110,3 +120,5 @@ Possible result:
 > **Traverse visits, search finds one, filter keeps matches, sort changes order, and grouping organizes by category.**
 
 > ✅ **Remember:** decide the shape of the result you need before choosing the method.
+
+See [the image tracker](images/README.md) for slide use, alt text, and generation details.

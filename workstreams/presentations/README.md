@@ -7,13 +7,21 @@ Presentation workspaces turn understood concepts into a clear story for an audie
 ```text
 presentation-name/
 ├── README.md      # Goal, audience, status, and next step
-├── concepts/      # Concepts understood for this presentation
+├── concepts/      # Concept lessons with tracked visual packs
 ├── notes/         # Speaker notes and research
 ├── exercises/     # Prediction questions and practice cases
-├── slides/        # Slide outline, copy, and design decisions
+├── slides/        # Slide outline, copy, design decisions, and images/
 ├── quiz/          # Kahoot or Wayground questions
 └── rehearsal/     # Timing, delivery notes, and final checks
 ```
+
+## 🖼️ Visual learning rule
+
+- Give every main concept a meaningful visual when it improves understanding.
+- Explain each visual in the slide, caption, or speaker notes.
+- Reuse verified images from the owning concept folder.
+- Keep slide-only assets under `slides/images/` with an image tracker.
+- Inspect the rendered presentation for readability, accuracy, and visual meaning before marking it ready.
 
 ## Current presentation
 

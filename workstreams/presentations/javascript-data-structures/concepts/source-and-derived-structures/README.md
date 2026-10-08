@@ -4,6 +4,16 @@
 
 > 🧠 **Big idea:** Keep one clear source of truth, then derive other structures for specific operations.
 
+## 🖼️ Visual guide
+
+![One source collection producing a unique-values collection and a lookup index](images/source-derived-concept-card.png)
+
+The ordered tray is the source array. The round collection represents unique values in a `Set`, and the grid represents keyed entries in a `Map`. The refresh symbol warns that derived snapshots must be rebuilt or updated.
+
+![Exact source Array to derived Set and Map flow](images/source-derived-flow.svg)
+
+The array remains the source of truth. The `Set` and `Map` are separate containers created for unique values and lookup by ID.
+
 ## 📚 One source, different views
 
 ```js
@@ -98,3 +108,5 @@ Object.fromEntries(resourcesById);
 > **One source of truth can produce several structures, but derived structures must be rebuilt or updated when the source changes.**
 
 > ✅ **Remember:** transformations create new containers; they do not create automatic synchronization.
+
+See [the image tracker](images/README.md) for slide use, alt text, and generation details.

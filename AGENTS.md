@@ -144,6 +144,31 @@ Route the note before saving it:
 
 Example: an arrays explanation prepared for the current class presentation belongs in `workstreams/presentations/javascript-data-structures/concepts/`, while a reusable Zod middleware explanation belongs in `notes/concepts/express-validation/`.
 
+### Concept visual packs 🖼️
+
+Every saved JavaScript concept should follow the visual-learning pattern established by the JWT authentication concept:
+
+1. Give the concept its own kebab-case folder with a `README.md` lesson.
+2. Add an `images/` folder beside the lesson.
+3. Add `images/README.md` with an asset table containing the image name, purpose, format, where it is used, and verification status.
+4. Include at least one meaningful concept picture, diagram, or visual metaphor that makes the big idea easier to remember.
+5. When the concept contains a workflow, comparison, architecture, or three or more dependent steps, add an exact technical diagram or chart.
+6. Add a practical visual explaining how to use the concept when a usage sequence or checklist would help the learner.
+7. Explain every image in the lesson: what the learner is seeing, what it teaches, and which details remain authoritative in the surrounding text or code.
+8. Use generated raster images for memorable illustrations, but use reviewed SVG, Mermaid, or another deterministic format for exact code, labels, decisions, and technical flows.
+9. Add meaningful alt text and never use an unexplained decorative image as learning evidence.
+10. Visually inspect every asset, check its links and paths, and record the verification before marking the visual pack complete.
+
+Reuse a concept's verified images in presentations instead of generating disconnected duplicates. A concept remains `In progress` when its explanation, exercise, implementation, or understanding check is incomplete, even if its visual pack is ready.
+
+### Presentation visuals 🎤
+
+- Every main JavaScript concept in a presentation should include a meaningful picture, diagram, comparison, or flow when a visual improves understanding.
+- Every presentation image needs a nearby caption, slide explanation, or speaker-note explanation describing what it represents and why it matters.
+- Reuse verified concept-owned images first. Store slide-specific assets under the presentation's `slides/images/` folder and track them in `slides/images/README.md`.
+- Keep code and exact technical claims readable and reviewable; do not rely on generated image text as the technical source of truth.
+- Before final export, inspect every rendered slide and verify that its visuals are readable, technically accurate, explained, and connected to the presentation goal.
+
 Do not save a concept note while the learner is still confused or before their understanding has been checked. Incomplete topics remain part of the active lesson until they are understood.
 
 After every saved learner coding attempt, code review, or meaningful learning or code change:

@@ -4,6 +4,16 @@
 
 > 🧠 **Big idea:** A `Set` stores each value only once.
 
+## 🖼️ Visual guide
+
+![Repeated tokens being filtered into one of each unique value](images/set-concept-card.png)
+
+Repeated tokens arrive from the left, while the collection on the right keeps only one token of each shape and color.
+
+![Exact array-to-Set uniqueness flow](images/set-uniqueness-flow.svg)
+
+The exact example shows five category entries becoming three unique primitive values. Objects still follow identity rules.
+
 ## ✨ Removing duplicates
 
 ```js
@@ -89,3 +99,5 @@ For simple duplicate removal, store primitive values such as category names, tag
 | Extract unique resource categories | `Set` |
 
 > ✅ **Remember:** `Set` keeps unique primitives by value and unique objects by identity.
+
+See [the image tracker](images/README.md) for slide use, alt text, and generation details.

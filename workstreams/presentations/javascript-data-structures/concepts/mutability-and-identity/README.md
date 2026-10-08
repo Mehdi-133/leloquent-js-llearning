@@ -4,6 +4,16 @@
 
 > 🧠 **Big idea:** Two variables can share one object, so a change made through one variable can appear through the other.
 
+## 🖼️ Visual guide
+
+![Two variables sharing one object while a copy stays separate](images/mutability-concept-card.png)
+
+The two incoming paths represent variables that share one object. The separate box represents a copied outer object with a different identity.
+
+![Exact reference identity flow](images/reference-identity-flow.svg)
+
+Read each arrow as “stores a reference to.” Both `course` and `sameCourse` reach Object A, while `copiedCourse` reaches a different outer object.
+
 ## 🧊 Immutable and mutable values
 
 - Numbers, strings, and Booleans are immutable. Operations create new values.
@@ -77,3 +87,5 @@ Object spread copies only one level. It is not an automatic deep clone.
 - JSON sent over HTTP does not preserve object identity, shared references, or methods.
 
 > ✅ **Remember:** copy every level that must change independently.
+
+See [the image tracker](images/README.md) for slide use, alt text, and generation details.

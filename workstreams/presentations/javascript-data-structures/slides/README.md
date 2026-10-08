@@ -25,7 +25,14 @@ The presentation uses exactly eight slides:
 - Strong contrast and generous spacing
 - Dark monospace code cards
 - One main idea and one compact code example per slide
+- One meaningful concept picture, diagram, or comparison where it improves understanding
+- A caption or speaker explanation for every visual
+- Verified concept visuals reused before creating slide-only duplicates
 - Exactly eight slides with no crowded paragraphs
+
+## 🖼️ Image tracking
+
+- [Presentation image tracker](./images/) — records every concept visual, its purpose, explanation, source, and verification status.
 
 ## ✅ Final readiness check
 
@@ -33,6 +40,10 @@ The presentation uses exactly eight slides:
 - [x] Consistent yellow visual identity
 - [x] Readable code examples
 - [x] MERN-related examples
+- [x] Prepare a meaningful visual for every main concept
+- [x] Explain every visual in the rehearsal notes
+- [x] Record every prepared presentation asset in the image tracker
+- [ ] Place the prepared visuals in Canva and verify them in the rendered PDF
 - [ ] Correct the code on slides 2, 4, 5, and 7
 - [ ] Re-export and inspect the final PDF
 - [ ] Complete one timed rehearsal

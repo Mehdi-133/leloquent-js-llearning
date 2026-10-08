@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Shared reference and copied object</title>
+  <desc id="desc">course and sameCourse point to the same object. copiedCourse points to a different outer object.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#f4c542"/></marker></defs>
+  <rect width="1200" height="675" rx="32" fill="#232323"/>
+  <text x="600" y="70" text-anchor="middle" fill="#fff7e6" font-family="Arial" font-size="38" font-weight="700">Object identity: same data is not always the same object</text>
+  <g font-family="Arial" font-size="28" font-weight="700" text-anchor="middle">
+    <rect x="70" y="155" width="260" height="90" rx="20" fill="#fff7e6"/><text x="200" y="212" fill="#232323">course</text>
+    <rect x="70" y="300" width="260" height="90" rx="20" fill="#fff7e6"/><text x="200" y="357" fill="#232323">sameCourse</text>
+    <rect x="70" y="490" width="260" height="90" rx="20" fill="#fff7e6"/><text x="200" y="547" fill="#232323">copiedCourse</text>
+    <rect x="735" y="190" width="360" height="210" rx="28" fill="#f4c542"/><text x="915" y="270" fill="#232323">Object A</text><text x="915" y="330" fill="#232323" font-size="24">{ progress: 75 }</text>
+    <rect x="735" y="455" width="360" height="145" rx="28" fill="#fff7e6" stroke="#ff7a66" stroke-width="8"/><text x="915" y="520" fill="#232323">Object B</text><text x="915" y="565" fill="#232323" font-size="22">new outer object</text>
+  </g>
+  <g fill="none" stroke="#f4c542" stroke-width="10" marker-end="url(#arrow)"><path d="M330 200 C500 200 560 250 730 270"/><path d="M330 345 C500 345 560 315 730 305"/><path d="M330 535 C500 535 570 530 730 530"/></g>
+  <text x="600" y="640" text-anchor="middle" fill="#fff7e6" font-family="Arial" font-size="25">course === sameCourse → true   •   course === copiedCourse → false</text>
+</svg>

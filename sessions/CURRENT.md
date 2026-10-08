@@ -2,8 +2,8 @@
 
 - Date: 2026-10-08
 - Current part: Part 1 - The JavaScript language
-- Current focus: Sprint 2 — Brief 2 authentication and JWT learning
-- Status: JWT setup verified; login schema needs a small correction before controller work
+- Current focus: JavaScript Data Structures presentation visuals, alongside Sprint 2 — Brief 2 authentication learning
+- Status: Concept visual packs are complete; Canva placement, code corrections, final export, and rehearsal remain
 
 ## Last completed work
 
@@ -77,6 +77,13 @@
 - Updated and read back the Notion learning hub with the verified JWT status and schema-review next step.
 - Confirmed that tracking listens only for JavaScript and its LMS ecosystem; all non-JavaScript conversations are excluded.
 - Added a required official-source link field to every brief workspace; Brief 2 and Brief 3 remain marked `Link needed` until their original sources are supplied.
+- Added a permanent concept visual-pack rule based on the JWT lesson: every JavaScript concept owns tracked images, explains them, and verifies them before completion.
+- Added a presentation visual rule and a data-structures slide image tracker; the existing presentation now needs concept visuals and explanations before final export.
+- Migrated all five data-structures concept notes into self-contained folders without changing their lesson content.
+- Added five generated concept cards, five exact technical SVG diagrams, five image trackers, meaningful alt text, and a written explanation for every visual.
+- Added presentation-specific SVGs for `Array`, `Object`, and the final `Array`/`Object`/`Map`/`Set` decision framework.
+- Connected every prepared slide asset to the presentation image tracker and slide-by-slide rehearsal guide.
+- Rendered and visually inspected all eight SVG diagrams at 1200 × 675; no clipped labels or unreadable relationships remain.
 
 ## Files to read next
 
@@ -88,6 +95,8 @@
 6. `workstreams/briefs/brief-2/exercises/login-jwt-checkpoints.md`
 7. `notes/concepts/express-validation/zod-middleware.md`
 8. `docs/NOTION_SYNC.md`
+9. `workstreams/presentations/javascript-data-structures/slides/images/README.md`
+10. `workstreams/presentations/javascript-data-structures/concepts/README.md`
 
 ## Open questions
 
@@ -100,10 +109,11 @@
 - The Daily Tasks database exists, but individual task rows remain pending until Notion block capacity is available.
 - Today's calendar uses the verified fallback plan from the existing Notion dashboard and learning-log fields while Daily Tasks rows are unavailable.
 - The mentor evaluation is saved in the repository; its Notion sync is pending while the free block limit remains active.
+- The verified presentation-visual checkpoint is ready locally, but its Notion sync is pending because the external update was not authorized in this session.
 
 ## Exact next step
 
-Correct the two required-field messages and formatting in the LMS `loginSchema`, explain the registration-versus-login password rule, and rerun the schema checks before starting the controller.
+Place the prepared visuals in Canva, correct the code on slides 2, 4, 5, and 7, export the PDF, and inspect every rendered slide before rehearsal.
 
 ## Verification already completed
 
@@ -149,3 +159,6 @@ Correct the two required-field messages and formatting in the LMS `loginSchema`,
 - Confirmed the Notion learning hub now matches the repository's JWT checkpoint and next action.
 - Verified that every JWT image is stored beside its concept, indexed in the image tracker, and embedded with meaningful alt text.
 - Read back the Notion learning hub and confirmed that it records the verified JWT setup and first concept-image pack.
+- Verified that every data-structures concept now owns a generated concept card, an exact SVG diagram, an image tracker, alt text, and a written explanation.
+- Rendered and visually inspected the five concept SVGs and three slide-specific SVGs at presentation size.
+- Confirmed that the presentation tracker links each prepared asset to its purpose and rehearsal explanation.

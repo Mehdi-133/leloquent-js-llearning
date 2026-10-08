@@ -4,6 +4,16 @@
 
 > 🧠 **Big idea:** Use a `Map` when one known key should lead directly to one related value.
 
+## 🖼️ Visual guide
+
+![Keys connecting directly to their related values through an index](images/map-concept-card.png)
+
+The middle index represents a `Map`: provide one exact key and it connects to the associated value without scanning an ordered display list.
+
+![Exact Map method and result flow](images/map-lookup-flow.svg)
+
+The technical diagram separates `set()`, `get()`, `has()`, and `size`, so each method has one clear job.
+
 ## 🔑 Core methods
 
 | Method or property | Purpose | Example result |
@@ -87,3 +97,5 @@ resultsByLearnerId.get("1"); // undefined
 > **Array for the list; Map for lookup by key.**
 
 > ✅ **Remember:** `get()` retrieves a value, while `has()` checks whether the key exists.
+
+See [the image tracker](images/README.md) for slide use, alt text, and generation details.

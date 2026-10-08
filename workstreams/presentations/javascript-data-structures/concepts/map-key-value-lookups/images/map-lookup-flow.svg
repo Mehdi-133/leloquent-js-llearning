@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Map lookup flow</title><desc id="desc">A known course ID key is stored, checked, and used to retrieve its progress value.</desc>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0 0v6l9-3z" fill="#f4c542"/></marker></defs>
+  <rect width="1200" height="675" rx="32" fill="#232323"/><text x="600" y="72" text-anchor="middle" fill="#fff7e6" font-family="Arial" font-size="40" font-weight="700">Map: known key → related value</text>
+  <g font-family="Arial" text-anchor="middle"><rect x="70" y="170" width="290" height="120" rx="24" fill="#fff7e6"/><text x="215" y="220" fill="#232323" font-size="25" font-weight="700">key</text><text x="215" y="263" fill="#232323" font-size="30">"node-201"</text>
+  <rect x="455" y="135" width="290" height="190" rx="28" fill="#f4c542"/><text x="600" y="210" fill="#232323" font-size="34" font-weight="700">Map index</text><text x="600" y="265" fill="#232323" font-size="23">set(key, value)</text>
+  <rect x="840" y="170" width="290" height="120" rx="24" fill="#fff7e6"/><text x="985" y="220" fill="#232323" font-size="25" font-weight="700">value</text><text x="985" y="265" fill="#232323" font-size="34">75</text>
+  <path d="M360 230H445M755 230H830" stroke="#f4c542" stroke-width="10" marker-end="url(#a)"/>
+  <rect x="115" y="420" width="280" height="110" rx="22" fill="#fff7e6"/><text x="255" y="465" fill="#232323" font-size="27" font-weight="700">has(key)</text><text x="255" y="505" fill="#087f7a" font-size="26">true / false</text>
+  <rect x="460" y="420" width="280" height="110" rx="22" fill="#fff7e6"/><text x="600" y="465" fill="#232323" font-size="27" font-weight="700">get(key)</text><text x="600" y="505" fill="#087f7a" font-size="24">value / undefined</text>
+  <rect x="805" y="420" width="280" height="110" rx="22" fill="#fff7e6"/><text x="945" y="465" fill="#232323" font-size="27" font-weight="700">size</text><text x="945" y="505" fill="#087f7a" font-size="26">entry count</text>
+  <text x="600" y="615" fill="#fff7e6" font-size="25">Use has() for existence; a stored value may be 0 or another falsy value.</text></g>
+</svg>

@@ -26,7 +26,7 @@ The goal is not to present a perfect collection of finished solutions. The goal 
 | Area | Current position | Status |
 | --- | --- | --- |
 | Book path | Chapter 4 — Data Structures: Objects and Arrays | 🟡 In progress |
-| Presentation | JavaScript data structures | 🔁 Code corrections and rehearsal needed |
+| Presentation | JavaScript data structures | 🔁 Visual placement, code corrections, and rehearsal needed |
 | Live coding | Hotel filters | ⬜ Practice not started |
 | School brief | Sprint 2 — Brief 2, binôme with Maroua | 🟡 JWT visual lesson ready; schema review needed |
 
