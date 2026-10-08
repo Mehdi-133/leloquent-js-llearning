@@ -1,96 +1,159 @@
-# Eloquent JavaScript Learning Workspace
+# Eloquent JavaScript Learning Journey
 
-This repository is a learning workspace for *Eloquent JavaScript, Fourth Edition* by Marijn Haverbeke. The local source book is [Eloquent_JavaScript.pdf](./Eloquent_JavaScript.pdf).
+> 📚 A beginner-friendly learning repository based on *Eloquent JavaScript, Fourth Edition* by Marijn Haverbeke.
 
-The goal is not only to finish the book. The goal is to read code carefully, type and run examples, solve exercises, experiment, explain what was learned, and keep enough context that a future session or another AI tool can continue safely.
+This repository documents a real student journey through JavaScript. It contains book study, school activities, exercises, mistakes, mentor feedback, verified progress, and clear next steps.
 
-## Start here
+The goal is not to present a perfect collection of finished solutions. The goal is to show how understanding grows through reading, prediction, practice, testing, correction, and explanation.
 
-Every new learning session should read these files in order:
+## 🧭 Find your way
 
-1. [AGENTS.md](./AGENTS.md) - shared rules for Codex, Claude, Cursor, and other assistants.
-2. [LEARNING_PLAN.md](./LEARNING_PLAN.md) - the complete 21-chapter roadmap.
-3. [PROGRESS.md](./PROGRESS.md) - the long-term progress tracker.
-4. [sessions/CURRENT.md](./sessions/CURRENT.md) - the exact handoff from the latest session.
-5. The `README.md` inside the current chapter folder.
+| I want to... | Start here |
+| --- | --- |
+| See the learner's current position | [Learning progress](./PROGRESS.md) |
+| Follow the complete book roadmap | [Learning plan](./LEARNING_PLAN.md) |
+| Study the book chapter by chapter | [Chapter index](./chapters/) |
+| Explore presentations, live coding, and briefs | [Learning workstreams](./workstreams/) |
+| Continue from the latest session | [Current session handoff](./sessions/CURRENT.md) |
+| Review shared JavaScript concepts | [Concept notes](./notes/concepts/) |
+| Understand the Git workflow | [Git workflow](./docs/GIT_WORKFLOW.md) |
+| Help with this repository using an AI tool | [Shared agent instructions](./AGENTS.md) |
 
-## Folder structure
+## 📍 Current learning snapshot
+
+**Updated:** 2026-10-08
+
+| Area | Current position | Status |
+| --- | --- | --- |
+| Book path | Chapter 4 — Data Structures: Objects and Arrays | 🟡 In progress |
+| Presentation | JavaScript data structures | 🔁 Code corrections and rehearsal needed |
+| Live coding | Hotel filters | ⬜ Practice not started |
+| School brief | Brief 3 | ✅ Validated; improvement exercises remain |
+
+For verified evidence, open [PROGRESS.md](./PROGRESS.md). For the exact next action, open [sessions/CURRENT.md](./sessions/CURRENT.md).
+
+## 🚀 Clone and explore
+
+### Requirements
+
+- [Git](https://git-scm.com/) to clone and manage the repository.
+- [Node.js](https://nodejs.org/) to run JavaScript exercises.
+- A code editor such as Visual Studio Code, Cursor, or another editor of your choice.
+
+### Get the repository
+
+```bash
+git clone https://github.com/Mehdi-133/leloquent-js-llearning.git
+cd leloquent-js-llearning
+```
+
+Most basic JavaScript exercises can be checked directly with Node.js:
+
+```bash
+node --check path/to/exercise.js
+node path/to/exercise.js
+```
+
+Some activities may need their own dependencies or setup. Read the nearest `README.md` before running them and follow the instructions documented there.
+
+### Recommended reading order
+
+1. Read [AGENTS.md](./AGENTS.md) if you are using an AI coding assistant.
+2. Review the [learning plan](./LEARNING_PLAN.md).
+3. Check the [current progress](./PROGRESS.md).
+4. Read the [current session handoff](./sessions/CURRENT.md).
+5. Open the README inside the active chapter or workstream.
+
+## 🗂️ Repository map
 
 ```text
 .
-|-- AGENTS.md                 # Shared instructions for every coding agent
-|-- CLAUDE.md                 # Loads the shared instructions in Claude Code
-|-- LEARNING_PLAN.md          # Book roadmap and completion criteria
-|-- PROGRESS.md               # Persistent learning progress
-|-- Eloquent_JavaScript.pdf   # Primary learning source; do not edit
-|-- chapters/
+|-- README.md                 # Public starting point and navigation
+|-- AGENTS.md                 # Shared rules for AI coding assistants
+|-- CLAUDE.md                 # Loads the shared rules in Claude Code
+|-- LEARNING_PLAN.md          # Complete 21-chapter roadmap
+|-- PROGRESS.md               # Verified student progress dashboard
+|-- Eloquent_JavaScript.pdf   # Local learning source; do not edit
+|-- chapters/                 # Book-learning path
 |   |-- part-1-language/      # Chapters 1-12
 |   |-- part-2-browser/       # Chapters 13-19
 |   `-- part-3-node/          # Chapters 20-21
-|-- docs/
-|   `-- GIT_WORKFLOW.md       # Branch, commit, merge, and tag strategy
-|-- notes/
-|   |-- GLOSSARY.md           # Concepts explained in the learner's words
-|   |-- QUESTIONS.md          # Questions to revisit
-|   `-- concepts/             # Shared review notes used across activities
-|-- playground/               # Small experiments not tied to one exercise
-|-- sessions/
-|   |-- CURRENT.md            # Current handoff for the next session
-|   `-- history/              # Archived handoffs after meaningful milestones
-|-- templates/                # Consistent chapter and session files
-`-- workstreams/              # Activity-specific learning material
-    |-- presentations/        # Concepts, slides, quiz, and rehearsal
-    |-- live-coding/          # Concepts, attempts, notes, and reviews
-    `-- briefs/               # Concepts, feedback, exercises, and deliverables
+|-- workstreams/              # School and activity-specific work
+|   |-- presentations/        # Concepts, slides, quizzes, and rehearsal
+|   |-- live-coding/          # Planning, attempts, reviews, and evidence
+|   `-- briefs/               # Requirements, feedback, and deliverables
+|-- notes/                    # Shared concepts, questions, and vocabulary
+|-- sessions/                 # Current handoff and milestone history
+|-- docs/                     # Repository workflows and integrations
+|-- templates/                # Reusable chapter and session structures
+`-- playground/               # Small experiments without a chapter home
 ```
 
-Only the current chapter is scaffolded in detail. A new chapter folder is created from the template when that chapter starts. This avoids dozens of empty folders while keeping the naming and workflow consistent.
+## 🎓 How the learning is organized
 
-## Activity workspaces
+### Book chapters
 
-Use [`workstreams/`](./workstreams/) when learning happens for a specific activity:
+[`chapters/`](./chapters/) follows the 21 chapters of *Eloquent JavaScript*. Only active chapters are scaffolded in detail, which keeps the repository focused and avoids empty folders.
 
-- 🎤 A presentation keeps its concepts, notes, exercises, slides, quiz, and rehearsal together.
-- 💻 A live-coding session keeps its required concepts, learner attempts, reminders, and reviews together.
-- 📋 A brief keeps its technical concepts, feedback, improvement exercises, and verified deliverables together.
+### Student workstreams
 
-The book chapters remain the learning roadmap. Workstreams explain **why and where** the knowledge is being applied.
+[`workstreams/`](./workstreams/) connects JavaScript learning to real student activities:
 
-## Learning cycle
+- 🎤 **Presentations** — concepts, slides, audience exercises, quizzes, and rehearsal.
+- 💻 **Live coding** — planning, independent attempts, execution, explanation, and review.
+- 📋 **Briefs** — requirements, technical concepts, mentor feedback, exercises, and deliverables.
 
-For each chapter:
+Book chapters show **what is being learned**. Workstreams show **where that knowledge is being applied**.
 
-1. Read a small section attentively.
-2. Type important examples instead of copying them blindly.
-3. Predict the result before running the code.
-4. Change one thing and observe what changes.
-5. Solve the exercises before viewing a full solution.
-6. Explain the main ideas in simple words.
-7. Run the relevant checks and update the progress and handoff files.
+### Shared notes
 
-The book itself recommends reading code carefully, writing working solutions, using a real JavaScript interpreter for immediate feedback, and experimenting beyond the exercises. This repository is organized around that advice.
+[`notes/concepts/`](./notes/concepts/) contains reusable explanations that help more than one chapter or activity. Activity-specific knowledge stays in its workstream so the context remains clear.
 
-## Challenge review cycle
+## 🔁 Learning workflow
 
-After every saved challenge attempt:
+Every learning checkpoint follows the same simple cycle:
 
-1. Run syntax, runtime, and behavior checks that fit the challenge.
-2. Compare the actual result with every required output.
-3. Give a requirement-based score out of 10 and explain lost points.
-4. Record the attempt as `Not started`, `In progress`, `Review needed`, or `Complete`.
-5. Update the chapter README, `PROGRESS.md`, and `sessions/CURRENT.md`.
-6. Sync the verified evaluation to the Notion learning dashboard.
+1. Read a small section or requirement.
+2. Predict the result before running the code.
+3. Write or update a focused attempt.
+4. Run checks and compare the result with the requirement.
+5. Explain what worked, what failed, and why.
+6. Record only verified progress and one precise next step.
 
-An attempt counts as attempted immediately, but it counts as complete only after all required behavior passes.
+### Status meanings
 
-## Current position
+| Status | Meaning |
+| --- | --- |
+| ✅ Complete | The required behavior or understanding was verified |
+| 🟡 In progress | Work has started but is not ready for final review |
+| 🔁 Review needed | An attempt exists, but specific corrections remain |
+| ⬜ Not started | No saved, verified attempt exists yet |
 
-The current focus is Chapter 4: **Data Structures: Objects and Arrays**, for class presentation preparation. Chapter 1 remains not started. See the [presentation workspace](./workstreams/presentations/javascript-data-structures/) and [Chapter 4 workspace](./chapters/part-1-language/04-data-structures-objects-arrays/README.md).
+Mistakes are kept visible when they are useful learning evidence. An exercise is never marked complete only because code was written.
 
-## Progress tracking
+## 🤝 Working with the repository
 
-The repository files are the source of truth. Verified progress is also synchronized to the private [Eloquent JavaScript Learning Hub](https://app.notion.com/p/3f1b01ad599b81bdafe3ed72828af487) inside **Mehdi's Board**. Read [docs/NOTION_SYNC.md](./docs/NOTION_SYNC.md) before updating the Notion trackers.
+Before changing an area:
 
-## Git
+1. Read its nearest `README.md`.
+2. Check [sessions/CURRENT.md](./sessions/CURRENT.md) for unfinished work.
+3. Preserve learner-owned attempts and unrelated changes.
+4. Keep the change small and inside the correct chapter or workstream.
+5. Run the relevant checks before recording progress.
+6. Follow [docs/GIT_WORKFLOW.md](./docs/GIT_WORKFLOW.md) for branches and commits.
 
-Git uses `main` as the default branch and keeps meaningful changes in separate logical commits. Read [docs/GIT_WORKFLOW.md](./docs/GIT_WORKFLOW.md) before creating a checkpoint.
+The `main` branch should contain understandable, verified checkpoints. Commits and pushes require the learner's approval.
+
+## 📊 Progress and external tools
+
+The files in this repository are the public source of truth:
+
+- [PROGRESS.md](./PROGRESS.md) records long-term verified progress.
+- [sessions/CURRENT.md](./sessions/CURRENT.md) provides the latest handoff.
+- Chapter and workstream READMEs contain local evidence and next steps.
+
+A private Notion learning hub and Google Calendar may mirror selected tasks, but neither is required to understand, clone, or continue the public repository. Integration details are documented in [docs/NOTION_SYNC.md](./docs/NOTION_SYNC.md).
+
+## 📖 Learning source
+
+The local source book is [`Eloquent_JavaScript.pdf`](./Eloquent_JavaScript.pdf). It is used for chapter order, concepts, and exercises and should not be edited, replaced, or redistributed separately from the repository without checking its original licensing terms.

@@ -65,6 +65,7 @@
 - Saved and reviewed the eight-slide JavaScript Data Structures PDF in the presentation workstream.
 - Confirmed that the visual design is strong and recorded required syntax corrections for slides 2, 4, 5, and 7.
 - Added a separate slide-by-slide rehearsal guide so delivery preparation does not mix with the shared concept notes.
+- Redesigned the root README as a public GitHub landing page with visitor navigation, clone guidance, a repository map, status meanings, and a self-contained progress workflow.
 
 ## Files to read next
 
@@ -96,7 +97,7 @@
 
 ## Exact next step
 
-Correct slides 2, 4, 5, and 7 in Canva, export the updated PDF, and complete one timed rehearsal before creating the final quiz.
+Redesign `PROGRESS.md` as a concise public student dashboard while preserving every verified learning status and evidence link.
 
 ## Verification already completed
 
@@ -132,3 +133,6 @@ Correct slides 2, 4, 5, and 7 in Canva, export the updated PDF, and complete one
 - Confirmed the presentation concepts contain neutral quick-reference summaries instead of personal speaking notes.
 - Inspected all eight rendered PDF pages and verified the deck structure, readability, visual consistency, and code examples.
 - Recorded exact corrections for the invalid `Object`, object-spread, `Map`, and method-chaining examples.
+- Verified that every local link in the redesigned root README resolves successfully.
+- Confirmed that the documented clone URL matches the configured GitHub remote.
+- Confirmed that the README diff passes Git's whitespace check.

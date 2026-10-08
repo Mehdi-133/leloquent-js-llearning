@@ -6,8 +6,9 @@
 - Current focus: Chapter 4 - Data Structures: Objects and Arrays
 - Chapter status: In progress for the class presentation preparation
 - Earlier chapters: Not completed; Chapter 1 remains not started
-- Last meaningful update: 2026-10-08 - Presentation, live-coding, and Brief 3 material separated into dedicated workstreams
-- Next target: continue the eight-slide data-structures presentation from its presentation workspace
+- Last meaningful update: 2026-10-08 - Root README redesigned as a public GitHub navigation and cloning guide
+- Next learning target: continue the eight-slide data-structures presentation from its presentation workspace
+- Next repository target: redesign this file as a concise public student dashboard
 
 ## 🎤 Data-structures presentation checkpoint
 
@@ -98,6 +99,7 @@ The three unfinished tasks are mirrored as private all-day events in Mehdi's pri
 | Git repository initialized on `main` | Complete | Local `.git` repository |
 | Notion learning tracker connected | Complete | Learning hub, 21-chapter tracker, and progress log inside Mehdi's Board |
 | Daily plan connected to Google Calendar | Complete | Three verified private all-day events for the unfinished 2026-10-07 tasks |
+| Public GitHub navigation and clone guide | Complete | Root README with visitor paths, setup guidance, repository map, and status meanings |
 | Chapter 4 class presentation preparation | In progress | Core concepts are documented; Canva deck, quiz, and rehearsal remain |
 | Part 1 - JavaScript language | Not started | Chapters 1-12 |
 | Part 2 - Browser JavaScript | Not started | Chapters 13-19 |
