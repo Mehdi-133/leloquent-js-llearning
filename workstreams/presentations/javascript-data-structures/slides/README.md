@@ -6,7 +6,7 @@
 - **Status:** 🔁 Review needed
 - **Reviewed:** 2026-10-08
 
-The visual design is clear, professional, and consistent. Before presenting, correct the JavaScript syntax listed in [the deck review](./review.md), then export the corrected Canva version over the current PDF.
+The visual design is clear, professional, and consistent. Before presenting, correct the JavaScript syntax listed in [Errors and Mistakes](./errors-and-mistakes.md), then export the corrected Canva version over the current PDF.
 
 The presentation uses exactly eight slides:
 
