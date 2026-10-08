@@ -16,4 +16,5 @@ brief-name/
 
 ## Current briefs
 
+- [Sprint 2 — Brief 2](./brief-2/) — 🟡 In progress; binôme with Maroua, requirements intake started
 - [Brief 3](./brief-3/) — ✅ Validated; improvement practice remains

@@ -8,7 +8,7 @@ This folder separates learning material by the activity that produced it. Each w
 | --- | --- | --- |
 | 🎤 [Presentations](./presentations/) | Learn a topic, design slides, prepare a quiz, and rehearse | [JavaScript Data Structures](./presentations/javascript-data-structures/) |
 | 💻 [Live coding](./live-coding/) | Practise planning, coding without shortcuts, running, and explaining | [Hotel Filters](./live-coding/hotel-filters/) |
-| 📋 [Briefs](./briefs/) | Keep requirements, concepts, feedback, exercises, and deliverables together | [Brief 3](./briefs/brief-3/) |
+| 📋 [Briefs](./briefs/) | Keep requirements, concepts, feedback, exercises, and deliverables together | [Sprint 2 — Brief 2](./briefs/brief-2/) |
 
 ## 🧠 Shared versus activity-specific knowledge
 

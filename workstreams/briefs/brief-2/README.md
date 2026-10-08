@@ -1,0 +1,48 @@
+# 📋 Sprint 2 — Brief 2
+
+> 🟡 **In progress:** the brief intake started on 2026-10-08.
+
+## 🤝 Team
+
+- Work mode: **Binôme**
+- Collaborators: **Mehdi and Maroua**
+
+## 📌 Confirmed information
+
+| Item | Current information |
+| --- | --- |
+| Sprint | Sprint 2 |
+| Brief | Brief 2 |
+| Team | Mehdi and Maroua |
+| Learning scope | JavaScript and its LMS ecosystem only |
+| Excluded scope | Every non-JavaScript topic or project |
+| Official title | Not recorded yet |
+| Confirmed technical task | `POST /api/auth/login`: verify the password and issue a JWT |
+| Wider requirements | Not recorded yet |
+| Deliverables | Not recorded yet |
+| Deadline | Not recorded yet |
+| Status | 🟡 In progress |
+
+## 🗂️ Workspace
+
+| Area | Purpose | Status |
+| --- | --- | --- |
+| [Concepts](./concepts/) | Technical ideas needed for the brief | 🟡 JWT lesson and visual pack ready; implementation in progress |
+| [Notes](./notes/) | Requirements, decisions, questions, and team responsibilities | 🟡 Authentication skills tracked |
+| [Exercises](./exercises/) | Focused practice connected to the brief | 🔁 Login schema checkpoint needs review |
+
+## 🎧 Live briefing workflow
+
+1. Record the brief's exact requirements without inventing missing details.
+2. Separate confirmed facts, assumptions, and open questions.
+3. Record decisions and the responsibility of each teammate.
+4. Save only meaningful work and verified progress.
+5. Keep one precise next step visible.
+
+## 🛡️ Scope boundary
+
+Track only JavaScript and the JavaScript ecosystem used by the LMS project: Node.js, Express, Mongoose, Zod, bcrypt, JWT, JavaScript API code, and JavaScript testing. Ignore Java/Jakarta, Git-only discussions, project management, design, and every other non-JavaScript topic.
+
+## 🎯 Next step
+
+Correct and verify the saved `loginSchema`, then begin the credential-verification controller checkpoint. Continue capturing the official brief title, wider requirements, deliverables, deadline, and team role split when they are shared.

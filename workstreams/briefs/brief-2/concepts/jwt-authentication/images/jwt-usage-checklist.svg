@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="950" viewBox="0 0 1500 950" role="img" aria-labelledby="title description">
+  <title id="title">How to use JWT safely</title>
+  <desc id="description">A six-step checklist covering environment configuration, input validation, credential verification, account status, token signing, and protected route verification.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061a31"/>
+      <stop offset="1" stop-color="#103657"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#020b14" flood-opacity="0.52"/>
+    </filter>
+    <style>
+      .title { font: 700 50px 'Segoe UI', Arial, sans-serif; fill: #f5fbff; }
+      .subtitle { font: 400 22px 'Segoe UI', Arial, sans-serif; fill: #abcce9; }
+      .number { font: 700 25px 'Segoe UI', Arial, sans-serif; fill: #071b33; }
+      .step { font: 700 26px 'Segoe UI', Arial, sans-serif; fill: #f5fbff; }
+      .detail { font: 400 18px 'Segoe UI', Arial, sans-serif; fill: #c9def2; }
+      .rule { font: 700 24px 'Segoe UI', Arial, sans-serif; fill: #ffe3a6; }
+    </style>
+  </defs>
+
+  <rect width="1500" height="950" fill="url(#background)"/>
+  <text x="750" y="78" text-anchor="middle" class="title">How to Use JWT Safely</text>
+  <text x="750" y="116" text-anchor="middle" class="subtitle">A practical JavaScript API checklist</text>
+
+  <g filter="url(#shadow)">
+    <rect x="85" y="180" width="400" height="175" rx="24" fill="#113b61" stroke="#48b8ff" stroke-width="3"/>
+    <circle cx="135" cy="228" r="25" fill="#48b8ff"/>
+    <text x="135" y="236" text-anchor="middle" class="number">1</text>
+    <text x="180" y="236" class="step">Configure</text>
+    <text x="120" y="283" class="detail">Keep JWT_SECRET private.</text>
+    <text x="120" y="316" class="detail">Document only safe placeholders.</text>
+
+    <rect x="550" y="180" width="400" height="175" rx="24" fill="#113b61" stroke="#48b8ff" stroke-width="3"/>
+    <circle cx="600" cy="228" r="25" fill="#48b8ff"/>
+    <text x="600" y="236" text-anchor="middle" class="number">2</text>
+    <text x="645" y="236" class="step">Validate</text>
+    <text x="585" y="283" class="detail">Normalize the email with Zod.</text>
+    <text x="585" y="316" class="detail">Reject unexpected request fields.</text>
+
+    <rect x="1015" y="180" width="400" height="175" rx="24" fill="#113b61" stroke="#48b8ff" stroke-width="3"/>
+    <circle cx="1065" cy="228" r="25" fill="#48b8ff"/>
+    <text x="1065" y="236" text-anchor="middle" class="number">3</text>
+    <text x="1110" y="236" class="step">Verify credentials</text>
+    <text x="1050" y="283" class="detail">Find the user by email.</text>
+    <text x="1050" y="316" class="detail">Use bcrypt.compare(), never equality.</text>
+
+    <rect x="85" y="440" width="400" height="175" rx="24" fill="#113b61" stroke="#41d9c0" stroke-width="3"/>
+    <circle cx="135" cy="488" r="25" fill="#41d9c0"/>
+    <text x="135" y="496" text-anchor="middle" class="number">4</text>
+    <text x="180" y="496" class="step">Check status</text>
+    <text x="120" y="543" class="detail">Active account → continue.</text>
+    <text x="120" y="576" class="detail">Suspended account → return 403.</text>
+
+    <rect x="550" y="440" width="400" height="175" rx="24" fill="#113b61" stroke="#41d9c0" stroke-width="3"/>
+    <circle cx="600" cy="488" r="25" fill="#41d9c0"/>
+    <text x="600" y="496" text-anchor="middle" class="number">5</text>
+    <text x="645" y="496" class="step">Sign minimally</text>
+    <text x="585" y="543" class="detail">Use subject, role, and expiration.</text>
+    <text x="585" y="576" class="detail">Never include confidential data.</text>
+
+    <rect x="1015" y="440" width="400" height="175" rx="24" fill="#113b61" stroke="#41d9c0" stroke-width="3"/>
+    <circle cx="1065" cy="488" r="25" fill="#41d9c0"/>
+    <text x="1065" y="496" text-anchor="middle" class="number">6</text>
+    <text x="1110" y="496" class="step">Protect and test</text>
+    <text x="1050" y="543" class="detail">Verify Bearer tokens in middleware.</text>
+    <text x="1050" y="576" class="detail">Test missing, invalid, and expired tokens.</text>
+  </g>
+
+  <rect x="155" y="715" width="1190" height="130" rx="28" fill="#2f2615" stroke="#f3b64c" stroke-width="3"/>
+  <circle cx="225" cy="780" r="34" fill="#f3b64c"/>
+  <path d="M225 757 V788 M225 808 V810" stroke="#071b33" stroke-width="9" stroke-linecap="round"/>
+  <text x="285" y="772" class="rule">Security rule</text>
+  <text x="285" y="811" class="detail">Return the same generic 401 message for an unknown email and a wrong password.</text>
+
+  <text x="750" y="902" text-anchor="middle" class="subtitle">Complete one verified checkpoint before moving to the next.</text>
+</svg>

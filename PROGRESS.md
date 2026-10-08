@@ -3,12 +3,33 @@
 ## Current position
 
 - Current part: Part 1 - The JavaScript language
-- Current focus: Chapter 4 - Data Structures: Objects and Arrays
+- Current focus: Sprint 2 — Brief 2 authentication and JWT learning, alongside Chapter 4 presentation work
 - Chapter status: In progress for the class presentation preparation
 - Earlier chapters: Not completed; Chapter 1 remains not started
-- Last meaningful update: 2026-10-08 - Root README redesigned as a public GitHub navigation and cloning guide
-- Next learning target: continue the eight-slide data-structures presentation from its presentation workspace
-- Next repository target: redesign this file as a concise public student dashboard
+- Last meaningful update: 2026-10-08 - Completed the first tracked JavaScript concept-image pack for JWT authentication
+- Next learning target: finish and explain the login validation checkpoint before implementing credential verification
+- Next repository target: reuse the concept-owned `images/` pattern for future verified JavaScript concepts
+
+## 🤝 Sprint 2 — Brief 2 checkpoint
+
+> 🟡 **In progress:** the briefing intake has started, and the confirmed facts are recorded in [`workstreams/briefs/brief-2/`](workstreams/briefs/brief-2/).
+
+| Brief area | Current status |
+| --- | --- |
+| Sprint and brief identity | ✅ Sprint 2 — Brief 2 |
+| Team | ✅ Binôme with Maroua |
+| Confirmed technical task | 🟡 `POST /api/auth/login`: password verification and JWT emission |
+| JWT dependency and environment safety | ✅ Verified |
+| JWT concept visual pack | ✅ Concept card, login flow, usage checklist, and image tracker verified |
+| Login schema | 🔁 Review needed: messages and formatting |
+| Login controller, route, and token response | ⬜ Not started |
+| Authentication middleware and role authorization | ⬜ Not started |
+| Official title and problem | ⬜ Not recorded yet |
+| Requirements and evaluation criteria | ⬜ Not recorded yet |
+| Deliverables and deadline | ⬜ Not recorded yet |
+| Responsibility split | ⬜ Not recorded yet |
+
+The repository will be updated from confirmed briefing information and verified work only.
 
 ## 🎤 Data-structures presentation checkpoint
 

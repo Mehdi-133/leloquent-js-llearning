@@ -2,8 +2,8 @@
 
 - Date: 2026-10-08
 - Current part: Part 1 - The JavaScript language
-- Current focus: Chapter 4 - Data Structures: Objects and Arrays
-- Status: Challenge 04 is in review with a working Express/EJS test page; earlier chapters are not marked complete
+- Current focus: Sprint 2 — Brief 2 authentication and JWT learning
+- Status: JWT setup verified; login schema needs a small correction before controller work
 
 ## Last completed work
 
@@ -66,29 +66,33 @@
 - Confirmed that the visual design is strong and recorded required syntax corrections for slides 2, 4, 5, and 7.
 - Added a separate slide-by-slide rehearsal guide so delivery preparation does not mix with the shared concept notes.
 - Redesigned the root README as a public GitHub landing page with visitor navigation, clone guidance, a repository map, status meanings, and a self-contained progress workflow.
+- Started the Sprint 2 — Brief 2 workspace and recorded the confirmed binôme with Maroua.
+- Left the title, requirements, deliverables, deadline, and responsibility split open instead of inventing details.
+- Mirrored the current Brief 2 focus and exact next step to the existing Notion learning hub.
+- Audited the earlier authentication session and the current `fondations_API_LMS` files for missing JWT tracking.
+- Recorded verified registration, bcrypt, validation, JWT configuration, and the unfinished login/authentication checkpoints.
+- Added a JWT flow chart, an evidence-based skills tracker, and progressive learner-owned exercises.
+- Converted the JWT concept into a self-contained lesson folder with an `images/` tracker, a generated concept card, an exact login-flow diagram, and a safe-usage checklist.
+- Synchronized the verified JWT visual-pack checkpoint to the existing Notion learning hub.
+- Updated and read back the Notion learning hub with the verified JWT status and schema-review next step.
+- Confirmed that tracking listens only for JavaScript and its LMS ecosystem; all non-JavaScript conversations are excluded.
 
 ## Files to read next
 
-1. `chapters/part-1-language/04-data-structures-objects-arrays/README.md`
-2. `chapters/part-1-language/04-data-structures-objects-arrays/exercises/02-study-session-queue.js`
-3. `chapters/part-1-language/04-data-structures-objects-arrays/exercises/03-student-results-report.js`
-4. `chapters/part-1-language/04-data-structures-objects-arrays/exercises/04-car-stats-api.js`
-5. `chapters/part-1-language/04-data-structures-objects-arrays/exercises/04-car-stats-server.js`
-6. `chapters/part-1-language/04-data-structures-objects-arrays/exercises/views/test.ejs`
-7. `docs/NOTION_SYNC.md`
-8. Printed pages 58-80 in `Eloquent_JavaScript.pdf`
-9. `workstreams/README.md`
-10. `workstreams/presentations/javascript-data-structures/README.md`
-11. `workstreams/presentations/javascript-data-structures/concepts/map-key-value-lookups.md`
-12. `workstreams/presentations/javascript-data-structures/concepts/set-unique-values.md`
-13. `workstreams/presentations/javascript-data-structures/concepts/data-operations.md`
-14. `workstreams/presentations/javascript-data-structures/concepts/source-and-derived-structures.md`
-15. `workstreams/live-coding/hotel-filters/README.md`
-16. `workstreams/briefs/brief-3/README.md`
-17. `workstreams/briefs/brief-3/feedback/mentor-evaluation.md`
+1. `workstreams/briefs/brief-2/README.md`
+2. `workstreams/briefs/brief-2/notes/README.md`
+3. `workstreams/briefs/brief-2/notes/skills-tracker.md`
+4. `workstreams/briefs/brief-2/concepts/jwt-authentication/README.md`
+5. `workstreams/briefs/brief-2/concepts/jwt-authentication/images/README.md`
+6. `workstreams/briefs/brief-2/exercises/login-jwt-checkpoints.md`
+7. `notes/concepts/express-validation/zod-middleware.md`
+8. `docs/NOTION_SYNC.md`
 
 ## Open questions
 
+- What is the official title and problem statement for Sprint 2 — Brief 2?
+- What are the requirements, deliverables, evaluation criteria, and deadline?
+- How will Mehdi and Maroua divide the work?
 - The presentation is scheduled for the morning of 2026-10-08; its expected duration is still unknown.
 - The Notion workspace has reached its free block limit, so new learning-log rows cannot be created until capacity is freed or the plan is upgraded. Current progress remains tracked in the hub, Chapter 4 row, and existing in-progress log entry.
 - The Daily Tasks database exists, but individual task rows remain pending until Notion block capacity is available.
@@ -97,7 +101,7 @@
 
 ## Exact next step
 
-Redesign `PROGRESS.md` as a concise public student dashboard while preserving every verified learning status and evidence link.
+Correct the two required-field messages and formatting in the LMS `loginSchema`, explain the registration-versus-login password rule, and rerun the schema checks before starting the controller.
 
 ## Verification already completed
 
@@ -136,3 +140,10 @@ Redesign `PROGRESS.md` as a concise public student dashboard while preserving ev
 - Verified that every local link in the redesigned root README resolves successfully.
 - Confirmed that the documented clone URL matches the configured GitHub remote.
 - Confirmed that the README diff passes Git's whitespace check.
+- Confirmed that the Sprint 2 — Brief 2 workspace records only information supplied by the learner and keeps all unknown requirements visibly open.
+- Read back the Notion learning hub and confirmed its current focus, status, update date, and Brief 2 next step.
+- Verified `jsonwebtoken@9.0.3`, safe JWT placeholders, a configured private secret and expiry, and the Git ignore rule in the earlier reviewed checkpoint.
+- Re-read the saved LMS authentication files and confirmed that `loginSchema` exists while the login controller and route do not yet exist.
+- Confirmed the Notion learning hub now matches the repository's JWT checkpoint and next action.
+- Verified that every JWT image is stored beside its concept, indexed in the image tracker, and embedded with meaningful alt text.
+- Read back the Notion learning hub and confirmed that it records the verified JWT setup and first concept-image pack.
