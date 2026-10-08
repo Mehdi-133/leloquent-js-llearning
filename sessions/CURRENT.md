@@ -62,6 +62,9 @@
 - Moved the verified data-structures presentation concepts and Brief 3 mentor feedback into their owning workstreams without recreating the learner-owned deleted exercises.
 - Removed the empty duplicate legacy data-structures concept directory after confirming all five notes were safely present in the presentation workspace.
 - Reworked the presentation concept workspace as shared study material for colleagues and removed personal speaker-script wording.
+- Saved and reviewed the eight-slide JavaScript Data Structures PDF in the presentation workstream.
+- Confirmed that the visual design is strong and recorded required syntax corrections for slides 2, 4, 5, and 7.
+- Added a separate slide-by-slide rehearsal guide so delivery preparation does not mix with the shared concept notes.
 
 ## Files to read next
 
@@ -93,7 +96,7 @@
 
 ## Exact next step
 
-Continue the JavaScript Data Structures presentation from its dedicated workstream: implement the eight-slide plan, then create the quiz and rehearse.
+Correct slides 2, 4, 5, and 7 in Canva, export the updated PDF, and complete one timed rehearsal before creating the final quiz.
 
 ## Verification already completed
 
@@ -127,3 +130,5 @@ Continue the JavaScript Data Structures presentation from its dedicated workstre
 - Workstream links and moved files were checked after separating presentation, live-coding, and Brief 3 material.
 - Confirmed the removed legacy data-structures directory was empty and that no concept note was lost.
 - Confirmed the presentation concepts contain neutral quick-reference summaries instead of personal speaking notes.
+- Inspected all eight rendered PDF pages and verified the deck structure, readability, visual consistency, and code examples.
+- Recorded exact corrections for the invalid `Object`, object-spread, `Map`, and method-chaining examples.

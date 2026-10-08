@@ -6,7 +6,7 @@
 
 ## 📍 Status
 
-🟡 **In progress** — core concepts are understood and documented; slide implementation, quiz, and rehearsal remain.
+🟡 **In progress** — the eight-slide PDF has been reviewed. The visual design is strong, but four code examples need syntax corrections before the final export.
 
 ## 🎯 Audience goal
 
@@ -21,13 +21,13 @@ Students should leave able to ask:
 | [Concepts](./concepts/) | Verified explanations and code examples | ✅ Ready |
 | [Notes](./notes/) | Shared references and useful supporting ideas | 🟡 Grow when useful |
 | [Exercises](./exercises/) | Audience mini-cases and predictions | 🟡 Two cases planned |
-| [Slides](./slides/) | Eight-slide presentation content | 🟡 Content drafted |
+| [Slides](./slides/) | Eight-slide presentation and review | 🔁 PDF needs code corrections |
 | [Quiz](./quiz/) | Final Kahoot or Wayground questions | ⬜ Not started |
-| [Rehearsal](./rehearsal/) | Timing and oral delivery | ⬜ Not started |
+| [Rehearsal](./rehearsal/) | Understanding and oral delivery | 🟡 Guide ready; rehearsal pending |
 
 ## 🚀 Exact next step
 
-Implement the approved eight-slide content in the selected presentation tool, then verify readability and code accuracy.
+Correct the JavaScript on slides 2, 4, 5, and 7 in Canva, export the updated PDF, and complete one timed rehearsal.
 
 ## 🔗 Related book work
 
