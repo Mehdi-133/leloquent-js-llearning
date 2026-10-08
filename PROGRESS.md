@@ -6,8 +6,8 @@
 - Current focus: Sprint 2 — Brief 2 authentication and JWT learning, alongside Chapter 4 presentation work
 - Chapter status: In progress for the class presentation preparation
 - Earlier chapters: Not completed; Chapter 1 remains not started
-- Last meaningful update: 2026-10-08 - Completed five data-structures concept visual packs and the presentation asset system
-- Next learning target: finish and explain the login validation checkpoint before implementing credential verification
+- Last meaningful update: 2026-10-08 - Added the nested deep-copy question and `structuredClone()` learning checkpoint
+- Next learning target: predict the `structuredClone()` example and explain why its nested references are independent
 - Next repository target: place the prepared visuals in Canva, correct the four recorded code examples, and inspect the new PDF
 
 ## 🤝 Sprint 2 — Brief 2 checkpoint
@@ -44,6 +44,7 @@ The repository will be updated from confirmed briefing information and verified 
 | `Set` for unique values | ✅ Covered |
 | Traverse, transform, search, filter, sort, and group | ✅ Covered |
 | Source data, derived structures, and JSON boundaries | ✅ Covered |
+| Deep copying nested data with `structuredClone()` | 🔁 Review needed: prediction and explanation pending |
 | Concept-owned pictures, diagrams, and explanations | ✅ Five visual packs complete: concept cards, exact diagrams, trackers, alt text, and explanations |
 | Final `Array` vs `Object` vs `Map` vs `Set` comparison | 🟡 Complete inside the slides |
 | Required mini-cases | 🟡 Turn the learned examples into audience questions |

@@ -38,6 +38,8 @@
 
 **Visual explanation:** In the [Object diagram](../slides/images/object-structured-entity.svg), one `course` contains named properties. The names describe one entity; they are not positions in a list.
 
+**Optional copy-method explanation:** If the audience asks about nested copying, open the [copy-method comparison](../concepts/mutability-and-identity/images/deep-copy-methods.svg). Assignment shares the same object, spread and `Object.assign()` are shallow, nested spread copies selected levels, and `structuredClone()` deeply copies supported data.
+
 **Transition:** Objects are good records, but frequent lookup by a specific key has a clearer dedicated structure.
 
 ## Slide 5 — Map means key to value

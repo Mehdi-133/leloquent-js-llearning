@@ -3,7 +3,7 @@
 - Date: 2026-10-08
 - Current part: Part 1 - The JavaScript language
 - Current focus: JavaScript Data Structures presentation visuals, alongside Sprint 2 — Brief 2 authentication learning
-- Status: Concept visual packs are complete; Canva placement, code corrections, final export, and rehearsal remain
+- Status: `structuredClone()` nested-copy material is saved; learner prediction and explanation remain
 
 ## Last completed work
 
@@ -84,6 +84,10 @@
 - Added presentation-specific SVGs for `Array`, `Object`, and the final `Array`/`Object`/`Map`/`Set` decision framework.
 - Connected every prepared slide asset to the presentation image tracker and slide-by-slide rehearsal guide.
 - Rendered and visually inspected all eight SVG diagrams at 1200 × 675; no clipped labels or unreadable relationships remain.
+- Found the learner's nested-copy question in the separate `Deep Copy Methods` chat instead of guessing the method.
+- Extended the mutability lesson with `structuredClone()`, a method comparison, official references, limitations, and a prediction check.
+- Added and tracked an exact deep-copy comparison diagram; the new checkpoint remains `Review needed` until the learner explains it.
+- Connected the deep-copy comparison to slide 4 as an optional follow-up visual with a rehearsal explanation.
 
 ## Files to read next
 
@@ -97,6 +101,7 @@
 8. `docs/NOTION_SYNC.md`
 9. `workstreams/presentations/javascript-data-structures/slides/images/README.md`
 10. `workstreams/presentations/javascript-data-structures/concepts/README.md`
+11. `workstreams/presentations/javascript-data-structures/concepts/mutability-and-identity/README.md`
 
 ## Open questions
 
@@ -110,10 +115,12 @@
 - Today's calendar uses the verified fallback plan from the existing Notion dashboard and learning-log fields while Daily Tasks rows are unavailable.
 - The mentor evaluation is saved in the repository; its Notion sync is pending while the free block limit remains active.
 - The verified presentation-visual checkpoint is ready locally, but its Notion sync is pending because the external update was not authorized in this session.
+- The new `structuredClone()` review checkpoint is also pending Notion sync; repository files remain the source of truth.
+- Can Mehdi predict the three `structuredClone()` outputs and explain why the nested object and array no longer share references?
 
 ## Exact next step
 
-Place the prepared visuals in Canva, correct the code on slides 2, 4, 5, and 7, export the PDF, and inspect every rendered slide before rehearsal.
+Predict the three outputs in the `structuredClone()` understanding check, run the example, and explain why each nested value is independent.
 
 ## Verification already completed
 
@@ -162,3 +169,5 @@ Place the prepared visuals in Canva, correct the code on slides 2, 4, 5, and 7, 
 - Verified that every data-structures concept now owns a generated concept card, an exact SVG diagram, an image tracker, alt text, and a written explanation.
 - Rendered and visually inspected the five concept SVGs and three slide-specific SVGs at presentation size.
 - Confirmed that the presentation tracker links each prepared asset to its purpose and rehearsal explanation.
+- Ran the `structuredClone()` example with Node.js 25.0.0 and confirmed `Sara`, `["objects"]`, `false`, and `DataCloneError` for a function value.
+- Parsed the new deep-copy SVG as valid XML, checked its local links, rendered it at 1200 × 675, and visually verified that every comparison remains readable.

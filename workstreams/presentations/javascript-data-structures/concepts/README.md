@@ -14,4 +14,6 @@ They intentionally contain **no personal speaking script**. Readers can use them
 
 Each concept has its own lesson `README.md`, `images/` folder, image tracker, memorable concept card, exact technical diagram, and written explanation of what to notice.
 
+> 🔁 **Current review:** the mutability lesson now includes `structuredClone()` and a nested-copy prediction check. The visual pack is verified, but learner understanding still needs confirmation.
+
 > 💡 **Recommended path:** start with mutability and identity, then review `Map`, `Set`, collection operations, and source/derived structures.

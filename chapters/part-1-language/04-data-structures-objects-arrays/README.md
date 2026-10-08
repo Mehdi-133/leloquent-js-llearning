@@ -12,6 +12,7 @@
 - ✅ Practised choosing structures for ordered lists, lookup by ID, and unique values.
 - ✅ Compared traversal, transformation, search, filtering, sorting, and grouping.
 - ✅ Connected source data, derived structures, object identity, and JSON boundaries.
+- 🔁 Added `structuredClone()` as a modern nested-copy option; the prediction and explanation check is still pending.
 - 🟡 Build the final comparison and two mini-cases into the Canva deck.
 - ⬜ Create the final quiz and rehearse the oral explanation.
 
@@ -62,6 +63,12 @@
 - Grouping keeps all items but organizes them under shared keys.
 - One source array can produce a `Set` for uniqueness and a `Map` for lookup, but those derived containers do not update automatically.
 - `Map` and `Set` should be converted to an object or array before crossing a JSON API boundary.
+
+## 🔁 Questions to review
+
+- When does `structuredClone()` create independent nested data?
+- Why are spread syntax and `Object.assign({}, original)` still shallow copies?
+- Which kinds of values should not be passed blindly to `structuredClone()`?
 
 ## Challenge statistics
 
