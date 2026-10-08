@@ -2,6 +2,11 @@
 
 > 🟡 **In progress:** the brief intake started on 2026-10-08.
 
+## 🔗 Official brief
+
+- Source: ⬜ **Link not provided yet**
+- Rule: use the original brief document or official school/project page as the source of truth.
+
 ## 🤝 Team
 
 - Work mode: **Binôme**
@@ -17,6 +22,7 @@
 | Learning scope | JavaScript and its LMS ecosystem only |
 | Excluded scope | Every non-JavaScript topic or project |
 | Official title | Not recorded yet |
+| Official brief link | Not provided yet |
 | Confirmed technical task | `POST /api/auth/login`: verify the password and issue a JWT |
 | Wider requirements | Not recorded yet |
 | Deliverables | Not recorded yet |

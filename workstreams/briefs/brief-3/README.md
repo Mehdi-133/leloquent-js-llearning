@@ -2,6 +2,11 @@
 
 > 🎉 **Result:** Brief 3 validated on 2026-10-07.
 
+## 🔗 Official brief
+
+- Source: ⬜ **Link not provided yet**
+- Rule: use the original brief document or official school/project page as the source of truth.
+
 ## 🗂️ Workspace
 
 | Area | Purpose | Status |

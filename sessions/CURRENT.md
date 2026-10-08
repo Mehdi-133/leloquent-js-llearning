@@ -76,6 +76,7 @@
 - Synchronized the verified JWT visual-pack checkpoint to the existing Notion learning hub.
 - Updated and read back the Notion learning hub with the verified JWT status and schema-review next step.
 - Confirmed that tracking listens only for JavaScript and its LMS ecosystem; all non-JavaScript conversations are excluded.
+- Added a required official-source link field to every brief workspace; Brief 2 and Brief 3 remain marked `Link needed` until their original sources are supplied.
 
 ## Files to read next
 
@@ -93,6 +94,7 @@
 - What is the official title and problem statement for Sprint 2 — Brief 2?
 - What are the requirements, deliverables, evaluation criteria, and deadline?
 - How will Mehdi and Maroua divide the work?
+- What is the stable official source link for Sprint 2 — Brief 2?
 - The presentation is scheduled for the morning of 2026-10-08; its expected duration is still unknown.
 - The Notion workspace has reached its free block limit, so new learning-log rows cannot be created until capacity is freed or the plan is upgraded. Current progress remains tracked in the hub, Chapter 4 row, and existing in-progress log entry.
 - The Daily Tasks database exists, but individual task rows remain pending until Notion block capacity is available.

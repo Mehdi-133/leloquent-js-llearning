@@ -16,5 +16,9 @@ brief-name/
 
 ## Current briefs
 
-- [Sprint 2 — Brief 2](./brief-2/) — 🟡 In progress; binôme with Maroua, requirements intake started
-- [Brief 3](./brief-3/) — ✅ Validated; improvement practice remains
+| Brief workspace | Official brief source | Status |
+| --- | --- | --- |
+| [Sprint 2 — Brief 2](./brief-2/) | ⬜ Link needed | 🟡 In progress; binôme with Maroua |
+| [Brief 3](./brief-3/) | ⬜ Link needed | ✅ Validated; improvement practice remains |
+
+> 🔗 When an official brief is provided, link directly to its stable PDF, Drive file, Notion page, Jira item, or school-platform page. Do not substitute a chat summary for the original brief.
