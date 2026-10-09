@@ -9,4 +9,4 @@ The mentor validated these technical areas:
 - Sequelize usage
 - Express routes and EJS views
 
-Detailed reusable concepts can link to [`notes/concepts/`](../../../../notes/concepts/) instead of being duplicated.
+Detailed reusable concepts can link to [`notes/concepts/`](../../../../../../notes/concepts/) instead of being duplicated.

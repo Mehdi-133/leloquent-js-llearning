@@ -32,8 +32,6 @@ brief-name/
 
 ## Current briefs
 
-| Brief workspace | Official brief source | Status |
-| --- | --- | --- |
-| [Brief 3](./brief-3/) | ⬜ Link needed | ✅ Validated; improvement practice remains |
+No briefs are currently waiting for sprint placement. Brief 3 now belongs to [Sprint 1](../sprints/sprint-1/briefs/brief-3/).
 
 > 🔗 When an official brief is provided, link directly to its stable PDF, Drive file, Notion page, Jira item, or school-platform page. Do not substitute a chat summary for the original brief.

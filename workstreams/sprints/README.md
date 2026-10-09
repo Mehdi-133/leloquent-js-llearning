@@ -6,6 +6,7 @@ Each sprint groups the briefs, learning concepts, short exercises, project evide
 
 | Sprint | Briefs | Status |
 | --- | --- | --- |
+| [Sprint 1](./sprint-1/) | [Brief 3](./sprint-1/briefs/brief-3/) | ✅ Validated; follow-up practice remains |
 | [Sprint 2](./sprint-2/) | [Brief 2](./sprint-2/briefs/brief-2/) | 🟡 In progress |
 
 ## 🗂️ Standard structure

@@ -6,6 +6,8 @@ This repository documents a real student journey through JavaScript. It contains
 
 The goal is not to present a perfect collection of finished solutions. The goal is to show how understanding grows through reading, prediction, practice, testing, correction, and explanation.
 
+> 🌱 **Main direction:** build strong MERN JavaScript skills from *Eloquent JavaScript*. Every studied concept should connect the book's JavaScript foundation to a practical MongoDB, Express, React, or Node.js use.
+
 ## 🧭 Find your way
 
 | I want to... | Start here |
@@ -22,7 +24,7 @@ The goal is not to present a perfect collection of finished solutions. The goal 
 
 ## 📍 Current learning snapshot
 
-**Updated:** 2026-10-08
+**Updated:** 2026-10-09
 
 | Area | Current position | Status |
 | --- | --- | --- |
@@ -111,6 +113,8 @@ Book chapters show **what is being learned**. Workstreams show **where that know
 ### Shared notes
 
 [`notes/concepts/`](./notes/concepts/) contains reusable explanations that help more than one chapter or activity. Activity-specific knowledge stays in its workstream so the context remains clear.
+
+Every concept note includes a short **book foundation → MERN connection**. When a library or service is not directly covered by the book, the note says so and links it only to relevant JavaScript foundations.
 
 ## 🔁 Learning workflow
 

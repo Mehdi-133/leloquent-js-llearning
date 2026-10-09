@@ -6,6 +6,8 @@ This is a beginner-friendly learning repository based on *Eloquent JavaScript, F
 
 The goal is to help the learner understand JavaScript, not merely to generate finished answers.
 
+The main learning direction is to develop the learner's MERN JavaScript skills from the foundations in *Eloquent JavaScript, Fourth Edition*. School briefs provide real application contexts, but they do not replace the book path. Every concept note must connect the relevant book idea to its practical MongoDB, Express, React, or Node.js use.
+
 ## Required startup checklist
 
 Before changing anything:
@@ -151,24 +153,27 @@ At the start of every new chat, rename the chat automatically once the main prog
 
 ### Automatic concept notes
 
-When the learner asks about a programming concept, teach it step by step and wait until the learner demonstrates understanding through an answer, explanation, or completed check. At that point, automatically save a short review note without waiting for another request.
+When the learner asks about a programming concept, teach it step by step and save or update a short review note once the concept has been meaningfully discussed. Every discussed concept should have its own note, even when the understanding check is still pending.
 
 Route the note before saving it:
 
-- If the concept belongs to an active presentation, live-coding session, or brief, store it under that workstream's `concepts/` folder.
+- If the concept belongs to an active presentation, live-coding session, or brief, store its quick review note under that workstream's `notes/` folder and link it to any detailed lesson under `concepts/`.
 - Otherwise, store a reusable concept under `notes/concepts/<concept-name>/`.
 
 1. Inspect `notes/concepts/` before creating anything.
 2. Inspect the active workstream before deciding whether the note is shared or activity-specific.
 3. Reuse an existing concept folder or workstream instead of creating a duplicate.
-4. Add or update a short kebab-case Markdown note for the understood subtopic.
-5. Keep notes beginner-friendly and focused on what was actually discussed and understood.
-6. Let the note length follow the concept and the learner's questions: use a few points for a simple topic and add more explanation, examples, or sections when the lesson covered more material.
-7. Include important syntax, methods, common mistakes, and useful examples only when they were relevant to the lesson.
-8. Include a short `Web culture` section explaining how the concept appears in real web development, the convention developers commonly follow, and a practical pitfall when relevant.
-9. Format notes for quick review with plain language, short sections, and meaningful emojis. Prefer a clear big idea, examples when useful, a common trap, and one memorable takeaway; avoid decorative clutter.
-10. Add shared concepts to `notes/concepts/README.md`; add activity-specific concepts to that workstream's concept index.
-11. After an understood concept note is cleaned and verified, stage only the files related to that concept and its tracking update, create one logical documentation commit, and push the current branch so the learner can review it on GitHub. Never include unrelated learner changes in that commit or push; if pushing is unsafe or fails, report the exact blocker and keep the verified work locally.
+4. Add or update one short kebab-case Markdown note for each discussed concept; do not bundle unrelated concepts into one file.
+5. Keep notes beginner-friendly and focused on what was actually discussed. Mark the note `🟡 In progress` or `🔁 Review needed` until the learner demonstrates understanding, then change it to `✅ Complete`.
+6. Use the Zod middleware note as the style reference: a clear title, a `🧠 Big idea` callout, short emoji headings, point-based explanations, a `⚠️ Common trap`, a `🌐 Web culture` section, and one memorable `✅ Remember` takeaway.
+7. Before writing the note, consult the relevant local `Eloquent_JavaScript.pdf` pages. Add a `📖 Eloquent JavaScript foundation` section naming the chapter, topic, and printed page range, then summarize only the book ideas that support the concept.
+8. Add a `🧩 MERN connection` section showing how the foundation appears in the relevant MongoDB, Express, React, or Node.js layer. Mention only the layers that genuinely apply.
+9. If the exact library or service is not taught in the book, say so clearly and connect it to genuine foundations such as values, objects, functions, modules, errors, asynchronous programming, HTTP, or Node.js. Never imply that the book teaches a tool it does not cover.
+10. Prefer short bullet points over long paragraphs. Use a small code example, table, or diagram only when it makes the concept easier to review. Start from [`templates/concept-note.md`](./templates/concept-note.md) when creating a new note.
+11. Include important syntax, methods, common mistakes, and useful examples only when they were relevant to the lesson.
+12. Include a short `Web culture` section explaining how the concept appears in real web development, the convention developers commonly follow, and a practical pitfall when relevant.
+13. Add shared concepts to `notes/concepts/README.md`; add activity-specific notes to that workstream's notes index.
+14. After an understood concept note is cleaned and verified, stage only the files related to that concept and its tracking update, create one logical documentation commit, and push the current branch so the learner can review it on GitHub. Never include unrelated learner changes in that commit or push; if pushing is unsafe or fails, report the exact blocker and keep the verified work locally.
 
 Example: an arrays explanation prepared for the current class presentation belongs in `workstreams/presentations/javascript-data-structures/concepts/`, while a reusable Zod middleware explanation belongs in `notes/concepts/express-validation/`.
 
@@ -197,7 +202,7 @@ Reuse a concept's verified images in presentations instead of generating disconn
 - Keep code and exact technical claims readable and reviewable; do not rely on generated image text as the technical source of truth.
 - Before final export, inspect every rendered slide and verify that its visuals are readable, technically accurate, explained, and connected to the presentation goal.
 
-Do not save a concept note while the learner is still confused or before their understanding has been checked. Incomplete topics remain part of the active lesson until they are understood.
+Do not mark a concept note complete while the learner is still confused or before their understanding has been checked. Keep the saved discussion note honest with `🟡 In progress` or `🔁 Review needed` until the concept is understood.
 
 After every saved learner coding attempt, code review, or meaningful learning or code change:
 

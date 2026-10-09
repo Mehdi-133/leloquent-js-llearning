@@ -2,6 +2,8 @@
 
 > 🔁 **Review needed:** the concept was discussed and documented, but it is not yet a project decision or a verified implementation.
 
+> 📖 Review the concise [book foundation → MERN note](../../notes/clerk-authentication.md) before the understanding check.
+
 ## 💬 Conversation source
 
 This lesson tracks the accessible questions from the ChatGPT project **`ghost ai`**, conversation **`Clerk CLI And MCP Explained`**:

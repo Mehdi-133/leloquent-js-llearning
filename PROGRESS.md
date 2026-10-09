@@ -3,10 +3,11 @@
 ## Current position
 
 - Current part: Part 1 - The JavaScript language
+- Main direction: develop MERN JavaScript skills by connecting every practical concept to *Eloquent JavaScript*
 - Current focus: starting the ordered concept path for Sprint 2 — Brief 2 with API takeover and non-regression
 - Chapter status: In progress for the class presentation preparation
 - Earlier chapters: Not completed; Chapter 1 remains not started
-- Last meaningful update: 2026-10-09 - Added separate Brief 2 content and analysis areas, including two reviewed diagrams for roles and dependency order
+- Last meaningful update: 2026-10-09 - Added the required book-foundation-to-MERN bridge to every concept-note workflow
 - Next learning target: explain non-regression using one simple API-route scenario
 - Next repository target: review the three answers in the Concept 1 quick exercise before any implementation work
 
@@ -21,6 +22,7 @@
 | Full brief intake | ✅ Requirements, deadline, assessment, deliverables, and risks recorded |
 | Brief content and analysis | ✅ Original source, structured guide, learner-friendly analysis, and two reviewed diagrams saved |
 | Concept and exercise roadmap | ✅ Twelve ordered concepts with one short understanding exercise each |
+| Book-to-MERN concept notes | 🟡 Required note pattern saved; Zod, JWT, and Clerk examples updated |
 | Existing API baseline | 🟡 Read-only code inventory complete; runtime smoke test pending |
 | Confirmed technical task | 🟡 Secure the full LMS backend from authentication through sequential progress |
 | JWT dependency and environment safety | ✅ Verified |
@@ -61,11 +63,11 @@ The repository will be updated from confirmed briefing information and verified 
 
 > 🧭 **Honest status:** the concept-learning foundation and visual asset system are ready. Canva placement, four code corrections, the final PDF inspection, audience activities, quiz, and presentation delivery still need to be completed.
 
-## 🧑‍🏫 Mentor checkpoint — Brief 3
+## 🧑‍🏫 Mentor checkpoint — Sprint 1, Brief 3
 
 > 🎉 **Result:** Brief 3 validated on 2026-10-07.
 >
-> The full feedback is stored in [`workstreams/briefs/brief-3/feedback/mentor-evaluation.md`](workstreams/briefs/brief-3/feedback/mentor-evaluation.md).
+> The full feedback is stored in [`workstreams/sprints/sprint-1/briefs/brief-3/feedback/mentor-evaluation.md`](workstreams/sprints/sprint-1/briefs/brief-3/feedback/mentor-evaluation.md).
 
 ### ✅ Validated strengths
 

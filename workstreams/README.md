@@ -8,8 +8,8 @@ This folder separates learning material by the activity that produced it. Each w
 | --- | --- | --- |
 | 🎤 [Presentations](./presentations/) | Learn a topic, design slides, prepare a quiz, and rehearse | [JavaScript Data Structures](./presentations/javascript-data-structures/) |
 | 💻 [Live coding](./live-coding/) | Practise planning, coding without shortcuts, running, and explaining | [Hotel Filters](./live-coding/hotel-filters/) |
-| 📋 [Sprints](./sprints/) | Group briefs by sprint with their source content, concepts, exercises, and deliverables | [Sprint 2 — Brief 2](./sprints/sprint-2/briefs/brief-2/) |
-| 🗃️ [Unassigned briefs](./briefs/) | Hold older briefs until their sprint is confirmed | [Brief 3](./briefs/brief-3/) |
+| 📋 [Sprints](./sprints/) | Group briefs by sprint with their source content, concepts, exercises, and deliverables | [Sprint 1 — Brief 3](./sprints/sprint-1/briefs/brief-3/) and [Sprint 2 — Brief 2](./sprints/sprint-2/briefs/brief-2/) |
+| 🗃️ [Unassigned briefs](./briefs/) | Hold briefs only until their sprint is confirmed | No briefs waiting for placement |
 
 ## 🧠 Shared versus activity-specific knowledge
 

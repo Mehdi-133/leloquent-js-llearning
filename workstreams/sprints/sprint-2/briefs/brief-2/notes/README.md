@@ -5,9 +5,20 @@ This folder records the confirmed requirements, decisions, questions, and team r
 ## 🧭 Tracking
 
 - [Full brief analysis](../brief-analysis/) — plain-language requirements, current-code baseline, gaps, risks, dependencies, and diagrams.
+- [JWT authentication quick notes](./jwt-authentication.md) — token purpose, safe flow, common traps, and web conventions.
+- [Clerk authentication quick notes](./clerk-authentication.md) — service, SDK, CLI, MCP, and responsibility boundaries.
 - [Authentication skills tracker](./skills-tracker.md) — verified, in-progress, and not-started backend authentication skills.
 - [Clerk authentication tools](../concepts/clerk-authentication/) — the difference between Clerk, its SDK, CLI, MCP support, and Express integration.
 - [`ghost ai` project review](./ghost-ai-project-review.md) — source questions, repository mapping, evidence limits, and visual coverage.
+
+## ✨ Note style
+
+- Give every discussed concept its own short note.
+- Use a big idea, short emoji sections, and point-based explanations.
+- Connect the relevant *Eloquent JavaScript* chapter and pages to the practical MERN use.
+- State clearly when a library or service is not directly taught by the book.
+- Include the relevant common trap, web culture, and one memorable takeaway.
+- Keep the real learning status visible until the understanding check passes.
 
 ## ✅ Confirmed intake
 

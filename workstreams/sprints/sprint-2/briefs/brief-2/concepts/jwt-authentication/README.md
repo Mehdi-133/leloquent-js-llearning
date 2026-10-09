@@ -2,6 +2,8 @@
 
 > 🟡 **In progress:** the JWT foundation is configured, but login and protected-route behavior are not complete yet.
 
+> 📖 Review the concise [book foundation → MERN note](../../notes/jwt-authentication.md) before continuing the implementation.
+
 ![JWT authentication concept illustration](./images/jwt-concept-card.png)
 
 > 🖼️ The illustration makes the full journey memorable. Exact technical details remain in the reviewed diagrams and text below. See the [image tracker](./images/).
