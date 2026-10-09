@@ -1,6 +1,6 @@
 # Current Session Handoff
 
-- Date: 2026-10-08
+- Date: 2026-10-09
 - Current part: Part 1 - The JavaScript language
 - Current focus: JavaScript Data Structures presentation visuals, alongside Sprint 2 — Brief 2 authentication learning
 - Status: `structuredClone()` nested-copy material is saved; learner prediction and explanation remain
@@ -88,6 +88,7 @@
 - Extended the mutability lesson with `structuredClone()`, a method comparison, official references, limitations, and a prediction check.
 - Added and tracked an exact deep-copy comparison diagram; the new checkpoint remains `Review needed` until the learner explains it.
 - Connected the deep-copy comparison to slide 4 as an optional follow-up visual with a rehearsal explanation.
+- Added a public skills guide, linked it from the repository landing page, and documented the matching agent capabilities without changing learning progress.
 
 ## Files to read next
 
@@ -171,3 +172,4 @@ Predict the three outputs in the `structuredClone()` understanding check, run th
 - Confirmed that the presentation tracker links each prepared asset to its purpose and rehearsal explanation.
 - Ran the `structuredClone()` example with Node.js 25.0.0 and confirmed `Sara`, `["objects"]`, `false`, and `DataCloneError` for a function value.
 - Parsed the new deep-copy SVG as valid XML, checked its local links, rendered it at 1200 × 675, and visually verified that every comparison remains readable.
+- Checked the skills documentation for consistent Markdown, valid local links, and a focused Git diff before publication.

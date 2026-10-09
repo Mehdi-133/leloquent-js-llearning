@@ -220,6 +220,48 @@ If verification fails, the branch has no safe configured remote, or unrelated ch
 - Record decisions in the relevant chapter README or session handoff, not only in chat.
 - Keep `AGENTS.md` as the shared instruction source. Tool-specific files should point here rather than duplicate these rules.
 
+## Available learning skills 🧰
+
+This guide records skills available in Codex on 2026-10-08. The learner-facing inventory is in [`SKILLS.md`](./SKILLS.md). Skills are reusable working instructions; they do not automatically grant access to external services. Claude, Cursor, and other agents should check their own installed capabilities instead of assuming these Codex skills are available there.
+
+### Installed personal skills ✅
+
+| Skill | When it helps our work |
+| --- | --- |
+| `playwright` | Run browser checks for JavaScript pages and user interactions. |
+| `playwright-interactive` | Investigate browser behavior through a persistent interactive session. |
+| `notion-knowledge-capture` | Organize understood lessons and decisions in Notion. |
+| `notion-research-documentation` | Gather existing Notion information into clear learning documentation. |
+| `notion-spec-to-implementation` | Turn a brief stored in Notion into a plan and tracked tasks. |
+| `gh-address-comments` | Review and address GitHub pull request feedback. |
+| `gh-fix-ci` | Investigate and fix failed GitHub Actions checks. |
+| `security-best-practices` | Review JavaScript or API security when the learner requests a security review. |
+| `security-threat-model` | Analyze a project's assets, trust boundaries, and possible abuse when requested. |
+
+### Existing creative and document skills 🎨
+
+| Skill | When it helps our work |
+| --- | --- |
+| `imagegen` | Create memorable concept illustrations. |
+| `visualize:visualize` | Explain concepts using interactive visuals. |
+| `pdf:pdf` | Read the book and inspect PDF learning materials. |
+| `documents:documents` | Create and review Word learning documents. |
+| `presentations:Presentations` | Create and review presentation decks. |
+| `spreadsheets:Spreadsheets` | Analyze tabular data and build spreadsheet trackers. |
+| Figma skills | Create precise diagrams, designs, and slide visuals. |
+| Google Drive skills | Work with connected Docs, Sheets, Slides, and Drive files. |
+| `skill-creator` | Create a focused reusable mentoring workflow when requested. |
+| `skill-installer` | Add useful skills from an approved source. |
+| `openai-docs` | Check official guidance for Codex and OpenAI tools. |
+
+### How agents should use them 🧭
+
+- Select the skills that fit the current task and read their `SKILL.md` instructions before using them.
+- Keep the learning approach, folder ownership, verification, and Git rules in this file authoritative for project work.
+- Reuse verified concept visuals in presentations and keep explanations close to each visual.
+- Check connected-service access before promising Notion or GitHub updates.
+- Record actual results; installing a skill is not evidence that a lesson or exercise is complete.
+
 ## Final response format
 
 Keep the response short, friendly, and beginner-friendly. Include:

@@ -16,6 +16,7 @@ The goal is not to present a perfect collection of finished solutions. The goal 
 | Explore presentations, live coding, and briefs | [Learning workstreams](./workstreams/) |
 | Continue from the latest session | [Current session handoff](./sessions/CURRENT.md) |
 | Review shared JavaScript concepts | [Concept notes](./notes/concepts/) |
+| See the available learning tools | [Skills guide](./SKILLS.md) |
 | Understand the Git workflow | [Git workflow](./docs/GIT_WORKFLOW.md) |
 | Help with this repository using an AI tool | [Shared agent instructions](./AGENTS.md) |
 
@@ -71,6 +72,7 @@ Some activities may need their own dependencies or setup. Read the nearest `READ
 |-- README.md                 # Public starting point and navigation
 |-- AGENTS.md                 # Shared rules for AI coding assistants
 |-- CLAUDE.md                 # Loads the shared rules in Claude Code
+|-- SKILLS.md                 # Available learning and project skills
 |-- LEARNING_PLAN.md          # Complete 21-chapter roadmap
 |-- PROGRESS.md               # Verified student progress dashboard
 |-- Eloquent_JavaScript.pdf   # Local learning source; do not edit
