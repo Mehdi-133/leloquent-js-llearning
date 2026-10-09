@@ -121,6 +121,17 @@ If a check cannot be run, state exactly what remains unverified and why.
 
 At the start of a learning session, use `sessions/CURRENT.md` to resume from the last known state.
 
+### Automatic chat naming 🏷️
+
+At the start of every new chat, rename the chat automatically once the main programming concept is clear.
+
+- Use the format `YYYY-MM-DD — Concept name`.
+- Use the current date in the learner's `Africa/Casablanca` timezone.
+- Keep the concept name short, specific, and easy to recognize in the chat list.
+- Preserve important JavaScript or web-development terms such as `Map`, `structuredClone()`, JWT, or Express.
+- If the learner has only greeted the assistant and the concept is not clear yet, wait until the topic is known instead of guessing.
+- If chat-renaming tools are unavailable, tell the learner the exact title to use.
+
 ### Automatic concept notes
 
 When the learner asks about a programming concept, teach it step by step and wait until the learner demonstrates understanding through an answer, explanation, or completed check. At that point, automatically save a short review note without waiting for another request.

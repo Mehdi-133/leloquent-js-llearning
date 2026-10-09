@@ -89,6 +89,7 @@
 - Added and tracked an exact deep-copy comparison diagram; the new checkpoint remains `Review needed` until the learner explains it.
 - Connected the deep-copy comparison to slide 4 as an optional follow-up visual with a rehearsal explanation.
 - Added a public skills guide, linked it from the repository landing page, and documented the matching agent capabilities without changing learning progress.
+- Added an automatic chat-naming rule using the Casablanca date and the main concept once it becomes clear.
 
 ## Files to read next
 
@@ -173,3 +174,4 @@ Predict the three outputs in the `structuredClone()` understanding check, run th
 - Ran the `structuredClone()` example with Node.js 25.0.0 and confirmed `Sara`, `["objects"]`, `false`, and `DataCloneError` for a function value.
 - Parsed the new deep-copy SVG as valid XML, checked its local links, rendered it at 1200 × 675, and visually verified that every comparison remains readable.
 - Checked the skills documentation for consistent Markdown, valid local links, and a focused Git diff before publication.
+- Checked the chat-naming rule for a clear title format, timezone behavior, and a safe fallback when renaming tools are unavailable.
