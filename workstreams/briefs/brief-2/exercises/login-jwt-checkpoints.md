@@ -18,26 +18,27 @@ Then complete the saved schema attempt:
 - [x] Normalize and validate the email.
 - [x] Require a non-empty password.
 - [x] Reject unexpected fields with `.strict()`.
-- [ ] Use consistent required-field messages.
-- [ ] Clean the spacing and export indentation.
+- [x] Use consistent required-field messages in the saved attempt.
+- [x] Clean the spacing and export indentation in the saved attempt.
 - [ ] Run syntax and schema-behavior checks.
 
-## ⬜ Checkpoint 2 — Verify credentials
+## 🟡 Checkpoint 2 — Verify credentials
 
-Start only after Checkpoint 1 passes.
+The controller attempt exists, but it starts only after Checkpoint 1 passes its behavior checks.
 
-- Write the login controller flow in comments before coding.
-- Retrieve the hidden password only for credential checking.
-- Compare the submitted password with the stored hash.
-- Use the same `401` response for an unknown email and a wrong password.
-- Return `403` for a suspended account with otherwise valid credentials.
+- [ ] Explain the saved login controller flow before changing it.
+- [x] Retrieve the hidden password only for credential checking in the saved attempt.
+- [x] Compare the submitted password with the stored hash in the saved attempt.
+- [x] Use the same `401` response for an unknown email and a wrong password in the saved attempt.
+- [x] Return `403` for a suspended account with otherwise valid credentials in the saved attempt.
+- [ ] Run the four credential and account-status scenarios.
 
-## ⬜ Checkpoint 3 — Issue and inspect the JWT
+## 🟡 Checkpoint 3 — Issue and inspect the JWT
 
-- Sign the token with the configured secret and expiration.
-- Keep only the user ID and role in the identity payload.
-- Verify the signature with the configured secret.
-- Confirm that no password or password hash appears in the token or response.
+- [x] Sign the token with the configured secret and expiration in the saved attempt.
+- [x] Keep only the user ID and role in the identity claims in the saved attempt.
+- [ ] Verify the signature with the configured secret.
+- [ ] Confirm that no password or password hash appears in the token or response.
 
 ## ⬜ Checkpoint 4 — Protect a route
 

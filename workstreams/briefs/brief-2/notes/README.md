@@ -4,6 +4,7 @@ This folder records the confirmed requirements, decisions, questions, and team r
 
 ## 🧭 Tracking
 
+- [Full brief analysis](./brief-analysis.md) — requirements, existing-code baseline, gaps, risks, dependencies, and delivery obligations.
 - [Authentication skills tracker](./skills-tracker.md) — verified, in-progress, and not-started backend authentication skills.
 - [Clerk authentication tools](../concepts/clerk-authentication/) — the difference between Clerk, its SDK, CLI, MCP support, and Express integration.
 - [`ghost ai` project review](./ghost-ai-project-review.md) — source questions, repository mapping, evidence limits, and visual coverage.
@@ -18,13 +19,13 @@ This folder records the confirmed requirements, decisions, questions, and team r
 
 ## 🛡️ Scope boundary
 
-- Include only JavaScript and its active LMS ecosystem: Node.js, Express, Mongoose, Zod, bcrypt, JWT, Clerk, API code, and tests written in JavaScript.
-- Exclude Java/Jakarta, Git-only conversations, project management, design, and all other non-JavaScript material.
+- Teach the JavaScript backend concepts inside the ordered concept path.
+- Track Jira, Git, documentation, and Docker as required delivery work without treating them as JavaScript concepts.
+- Keep Clerk as comparison knowledge only; the supplied brief explicitly selects custom JWT authentication.
 
 ## ❓ Information still needed
 
-- Official brief title and problem statement.
-- Functional and technical requirements.
-- Expected deliverables and evaluation criteria.
-- Deadline and important checkpoints.
+- Stable official brief link or file.
+- Official title, if it exists outside the supplied text.
 - Responsibility split between Mehdi and Maroua.
+- Exact Jira project or board used for sprint tracking.

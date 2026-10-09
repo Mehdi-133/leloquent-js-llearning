@@ -1,51 +1,56 @@
 # Current Session Handoff
 
 - Date: 2026-10-09
-- Current area: Sprint 2 — Brief 2 authentication learning
-- Current focus: Clerk application architecture and CLI/MCP development boundaries
-- Status: 🔁 **Review needed** — source information and visuals are saved; learner explanation and project decision remain
+- Current area: Sprint 2 — Brief 2 LMS backend
+- Current focus: Concept 1 — API takeover and non-regression
+- Status: 🟡 **In progress** — the full brief and code baseline are mapped; runtime verification is next
 
 ## ✅ Last completed action
 
-- Inspected the available ChatGPT projects and identified the `ghost ai` project.
-- Found one accessible project conversation: `Clerk CLI And MCP Explained`.
-- Captured its readable learner questions about Clerk, Clerk CLI, MCP, SDK, project value, and Express.js.
-- Mapped each question to the existing Clerk concept lesson.
-- Reused the verified architecture image and decision chart instead of creating duplicate assets.
-- Recorded that the source assistant answers were unavailable as readable text and verified technical claims against official Clerk documentation.
-- Kept the LMS code and existing custom JWT checkpoint unchanged.
-- Added the requested application architecture chart: Clerk authenticates, Express implements business rules, and MongoDB stores application data.
-- Added a separate chart showing that Clerk CLI and MCP support development and do not sit in the live request path.
+- Read the full brief supplied by the learner and recorded its objectives, mandatory behavior, constraints, dates, assessment, deliverables, and bonus boundary.
+- Added the reusable rule: every brief is analyzed first, mapped into ordered concepts, and studied one concept at a time with an exercise and completion check.
+- Inspected the current `fondations_API_LMS` files without editing them.
+- Identified existing registration, login, JWT signing, catalog reads, enrollment code, Swagger, environment example, and Docker setup.
+- Identified the unverified or missing authentication middleware, authorization, ownership, database-backed enrollment uniqueness, upload, progress, trainer reporting, and automated tests.
+- Mapped twelve ordered concepts and twelve focused exercises.
+- Started Concept 1 with a prediction-first baseline and non-regression exercise; no runtime check has been attempted yet.
+- Confirmed that custom JWT is required by the brief; Clerk remains comparison knowledge only.
+- Consulted the relevant local *Eloquent JavaScript* chapters for objects and interfaces, errors, modules, asynchronous programming, HTTP, Node.js, filesystem work, streams, and idempotent requests.
 
 ## 📁 Files changed
 
-- `PROGRESS.md` — source-review checkpoint and current evidence.
-- `workstreams/briefs/brief-2/README.md` — named the learning source and source-review status.
-- `workstreams/briefs/brief-2/concepts/clerk-authentication/README.md` — conversation questions and evidence boundary.
-- `workstreams/briefs/brief-2/concepts/clerk-authentication/images/README.md` — visual reuse and verification record.
-- `workstreams/briefs/brief-2/concepts/clerk-authentication/images/clerk-express-mongodb-architecture.svg` — exact application architecture chart.
-- `workstreams/briefs/brief-2/notes/README.md` — source-review index entry.
-- `workstreams/briefs/brief-2/notes/ghost-ai-project-review.md` — source inventory, information map, images, chart, and next check.
-- `sessions/CURRENT.md` — concise continuation handoff.
+- `AGENTS.md` — reusable brief-intake and concept-by-concept learning rule.
+- `README.md` and `PROGRESS.md` — current Brief 2 focus and honest status.
+- `workstreams/briefs/README.md` — shared brief workflow.
+- `workstreams/briefs/brief-2/README.md` — confirmed full scope, dates, decision, and next step.
+- `workstreams/briefs/brief-2/concepts/README.md` — ordered twelve-concept roadmap.
+- `workstreams/briefs/brief-2/exercises/README.md` — one exercise and completion check per concept.
+- `workstreams/briefs/brief-2/exercises/api-takeover-non-regression.md` — Concept 1 prediction questions and baseline matrix.
+- `workstreams/briefs/brief-2/exercises/login-jwt-checkpoints.md` — saved-code status corrected without claiming verification.
+- `workstreams/briefs/brief-2/notes/README.md` — new analysis index and updated open questions.
+- `workstreams/briefs/brief-2/notes/brief-analysis.md` — requirements, baseline, gaps, risks, and dependency order.
+- `workstreams/briefs/brief-2/notes/skills-tracker.md` — custom JWT decision and current saved implementation status.
+- `sessions/CURRENT.md` — continuation handoff.
 
 ## 🧪 Verification
 
-- Confirmed the `ghost ai` project identity and its accessible conversation through the current app inventory.
-- Checked the source questions against the Clerk lesson and official sources.
-- Checked local Markdown links and image paths.
-- Rendered and visually inspected all three linked SVGs at 1200 × 675.
-- Checked the focused Git diff and whitespace before commit.
+- Read the existing LMS models, controllers, routes, middleware, Swagger setup, package file, `.env.example`, and Docker Compose configuration.
+- Confirmed the learning roadmap against the supplied brief and relevant local book chapters.
+- No LMS runtime, database, API route, or Docker behavior was verified during this analysis checkpoint.
+- The LMS repository Git status could not be read from this restricted workspace; no LMS files were changed.
+- Notion sync was attempted, but the workspace free block limit rejected the update with no side effects. The concept-roadmap progress remains pending for the next session with available Notion capacity.
 
 ## ⚠️ Open questions
 
-- Does the official brief require custom Zod + bcrypt + JWT authentication, or may the project use Clerk?
-- Can Mehdi explain which Clerk component runs with Express and which tools only support development?
-- The official brief title, source link, requirements, deadline, and team responsibility split are still missing.
+- What stable official link or file should represent the brief?
+- What is the responsibility split between Mehdi and Maroua?
+- Which Jira project or board tracks the sprint?
+- What exact branch or fork will be the shared stable baseline?
 
 ## 🧹 Preserved unrelated changes
 
-The pre-existing deletions of Challenge 04 files and root package files remain unstaged and excluded from this checkpoint.
+The pre-existing deletions of Chapter 4 exercise files and root package files remain untouched.
 
 ## 🎯 Exact next step
 
-Explain the SDK/CLI/MCP boundary in your own words, then confirm the official authentication requirement before changing LMS code.
+Answer Checkpoint 1 in `exercises/api-takeover-non-regression.md`. After the answers are reviewed, build and run the baseline smoke-test matrix for installation, MongoDB, seed data, catalog routes, authentication routes, Swagger, and Docker.

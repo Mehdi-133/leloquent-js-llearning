@@ -12,10 +12,10 @@
 | Protect server-owned role and status fields | ✅ Verified | Unexpected fields are rejected and registration forces the learner role | Apply role checks after authentication |
 | Configure JWT securely | ✅ Verified | Dependency, placeholders, private secret, expiry, and `.env` ignore rule were checked | Use the configuration during token signing |
 | Distinguish Clerk's SDK, CLI, and MCP tools | 🔁 Review needed | The roles of the runtime SDK and development-only tools were discussed and documented | Explain which tool belongs in the Express request path |
-| Decide between custom JWT and Clerk | ⬜ Not started | Clerk was discussed, but the official brief requirement is still missing | Confirm the permitted authentication approach before changing code |
-| Validate login input | 🔁 Review needed | Normalization, strict mode, and non-empty password behavior work | Correct messages and formatting, then rerun checks |
-| Compare login credentials | ⬜ Not started | No saved `bcrypt.compare()` login flow | Implement and verify generic `401` behavior |
-| Issue and verify a JWT | ⬜ Not started | Token design was discussed, but no token response exists | Sign, return, and verify a minimal token |
+| Decide between custom JWT and Clerk | ✅ Verified requirement | The supplied brief explicitly requires JWT with `jsonwebtoken` and bcrypt or bcryptjs | Keep Clerk as comparison knowledge only |
+| Validate login input | 🟡 In progress | The saved schema normalizes email, requires a non-empty password, and rejects extra fields | Run syntax and schema-behavior checks |
+| Compare login credentials | 🟡 In progress | Saved controller code selects the hidden hash and calls `bcrypt.compare()` | Verify valid, unknown-user, wrong-password, and suspended-user cases |
+| Issue and verify a JWT | 🟡 In progress | Saved controller code signs a token with role, subject, secret, and expiration | Run login, decode the payload, verify the signature, and check response secrecy |
 | Protect routes with a Bearer token | ⬜ Not started | No authentication middleware has been verified | Read and verify the Authorization header |
 | Authorize by role and ownership | ⬜ Not started | User stories were identified only | Verify role and resource-ownership rules |
 
@@ -27,4 +27,4 @@
 
 ## 🎯 Current checkpoint
 
-First confirm whether the official brief requires the existing learner-built JWT flow or permits Clerk. If custom JWT remains required, finish and verify the login schema before writing the login controller.
+Begin with the non-regression baseline. Then verify the saved login schema and controller before building authentication middleware or authorization.

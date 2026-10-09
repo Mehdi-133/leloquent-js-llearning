@@ -1,10 +1,11 @@
 # 📋 Sprint 2 — Brief 2
 
-> 🟡 **In progress:** the brief intake started on 2026-10-08.
+> 🟡 **In progress:** the full brief was analyzed on 2026-10-09. The ordered concept roadmap is ready, and the existing API baseline must be verified before new implementation.
 
 ## 🔗 Official brief
 
-- Source: ⬜ **Link not provided yet**
+- Source: brief text provided by the learner in chat on 2026-10-09
+- Stable link: ⬜ **Not provided yet**
 - Rule: use the original brief document or official school/project page as the source of truth.
 
 ## 🤝 Team
@@ -19,38 +20,43 @@
 | Sprint | Sprint 2 |
 | Brief | Brief 2 |
 | Team | Mehdi and Maroua |
-| Learning scope | JavaScript and its LMS ecosystem only |
-| Excluded scope | Every non-JavaScript topic or project |
-| Official title | Not recorded yet |
+| Project | Secure the existing LMS API and add the backend learning flow |
+| Core stack | Node.js, Express, MongoDB, and Mongoose |
+| Required security | bcrypt password hashing, JWT, private routes, roles, ownership, and safe secrets |
+| Main LMS flow | Courses, ordered modules, resources, enrollments, sequential progress, and trainer views |
+| Verification | Postman or Insomnia plus focused automated tests with Supertest |
+| Delivery track | Jira, Git branches or forks, pull requests and reviews, API docs, README, and Docker |
+| Official title | No separate title was included in the supplied text |
 | Official brief link | Not provided yet |
-| Confirmed technical task | `POST /api/auth/login`: verify the password and issue a JWT |
-| Clerk investigation | Discussed as an alternative authentication service; not selected or implemented |
+| Authentication decision | The brief explicitly requires a learner-built JWT flow using `jsonwebtoken` and bcrypt or bcryptjs |
+| Clerk investigation | Learning reference only; it is not the selected implementation for this brief |
 | Learning source | ChatGPT project `ghost ai`, conversation `Clerk CLI And MCP Explained` |
-| Wider requirements | Not recorded yet |
-| Deliverables | Not recorded yet |
-| Deadline | Not recorded yet |
+| Start date | 2026-10-05 |
+| Deadline | 2026-10-16 |
+| Assessment | 45 to 75 minute team defense with individual questions |
 | Status | 🟡 In progress |
 
 ## 🗂️ Workspace
 
 | Area | Purpose | Status |
 | --- | --- | --- |
-| [Concepts](./concepts/) | Technical ideas needed for the brief | 🟡 JWT lesson ready; Clerk tool-boundary review pending |
-| [Notes](./notes/) | Requirements, decisions, questions, and team responsibilities | 🟡 Authentication skills tracked; `ghost ai` source review complete |
-| [Exercises](./exercises/) | Focused practice connected to the brief | 🔁 Login schema checkpoint needs review |
+| [Concepts](./concepts/) | Ordered technical learning roadmap | 🟡 Twelve concepts mapped; Concept 1 started |
+| [Notes](./notes/) | Brief analysis, decisions, questions, and team responsibilities | 🟡 Full intake and current-code baseline recorded |
+| [Exercises](./exercises/) | One focused practice task for every concept | 🟡 Exercise roadmap ready; no new exercise started |
 
-## 🎧 Live briefing workflow
+## 🧭 Concept-by-concept workflow
 
-1. Record the brief's exact requirements without inventing missing details.
-2. Separate confirmed facts, assumptions, and open questions.
-3. Record decisions and the responsibility of each teammate.
-4. Save only meaningful work and verified progress.
-5. Keep one precise next step visible.
+1. Open the next concept in the [ordered roadmap](./concepts/).
+2. Learn the idea with one small prediction or explanation check.
+3. Mehdi completes the linked exercise before receiving a full correction.
+4. Run the required behavior and edge-case checks.
+5. Save the concept lesson and visuals only after understanding is demonstrated.
+6. Update the trackers and move to the next concept only when the checkpoint is verified.
 
 ## 🛡️ Scope boundary
 
-Track only JavaScript and the JavaScript ecosystem used by the LMS project: Node.js, Express, Mongoose, Zod, bcrypt, JWT, Clerk, JavaScript API code, and JavaScript testing. Ignore Java/Jakarta, Git-only discussions, project management, design, and every other non-JavaScript topic.
+The concept path focuses on the JavaScript backend: Node.js, Express, Mongoose, Zod, bcrypt, JWT, Multer, API design, and JavaScript tests. Required collaboration and delivery work is tracked separately so Jira, Git review, documentation, and Docker are not forgotten or confused with programming concepts.
 
 ## 🎯 Next step
 
-Confirm whether the official brief expects the learner-built JWT flow or allows Clerk. Until that decision is confirmed, keep the existing `loginSchema` and JWT implementation checkpoint unchanged.
+Answer the prediction questions in [Concept 1's exercise](./exercises/api-takeover-non-regression.md). Then inventory the current routes, seed, database startup, and catalog behavior before changing feature code.

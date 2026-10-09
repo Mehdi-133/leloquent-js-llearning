@@ -3,12 +3,12 @@
 ## Current position
 
 - Current part: Part 1 - The JavaScript language
-- Current focus: comparing Clerk with the existing Express/JWT authentication path for Sprint 2 — Brief 2
+- Current focus: starting the ordered concept path for Sprint 2 — Brief 2 with API takeover and non-regression
 - Chapter status: In progress for the class presentation preparation
 - Earlier chapters: Not completed; Chapter 1 remains not started
-- Last meaningful update: 2026-10-09 - Added the requested Clerk → Express → MongoDB architecture chart and a separate CLI/MCP development chart
-- Next learning target: explain which Clerk tools run in the application and which tools only support development
-- Next repository target: confirm whether the official brief requires custom JWT authentication or permits Clerk before changing the LMS code
+- Last meaningful update: 2026-10-09 - Analyzed the full LMS brief, inspected the existing API baseline, and mapped twelve ordered concepts with one exercise each
+- Next learning target: understand why a stable baseline and non-regression check come before new feature code
+- Next repository target: record and run a repeatable smoke-test matrix for setup, seed, catalog routes, authentication routes, Swagger, and Docker
 
 ## 🤝 Sprint 2 — Brief 2 checkpoint
 
@@ -18,18 +18,23 @@
 | --- | --- |
 | Sprint and brief identity | ✅ Sprint 2 — Brief 2 |
 | Team | ✅ Binôme with Maroua |
-| Confirmed technical task | 🟡 `POST /api/auth/login`: password verification and JWT emission |
+| Full brief intake | ✅ Requirements, deadline, assessment, deliverables, and risks recorded |
+| Concept and exercise roadmap | ✅ Twelve ordered concepts with one focused exercise each |
+| Existing API baseline | 🟡 Read-only code inventory complete; runtime smoke test pending |
+| Confirmed technical task | 🟡 Secure the full LMS backend from authentication through sequential progress |
 | JWT dependency and environment safety | ✅ Verified |
 | JWT concept visual pack | ✅ Concept card, login flow, usage checklist, and image tracker verified |
 | Clerk, Clerk SDK, CLI, and MCP | 🔁 Review needed: concept note and diagrams saved; learner explanation pending |
 | `ghost ai` source review | ✅ Accessible project conversation inventoried and mapped to the saved Clerk lesson |
-| Clerk project decision | ⬜ Not decided: no Clerk package, configuration, or application code added |
-| Login schema | 🔁 Review needed: messages and formatting |
-| Login controller, route, and token response | ⬜ Not started |
+| Clerk project decision | ✅ Custom JWT required by the brief; Clerk remains comparison knowledge only |
+| Login schema | 🟡 Saved attempt appears complete; behavior checks pending |
+| Login controller, route, and token response | 🟡 Saved implementation exists; live verification pending |
 | Authentication middleware and role authorization | ⬜ Not started |
-| Official title and problem | ⬜ Not recorded yet |
-| Requirements and evaluation criteria | ⬜ Not recorded yet |
-| Deliverables and deadline | ⬜ Not recorded yet |
+| Enrollment, upload, progress, and trainer endpoints | 🔁 Partial enrollment only; remaining mandatory flows not started |
+| Tests, API docs, and reproducible runtime | 🟡 Partial Swagger and Docker setup; automated tests absent |
+| Official title and source link | ⬜ Stable source and separate official title still needed |
+| Requirements and evaluation criteria | ✅ Recorded from the supplied brief text |
+| Deliverables and deadline | ✅ Recorded; deadline 2026-10-16 |
 | Responsibility split | ⬜ Not recorded yet |
 
 The repository will be updated from confirmed briefing information and verified work only.

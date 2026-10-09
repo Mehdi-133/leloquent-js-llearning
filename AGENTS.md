@@ -78,6 +78,20 @@ Keep `chapters/` as the book-learning path and `notes/concepts/` as the shared c
 
 Do not move or recreate learner-owned exercise files merely to satisfy the folder pattern. Migrate them only when their state is understood and the move is part of the requested task.
 
+### Brief intake and concept-by-concept learning 📋
+
+Whenever the learner provides a new brief, analyze it before starting implementation:
+
+1. Record the confirmed context, objectives, requirements, constraints, deliverables, deadline, and assessment criteria without inventing missing details.
+2. Inspect the related project code and separate what already exists, what needs verification, what needs correction, and what is genuinely new.
+3. Build an ordered concept roadmap based on dependencies and sprint risk. Connect each concept to the exact brief requirement it supports.
+4. Give every concept one focused learner exercise and one observable completion check. Keep non-concept delivery work, such as Jira, Git reviews, documentation, and Docker verification, visible in a separate delivery track.
+5. Study only one concept at a time: clarify the idea, ask for a prediction or explanation, let the learner attempt the exercise, run the relevant checks, then review the result.
+6. Create the full concept lesson, visual pack, and review note only after the learner demonstrates understanding. A roadmap entry is not evidence that the concept is understood.
+7. Update the brief README, concept index, exercise index, progress tracker, and current session after each verified checkpoint. Preserve unfinished concepts as `🟡 In progress`, `🔁 Review needed`, or `⬜ Not started`.
+
+Do not scaffold empty concept folders for the whole brief. Create each concept workspace when its lesson actually starts, reuse existing verified material, and keep implementation evidence tied to the real project.
+
 ## Coding rules
 
 - Use modern, understandable JavaScript supported by the current learning environment.

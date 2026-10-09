@@ -29,7 +29,7 @@ The goal is not to present a perfect collection of finished solutions. The goal 
 | Book path | Chapter 4 — Data Structures: Objects and Arrays | 🟡 In progress |
 | Presentation | JavaScript data structures | 🔁 Visual placement, code corrections, and rehearsal needed |
 | Live coding | Hotel filters | ⬜ Practice not started |
-| School brief | Sprint 2 — Brief 2, binôme with Maroua | 🟡 JWT visual lesson ready; schema review needed |
+| School brief | Sprint 2 — Brief 2, binôme with Maroua | 🟡 Full concept roadmap ready; API baseline verification next |
 
 For verified evidence, open [PROGRESS.md](./PROGRESS.md). For the exact next action, open [sessions/CURRENT.md](./sessions/CURRENT.md).
 
