@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Decision checklist before choosing Clerk</title>
+  <desc id="desc">A five-step flow checks the brief, learning goal, authentication approach, ownership boundary, and real behavior before implementation.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#f59e0b"/>
+    </marker>
+    <style>
+      .title { font: 700 34px Arial, sans-serif; fill: #f8fafc; }
+      .step { font: 700 21px Arial, sans-serif; fill: #f8fafc; }
+      .body { font: 17px Arial, sans-serif; fill: #dbeafe; }
+      .number { font: 700 24px Arial, sans-serif; fill: #0f172a; }
+      .arrow { stroke: #f59e0b; stroke-width: 4; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect width="1200" height="675" fill="#0f172a"/>
+  <text x="60" y="62" class="title">Before changing authentication</text>
+
+  <g transform="translate(75 115)">
+    <rect width="450" height="135" rx="20" fill="#1e3a8a" stroke="#60a5fa" stroke-width="2"/>
+    <circle cx="48" cy="48" r="25" fill="#fbbf24"/>
+    <text x="48" y="56" text-anchor="middle" class="number">1</text>
+    <text x="90" y="48" class="step">Read the official brief</text>
+    <text x="90" y="82" class="body">What must be built and evaluated?</text>
+  </g>
+
+  <g transform="translate(675 115)">
+    <rect width="450" height="135" rx="20" fill="#1e3a8a" stroke="#60a5fa" stroke-width="2"/>
+    <circle cx="48" cy="48" r="25" fill="#fbbf24"/>
+    <text x="48" y="56" text-anchor="middle" class="number">2</text>
+    <text x="90" y="48" class="step">Confirm the learning goal</text>
+    <text x="90" y="82" class="body">Custom auth practice or product delivery?</text>
+  </g>
+
+  <g transform="translate(75 330)">
+    <rect width="300" height="145" rx="20" fill="#164e63" stroke="#22d3ee" stroke-width="2"/>
+    <circle cx="48" cy="48" r="25" fill="#fbbf24"/>
+    <text x="48" y="56" text-anchor="middle" class="number">3</text>
+    <text x="90" y="48" class="step">Choose one path</text>
+    <text x="90" y="82" class="body">JWT or Clerk</text>
+    <text x="90" y="108" class="body">with a clear reason</text>
+  </g>
+
+  <g transform="translate(450 330)">
+    <rect width="300" height="145" rx="20" fill="#164e63" stroke="#22d3ee" stroke-width="2"/>
+    <circle cx="48" cy="48" r="25" fill="#fbbf24"/>
+    <text x="48" y="56" text-anchor="middle" class="number">4</text>
+    <text x="90" y="48" class="step">Define ownership</text>
+    <text x="90" y="82" class="body">Service, SDK, app,</text>
+    <text x="90" y="108" class="body">and authorization rules</text>
+  </g>
+
+  <g transform="translate(825 330)">
+    <rect width="300" height="145" rx="20" fill="#164e63" stroke="#22d3ee" stroke-width="2"/>
+    <circle cx="48" cy="48" r="25" fill="#fbbf24"/>
+    <text x="48" y="56" text-anchor="middle" class="number">5</text>
+    <text x="90" y="48" class="step">Verify behavior</text>
+    <text x="90" y="82" class="body">Run a real request</text>
+    <text x="90" y="108" class="body">and check edge cases</text>
+  </g>
+
+  <path d="M525 182 H665" class="arrow"/>
+  <path d="M900 250 V302 H225 V320" class="arrow"/>
+  <path d="M375 402 H440" class="arrow"/>
+  <path d="M750 402 H815" class="arrow"/>
+
+  <rect x="245" y="555" width="710" height="66" rx="18" fill="#422006" stroke="#f59e0b" stroke-width="2"/>
+  <text x="600" y="596" text-anchor="middle" class="step">No brief decision = no authentication rewrite</text>
+</svg>

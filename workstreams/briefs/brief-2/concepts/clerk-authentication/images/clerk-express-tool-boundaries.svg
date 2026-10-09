@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Clerk tools and Express runtime boundaries</title>
+  <desc id="desc">The Clerk CLI and MCP server support development, while the Clerk service and Express SDK participate in application authentication.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#38bdf8"/>
+    </marker>
+    <style>
+      .title { font: 700 34px Arial, sans-serif; fill: #f8fafc; }
+      .heading { font: 700 22px Arial, sans-serif; fill: #e2e8f0; }
+      .label { font: 700 21px Arial, sans-serif; fill: #f8fafc; }
+      .body { font: 17px Arial, sans-serif; fill: #cbd5e1; }
+      .small { font: 15px Arial, sans-serif; fill: #94a3b8; }
+      .box { stroke-width: 2; rx: 18; }
+      .flow { stroke: #38bdf8; stroke-width: 4; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect width="1200" height="675" fill="#0f172a"/>
+  <text x="60" y="62" class="title">Clerk + Express: which tool does what?</text>
+
+  <rect x="50" y="95" width="1100" height="190" rx="24" fill="#172554" stroke="#6366f1" stroke-width="2"/>
+  <text x="80" y="132" class="heading">Development support — helps the developer, not the live request</text>
+  <rect x="90" y="160" width="430" height="90" class="box" fill="#312e81" stroke="#818cf8"/>
+  <text x="120" y="196" class="label">Clerk CLI</text>
+  <text x="120" y="224" class="body">Setup, link, env, diagnostics, deployment</text>
+  <rect x="680" y="160" width="430" height="90" class="box" fill="#312e81" stroke="#818cf8"/>
+  <text x="710" y="196" class="label">Clerk MCP server</text>
+  <text x="710" y="224" class="body">Current snippets and patterns for AI tools</text>
+
+  <rect x="50" y="315" width="1100" height="300" rx="24" fill="#0c4a6e" stroke="#38bdf8" stroke-width="2"/>
+  <text x="80" y="352" class="heading">Application runtime — participates when a real request arrives</text>
+
+  <rect x="85" y="405" width="190" height="115" class="box" fill="#164e63" stroke="#22d3ee"/>
+  <text x="180" y="450" text-anchor="middle" class="label">Client</text>
+  <text x="180" y="480" text-anchor="middle" class="body">cookie or token</text>
+
+  <rect x="365" y="405" width="210" height="115" class="box" fill="#164e63" stroke="#22d3ee"/>
+  <text x="470" y="450" text-anchor="middle" class="label">Clerk service</text>
+  <text x="470" y="480" text-anchor="middle" class="body">identity + session</text>
+
+  <rect x="665" y="390" width="210" height="145" class="box" fill="#164e63" stroke="#22d3ee"/>
+  <text x="770" y="432" text-anchor="middle" class="label">Express SDK</text>
+  <text x="770" y="462" text-anchor="middle" class="body">clerkMiddleware()</text>
+  <text x="770" y="490" text-anchor="middle" class="body">getAuth(req)</text>
+
+  <rect x="965" y="405" width="155" height="115" class="box" fill="#164e63" stroke="#22d3ee"/>
+  <text x="1042" y="450" text-anchor="middle" class="label">Route</text>
+  <text x="1042" y="480" text-anchor="middle" class="body">allow / deny</text>
+
+  <path d="M275 462 H355" class="flow"/>
+  <path d="M575 462 H655" class="flow"/>
+  <path d="M875 462 H955" class="flow"/>
+
+  <text x="600" y="577" text-anchor="middle" class="small">The SDK is application code. CLI and MCP are optional development tools.</text>
+</svg>

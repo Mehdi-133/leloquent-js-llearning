@@ -3,12 +3,12 @@
 ## Current position
 
 - Current part: Part 1 - The JavaScript language
-- Current focus: Sprint 2 — Brief 2 authentication and JWT learning, alongside Chapter 4 presentation work
+- Current focus: comparing Clerk with the existing Express/JWT authentication path for Sprint 2 — Brief 2
 - Chapter status: In progress for the class presentation preparation
 - Earlier chapters: Not completed; Chapter 1 remains not started
-- Last meaningful update: 2026-10-08 - Added the nested deep-copy question and `structuredClone()` learning checkpoint
-- Next learning target: predict the `structuredClone()` example and explain why its nested references are independent
-- Next repository target: place the prepared visuals in Canva, correct the four recorded code examples, and inspect the new PDF
+- Last meaningful update: 2026-10-09 - Discussed Clerk, SDKs, the Clerk CLI, MCP, and the Express integration boundary
+- Next learning target: explain which Clerk tools run in the application and which tools only support development
+- Next repository target: confirm whether the official brief requires custom JWT authentication or permits Clerk before changing the LMS code
 
 ## 🤝 Sprint 2 — Brief 2 checkpoint
 
@@ -21,6 +21,8 @@
 | Confirmed technical task | 🟡 `POST /api/auth/login`: password verification and JWT emission |
 | JWT dependency and environment safety | ✅ Verified |
 | JWT concept visual pack | ✅ Concept card, login flow, usage checklist, and image tracker verified |
+| Clerk, Clerk SDK, CLI, and MCP | 🔁 Review needed: concept note and diagrams saved; learner explanation pending |
+| Clerk project decision | ⬜ Not decided: no Clerk package, configuration, or application code added |
 | Login schema | 🔁 Review needed: messages and formatting |
 | Login controller, route, and token response | ⬜ Not started |
 | Authentication middleware and role authorization | ⬜ Not started |
@@ -140,3 +142,4 @@ Add topics here when they need spaced repetition or another explanation.
 - Array filtering without assistance.
 - Raw SQL `JOIN` and filter queries.
 - Three-minute explanations of technical choices.
+- Clerk tool boundaries: runtime SDK vs development CLI vs optional AI MCP support.

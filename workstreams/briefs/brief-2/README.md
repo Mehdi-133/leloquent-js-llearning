@@ -24,6 +24,7 @@
 | Official title | Not recorded yet |
 | Official brief link | Not provided yet |
 | Confirmed technical task | `POST /api/auth/login`: verify the password and issue a JWT |
+| Clerk investigation | Discussed as an alternative authentication service; not selected or implemented |
 | Wider requirements | Not recorded yet |
 | Deliverables | Not recorded yet |
 | Deadline | Not recorded yet |
@@ -33,7 +34,7 @@
 
 | Area | Purpose | Status |
 | --- | --- | --- |
-| [Concepts](./concepts/) | Technical ideas needed for the brief | 🟡 JWT lesson and visual pack ready; implementation in progress |
+| [Concepts](./concepts/) | Technical ideas needed for the brief | 🟡 JWT lesson ready; Clerk tool-boundary review pending |
 | [Notes](./notes/) | Requirements, decisions, questions, and team responsibilities | 🟡 Authentication skills tracked |
 | [Exercises](./exercises/) | Focused practice connected to the brief | 🔁 Login schema checkpoint needs review |
 
@@ -47,8 +48,8 @@
 
 ## 🛡️ Scope boundary
 
-Track only JavaScript and the JavaScript ecosystem used by the LMS project: Node.js, Express, Mongoose, Zod, bcrypt, JWT, JavaScript API code, and JavaScript testing. Ignore Java/Jakarta, Git-only discussions, project management, design, and every other non-JavaScript topic.
+Track only JavaScript and the JavaScript ecosystem used by the LMS project: Node.js, Express, Mongoose, Zod, bcrypt, JWT, Clerk, JavaScript API code, and JavaScript testing. Ignore Java/Jakarta, Git-only discussions, project management, design, and every other non-JavaScript topic.
 
 ## 🎯 Next step
 
-Correct and verify the saved `loginSchema`, then begin the credential-verification controller checkpoint. Continue capturing the official brief title, wider requirements, deliverables, deadline, and team role split when they are shared.
+Confirm whether the official brief expects the learner-built JWT flow or allows Clerk. Until that decision is confirmed, keep the existing `loginSchema` and JWT implementation checkpoint unchanged.

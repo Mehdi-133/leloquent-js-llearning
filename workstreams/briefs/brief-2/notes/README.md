@@ -5,6 +5,7 @@ This folder records the confirmed requirements, decisions, questions, and team r
 ## 🧭 Tracking
 
 - [Authentication skills tracker](./skills-tracker.md) — verified, in-progress, and not-started backend authentication skills.
+- [Clerk authentication tools](../concepts/clerk-authentication/) — the difference between Clerk, its SDK, CLI, MCP support, and Express integration.
 
 ## ✅ Confirmed intake
 
@@ -12,10 +13,11 @@ This folder records the confirmed requirements, decisions, questions, and team r
 - It is **Brief 2**.
 - The brief is completed in a **binôme with Maroua**.
 - The existing LMS work includes registration, login validation, password verification, JWT, and later authorization skills.
+- Clerk was discussed as an alternative authentication service, but no decision or implementation was made.
 
 ## 🛡️ Scope boundary
 
-- Include only JavaScript and its active LMS ecosystem: Node.js, Express, Mongoose, Zod, bcrypt, JWT, API code, and tests written in JavaScript.
+- Include only JavaScript and its active LMS ecosystem: Node.js, Express, Mongoose, Zod, bcrypt, JWT, Clerk, API code, and tests written in JavaScript.
 - Exclude Java/Jakarta, Git-only conversations, project management, design, and all other non-JavaScript material.
 
 ## ❓ Information still needed
