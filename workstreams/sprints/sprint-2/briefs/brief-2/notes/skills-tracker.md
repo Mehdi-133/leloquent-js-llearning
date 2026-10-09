@@ -15,8 +15,8 @@
 | Decide between custom JWT and Clerk | ✅ Verified requirement | The supplied brief explicitly requires JWT with `jsonwebtoken` and bcrypt or bcryptjs | Keep Clerk as comparison knowledge only |
 | Validate login input | 🟡 In progress | The saved schema normalizes email, requires a non-empty password, and rejects extra fields | Run syntax and schema-behavior checks |
 | Compare login credentials | 🟡 In progress | Saved controller code selects the hidden hash and calls `bcrypt.compare()` | Verify valid, unknown-user, wrong-password, and suspended-user cases |
-| Issue and verify a JWT | 🟡 In progress | Saved controller code signs a token with role, subject, secret, and expiration | Run login, decode the payload, verify the signature, and check response secrecy |
-| Protect routes with a Bearer token | ⬜ Not started | No authentication middleware has been verified | Read and verify the Authorization header |
+| Issue and verify a JWT | 🟡 In progress | Saved controller code signs a token; the middleware passed isolated valid, expired, and invalid-token checks | Run the complete login-to-protected-route flow and check response secrecy |
+| Protect routes with a Bearer token | 🔁 Review needed | Header parsing, `jwt.verify()`, `req.user`, `next()`, and error branches were reviewed; isolated token checks passed | Test missing and malformed headers, then connect `GET /api/auth/me` |
 | Authorize by role and ownership | ⬜ Not started | User stories were identified only | Verify role and resource-ownership rules |
 
 ## 🧩 Important distinction

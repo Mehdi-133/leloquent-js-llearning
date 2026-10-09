@@ -7,7 +7,7 @@
 - Current focus: starting the ordered concept path for Sprint 2 — Brief 2 with API takeover and non-regression
 - Chapter status: In progress for the class presentation preparation
 - Earlier chapters: Not completed; Chapter 1 remains not started
-- Last meaningful update: 2026-10-09 - Added the required book-foundation-to-MERN bridge to every concept-note workflow
+- Last meaningful update: 2026-10-09 - Recovered and registered the verified `jwt.verify()` middleware learning notes
 - Next learning target: explain non-regression using one simple API-route scenario
 - Next repository target: review the three answers in the Concept 1 quick exercise before any implementation work
 
@@ -32,7 +32,7 @@
 | Clerk project decision | ✅ Custom JWT required by the brief; Clerk remains comparison knowledge only |
 | Login schema | 🟡 Saved attempt appears complete; behavior checks pending |
 | Login controller, route, and token response | 🟡 Saved implementation exists; live verification pending |
-| Authentication middleware and role authorization | ⬜ Not started |
+| Authentication middleware and role authorization | 🔁 JWT middleware review needed: isolated valid, expired, and invalid-token checks passed; route integration and role authorization remain |
 | Enrollment, upload, progress, and trainer endpoints | 🔁 Partial enrollment only; remaining mandatory flows not started |
 | Tests, API docs, and reproducible runtime | 🟡 Partial Swagger and Docker setup; automated tests absent |
 | Official title and source link | ⬜ Stable source and separate official title still needed |
@@ -152,3 +152,4 @@ Add topics here when they need spaced repetition or another explanation.
 - Raw SQL `JOIN` and filter queries.
 - Three-minute explanations of technical choices.
 - Clerk tool boundaries: runtime SDK vs development CLI vs optional AI MCP support.
+- JWT verification middleware: Bearer parsing, `jwt.verify()`, `decoded.sub`, `req.user`, `next()`, and response-ending `return` statements.

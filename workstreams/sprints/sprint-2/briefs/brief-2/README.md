@@ -43,8 +43,8 @@
 | --- | --- | --- |
 | [Brief content](./brief-content/) | Supplied requirements and source details | ✅ Saved |
 | [Brief analysis](./brief-analysis/) | Plain-language explanation, current gaps, risks, and visual roadmap | ✅ Analysis and visual pack ready |
-| [Concepts](./concepts/) | Ordered technical learning roadmap | 🟡 Twelve concepts mapped; Concept 1 started |
-| [Notes](./notes/) | Brief analysis, decisions, questions, and team responsibilities | 🟡 Full intake and current-code baseline recorded |
+| [Concepts](./concepts/) | Ordered technical learning roadmap | 🟡 Twelve concepts mapped; Concept 1 started and Concept 4 middleware evidence captured for later review |
+| [Notes](./notes/) | Brief analysis, decisions, questions, and team responsibilities | 🟡 Full intake, current-code baseline, and `jwt.verify()` review notes recorded |
 | [Exercises](./exercises/) | Short understanding practice for every concept | 🟡 Exercise roadmap ready; Concept 1 started |
 
 ## 🧭 Concept-by-concept workflow

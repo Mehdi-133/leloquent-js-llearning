@@ -5,7 +5,7 @@ This folder records the confirmed requirements, decisions, questions, and team r
 ## 🧭 Tracking
 
 - [Full brief analysis](../brief-analysis/) — plain-language requirements, current-code baseline, gaps, risks, dependencies, and diagrams.
-- [JWT authentication quick notes](./jwt-authentication.md) — token purpose, safe flow, common traps, and web conventions.
+- [JWT authentication quick notes](./jwt-authentication.md) — token purpose, `jwt.verify()` middleware flow, verified evidence, common traps, and later-review questions.
 - [Clerk authentication quick notes](./clerk-authentication.md) — service, SDK, CLI, MCP, and responsibility boundaries.
 - [Authentication skills tracker](./skills-tracker.md) — verified, in-progress, and not-started backend authentication skills.
 - [Clerk authentication tools](../concepts/clerk-authentication/) — the difference between Clerk, its SDK, CLI, MCP support, and Express integration.

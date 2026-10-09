@@ -1,6 +1,6 @@
 # 🔐 JWT Authentication
 
-> 🟡 **In progress:** the JWT foundation is configured, but login and protected-route behavior are not complete yet.
+> 🔁 **Review needed:** the verification middleware passed isolated token checks, but it is not connected to a protected route and the learner review is pending.
 
 > 📖 Review the concise [book foundation → MERN note](../../notes/jwt-authentication.md) before continuing the implementation.
 
@@ -40,6 +40,10 @@ flowchart TD
 - The JWT expiration is configured.
 - `.env` is ignored by Git.
 - The separate login schema normalizes email, rejects unexpected fields, and requires a non-empty password.
+- The authentication middleware reads and validates the `Bearer <token>` header shape.
+- `jwt.verify()` checks the token with `JWT_SECRET` and exposes the signed subject as `decoded.sub`.
+- A successful check creates `req.user` with the verified `id` and `role`, then calls `next()`.
+- Final isolated checks passed for valid, expired, and invalid tokens.
 
 ## 🛠️ How to use this skill
 
@@ -49,11 +53,11 @@ Use the checklist as an implementation order, not as proof of completion. Each s
 
 ## 🔁 Current review point
 
-The saved `loginSchema` works structurally, but still needs:
+Review the complete [`jwt.verify()` middleware notes](../../notes/jwt-authentication.md), then explain:
 
-- consistent `Email is required` and `Password is required` messages;
-- clean spacing and indentation matching the project style;
-- one final schema check before the controller is started.
+- why `decoded.sub` becomes trustworthy only after verification;
+- why every error response uses `return`;
+- why `next()` runs only after `req.user` is created.
 
 ## ⬜ Still to demonstrate
 
@@ -63,7 +67,8 @@ The saved `loginSchema` works structurally, but still needs:
 - Reject a suspended account with `403`.
 - Sign a token containing only the user ID, role, and expiration.
 - Verify the returned token and confirm the response contains no password.
-- Read a Bearer token in authentication middleware.
+- Exercise the missing-header and malformed-header branches with behavior checks.
+- Connect the middleware to `GET /api/auth/me` or another protected route.
 - Protect routes by authentication, role, and resource ownership.
 
 ## ⚠️ Common traps

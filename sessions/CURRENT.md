@@ -7,6 +7,10 @@
 
 ## ✅ Last completed action
 
+- Recovered the complete `jwt.verify()` middleware discussion from the 2026-10-09 LMS implementation session.
+- Registered the header, Bearer-token, verification, `req.user`, `next()`, error-handling, and `return` lessons in the existing JWT concept workspace.
+- Recorded the exact evidence boundary: valid, expired, and invalid-token checks passed in isolation; missing and malformed headers plus protected-route integration remain to verify.
+- Marked the JWT middleware material `🔁 Review needed` so it can be studied later without interrupting Concept 1.
 - Added `workstreams/sprints/` as the home for sprint-based briefs.
 - Moved Brief 2 into `workstreams/sprints/sprint-2/briefs/brief-2/` without duplicating its files.
 - Added `brief-content/` and saved the supplied Brief 2 requirements there.
@@ -32,6 +36,9 @@
 
 ## 📁 Files changed
 
+- `workstreams/sprints/sprint-2/briefs/brief-2/notes/jwt-authentication.md` — complete `jwt.verify()` review notes, evidence, traps, and three later-review questions.
+- JWT concept lesson, roadmap, authentication tracker, note index, and Brief 2 README — honest middleware progress and remaining checks.
+- `PROGRESS.md` and `sessions/CURRENT.md` — review queue, evidence boundary, and session continuity.
 - `AGENTS.md` — sprint hierarchy, brief rules, point-based notes, and the mandatory book-to-MERN learning bridge.
 - `README.md` and `workstreams/README.md` — public learning direction and navigation for sprints and unassigned briefs.
 - `workstreams/briefs/README.md` — now holds only briefs whose sprint is unknown.
@@ -51,6 +58,9 @@
 
 ## 🧪 Verification
 
+- Confirmed the saved notes match the recovered LMS session and do not claim a protected route was tested.
+- Rechecked the local book sections on modules and packages, HTTP headers and status codes, and Node.js request/response handling.
+- Checked the JWT note links, headings, and Markdown whitespace.
 - Confirmed that Brief 2 exists only in the new Sprint 2 location.
 - Confirmed that Brief 3 exists only in the Sprint 1 location.
 - Checked the repository for stale Brief 2 paths and updated the known references.
@@ -75,4 +85,4 @@ The pre-existing deletions of Chapter 4 exercise files and root package files re
 
 Answer the three questions in `workstreams/sprints/sprint-2/briefs/brief-2/exercises/api-takeover-non-regression.md`. Then explain non-regression in one sentence.
 
-The Notion sync remains pending because the workspace free block limit rejected the earlier update.
+The existing Notion learning hub was updated and fetched again successfully with the recovered JWT middleware checkpoint. No separate learning-log row was created because the workspace free block limit remains.
