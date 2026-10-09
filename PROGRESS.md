@@ -6,7 +6,7 @@
 - Current focus: comparing Clerk with the existing Express/JWT authentication path for Sprint 2 — Brief 2
 - Chapter status: In progress for the class presentation preparation
 - Earlier chapters: Not completed; Chapter 1 remains not started
-- Last meaningful update: 2026-10-09 - Reviewed the `ghost ai` project source and confirmed the Clerk lesson, diagrams, and decision chart cover its accessible questions
+- Last meaningful update: 2026-10-09 - Added the requested Clerk → Express → MongoDB architecture chart and a separate CLI/MCP development chart
 - Next learning target: explain which Clerk tools run in the application and which tools only support development
 - Next repository target: confirm whether the official brief requires custom JWT authentication or permits Clerk before changing the LMS code
 

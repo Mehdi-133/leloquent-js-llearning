@@ -26,6 +26,12 @@ The current project inventory exposed one conversation belonging to `ghost ai`. 
 
 ## 🖼️ Visual coverage
 
+### Application architecture
+
+![Clerk authentication, Express business rules, and MongoDB application data](../concepts/clerk-authentication/images/clerk-express-mongodb-architecture.svg)
+
+This chart makes the ownership boundary explicit: Clerk authenticates, Express applies business and authorization rules, and MongoDB stores application data.
+
 ### Tool and runtime boundaries
 
 ![Clerk CLI and MCP separated from the Express runtime path](../concepts/clerk-authentication/images/clerk-express-tool-boundaries.svg)

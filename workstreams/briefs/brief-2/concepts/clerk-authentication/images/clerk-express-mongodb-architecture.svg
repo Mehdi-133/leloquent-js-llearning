@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Clerk, Express, and MongoDB application architecture</title>
+  <desc id="desc">A user signs in with Clerk, sends an authenticated request to Express, and Express reads or writes application data in MongoDB.</desc>
+  <defs>
+    <marker id="blueArrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#38bdf8"/>
+    </marker>
+    <marker id="amberArrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#f59e0b"/>
+    </marker>
+    <style>
+      .title { font: 700 34px Arial, sans-serif; fill: #f8fafc; }
+      .subtitle { font: 18px Arial, sans-serif; fill: #cbd5e1; }
+      .label { font: 700 24px Arial, sans-serif; fill: #f8fafc; }
+      .body { font: 17px Arial, sans-serif; fill: #dbeafe; }
+      .small { font: 15px Arial, sans-serif; fill: #94a3b8; }
+      .box { stroke-width: 2; }
+      .runtime { stroke: #38bdf8; stroke-width: 4; fill: none; marker-end: url(#blueArrow); }
+      .auth { stroke: #f59e0b; stroke-width: 4; fill: none; marker-end: url(#amberArrow); }
+    </style>
+  </defs>
+
+  <rect width="1200" height="675" fill="#0f172a"/>
+  <text x="60" y="62" class="title">Application architecture: clear responsibilities</text>
+  <text x="60" y="96" class="subtitle">Clerk authenticates • Express applies business rules • MongoDB stores application data</text>
+
+  <rect x="55" y="245" width="210" height="160" rx="22" class="box" fill="#172554" stroke="#818cf8"/>
+  <text x="160" y="298" text-anchor="middle" class="label">User / frontend</text>
+  <text x="160" y="335" text-anchor="middle" class="body">Starts sign-in</text>
+  <text x="160" y="365" text-anchor="middle" class="body">Sends API request</text>
+
+  <rect x="365" y="150" width="260" height="160" rx="22" class="box" fill="#422006" stroke="#f59e0b"/>
+  <text x="495" y="203" text-anchor="middle" class="label">Clerk</text>
+  <text x="495" y="240" text-anchor="middle" class="body">Authentication</text>
+  <text x="495" y="270" text-anchor="middle" class="body">Identity + session</text>
+
+  <rect x="365" y="385" width="260" height="175" rx="22" class="box" fill="#0c4a6e" stroke="#38bdf8"/>
+  <text x="495" y="438" text-anchor="middle" class="label">Express API</text>
+  <text x="495" y="475" text-anchor="middle" class="body">Business rules</text>
+  <text x="495" y="505" text-anchor="middle" class="body">Authorization + responses</text>
+  <text x="495" y="535" text-anchor="middle" class="small">Uses @clerk/express</text>
+
+  <rect x="795" y="385" width="300" height="175" rx="22" class="box" fill="#134e4a" stroke="#2dd4bf"/>
+  <text x="945" y="438" text-anchor="middle" class="label">MongoDB</text>
+  <text x="945" y="475" text-anchor="middle" class="body">Application data</text>
+  <text x="945" y="505" text-anchor="middle" class="body">Courses, progress, records</text>
+  <text x="945" y="535" text-anchor="middle" class="small">Not the Clerk session system</text>
+
+  <path d="M265 275 C305 230 320 220 355 220" class="auth"/>
+  <text x="300" y="196" class="small">sign in</text>
+  <path d="M365 270 C320 310 305 330 265 340" class="auth"/>
+  <text x="292" y="327" class="small">session</text>
+
+  <path d="M265 375 C305 420 320 450 355 462" class="runtime"/>
+  <text x="268" y="445" class="small">request + session</text>
+
+  <path d="M625 455 H785" class="runtime"/>
+  <text x="705" y="438" text-anchor="middle" class="small">read / write</text>
+  <path d="M795 510 H635" class="runtime"/>
+  <text x="715" y="538" text-anchor="middle" class="small">application data</text>
+
+  <rect x="230" y="605" width="740" height="45" rx="14" fill="#1e293b" stroke="#64748b"/>
+  <text x="600" y="634" text-anchor="middle" class="body">Clerk supports the application; it does not replace the API or database.</text>
+</svg>
