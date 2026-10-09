@@ -6,8 +6,8 @@ This folder keeps the reviewed technical visuals used by the Clerk authenticatio
 
 | Image | Purpose | Format | Used in | Status |
 | --- | --- | --- | --- | --- |
-| [`clerk-express-tool-boundaries.svg`](./clerk-express-tool-boundaries.svg) | Separate development tools from the Express runtime authentication path | Repository-authored SVG | Concept introduction | ✅ Verified |
-| [`clerk-decision-checklist.svg`](./clerk-decision-checklist.svg) | Show the safe decision order before changing project authentication | Repository-authored SVG | Project decision | ✅ Verified |
+| [`clerk-express-tool-boundaries.svg`](./clerk-express-tool-boundaries.svg) | Separate development tools from the Express runtime authentication path | Repository-authored SVG | Concept introduction and `ghost ai` source review | ✅ Verified |
+| [`clerk-decision-checklist.svg`](./clerk-decision-checklist.svg) | Show the safe decision order before changing project authentication | Repository-authored SVG | Project decision and `ghost ai` source review | ✅ Verified |
 
 ## ✅ Verification rule
 

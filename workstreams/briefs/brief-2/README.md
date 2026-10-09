@@ -25,6 +25,7 @@
 | Official brief link | Not provided yet |
 | Confirmed technical task | `POST /api/auth/login`: verify the password and issue a JWT |
 | Clerk investigation | Discussed as an alternative authentication service; not selected or implemented |
+| Learning source | ChatGPT project `ghost ai`, conversation `Clerk CLI And MCP Explained` |
 | Wider requirements | Not recorded yet |
 | Deliverables | Not recorded yet |
 | Deadline | Not recorded yet |
@@ -35,7 +36,7 @@
 | Area | Purpose | Status |
 | --- | --- | --- |
 | [Concepts](./concepts/) | Technical ideas needed for the brief | 🟡 JWT lesson ready; Clerk tool-boundary review pending |
-| [Notes](./notes/) | Requirements, decisions, questions, and team responsibilities | 🟡 Authentication skills tracked |
+| [Notes](./notes/) | Requirements, decisions, questions, and team responsibilities | 🟡 Authentication skills tracked; `ghost ai` source review complete |
 | [Exercises](./exercises/) | Focused practice connected to the brief | 🔁 Login schema checkpoint needs review |
 
 ## 🎧 Live briefing workflow

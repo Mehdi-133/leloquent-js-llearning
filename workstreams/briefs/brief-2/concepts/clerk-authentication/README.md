@@ -2,6 +2,17 @@
 
 > 🔁 **Review needed:** the concept was discussed and documented, but it is not yet a project decision or a verified implementation.
 
+## 💬 Conversation source
+
+This lesson tracks the accessible questions from the ChatGPT project **`ghost ai`**, conversation **`Clerk CLI And MCP Explained`**:
+
+- What are Clerk, the Clerk CLI, and MCP?
+- Why could they matter for the project?
+- What does SDK stand for?
+- How does the answer change when the backend uses Express.js?
+
+The conversation's generated answers were not available as readable text during the repository review. The technical explanations below were therefore checked against Clerk's official documentation instead of treating unavailable chat content as verified evidence. See the [source review](../../notes/ghost-ai-project-review.md) for the complete mapping.
+
 ![Clerk tools around an Express authentication flow](./images/clerk-express-tool-boundaries.svg)
 
 > 🖼️ The diagram separates tools used while developing from code used when the Express application handles a request. The surrounding text and official documentation remain the technical source of truth.

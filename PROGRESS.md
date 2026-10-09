@@ -6,7 +6,7 @@
 - Current focus: comparing Clerk with the existing Express/JWT authentication path for Sprint 2 — Brief 2
 - Chapter status: In progress for the class presentation preparation
 - Earlier chapters: Not completed; Chapter 1 remains not started
-- Last meaningful update: 2026-10-09 - Discussed Clerk, SDKs, the Clerk CLI, MCP, and the Express integration boundary
+- Last meaningful update: 2026-10-09 - Reviewed the `ghost ai` project source and confirmed the Clerk lesson, diagrams, and decision chart cover its accessible questions
 - Next learning target: explain which Clerk tools run in the application and which tools only support development
 - Next repository target: confirm whether the official brief requires custom JWT authentication or permits Clerk before changing the LMS code
 
@@ -22,6 +22,7 @@
 | JWT dependency and environment safety | ✅ Verified |
 | JWT concept visual pack | ✅ Concept card, login flow, usage checklist, and image tracker verified |
 | Clerk, Clerk SDK, CLI, and MCP | 🔁 Review needed: concept note and diagrams saved; learner explanation pending |
+| `ghost ai` source review | ✅ Accessible project conversation inventoried and mapped to the saved Clerk lesson |
 | Clerk project decision | ⬜ Not decided: no Clerk package, configuration, or application code added |
 | Login schema | 🔁 Review needed: messages and formatting |
 | Login controller, route, and token response | ⬜ Not started |

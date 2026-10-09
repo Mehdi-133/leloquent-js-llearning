@@ -6,6 +6,7 @@ This folder records the confirmed requirements, decisions, questions, and team r
 
 - [Authentication skills tracker](./skills-tracker.md) — verified, in-progress, and not-started backend authentication skills.
 - [Clerk authentication tools](../concepts/clerk-authentication/) — the difference between Clerk, its SDK, CLI, MCP support, and Express integration.
+- [`ghost ai` project review](./ghost-ai-project-review.md) — source questions, repository mapping, evidence limits, and visual coverage.
 
 ## ✅ Confirmed intake
 
