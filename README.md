@@ -83,7 +83,8 @@ Some activities may need their own dependencies or setup. Read the nearest `READ
 |-- workstreams/              # School and activity-specific work
 |   |-- presentations/        # Concepts, slides, quizzes, and rehearsal
 |   |-- live-coding/          # Planning, attempts, reviews, and evidence
-|   `-- briefs/               # Requirements, feedback, and deliverables
+|   |-- sprints/              # Sprint folders containing their briefs
+|   `-- briefs/               # Briefs whose sprint is not confirmed yet
 |-- notes/                    # Shared concepts, questions, and vocabulary
 |-- sessions/                 # Current handoff and milestone history
 |-- docs/                     # Repository workflows and integrations
@@ -103,7 +104,7 @@ Some activities may need their own dependencies or setup. Read the nearest `READ
 
 - 🎤 **Presentations** — concepts, slides, audience exercises, quizzes, and rehearsal.
 - 💻 **Live coding** — planning, independent attempts, execution, explanation, and review.
-- 📋 **Briefs** — requirements, technical concepts, mentor feedback, exercises, and deliverables.
+- 📋 **Sprints and briefs** — original brief content, technical concepts, small exercises, mentor feedback, and deliverables.
 
 Book chapters show **what is being learned**. Workstreams show **where that knowledge is being applied**.
 

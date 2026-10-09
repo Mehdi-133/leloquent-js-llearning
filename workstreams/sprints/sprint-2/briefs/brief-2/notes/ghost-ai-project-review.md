@@ -9,7 +9,7 @@
 | ChatGPT project | `ghost ai` |
 | Accessible project conversation | `Clerk CLI And MCP Explained` |
 | Review date | 2026-10-09 |
-| Repository destination | `workstreams/briefs/brief-2/` |
+| Repository destination | `workstreams/sprints/sprint-2/briefs/brief-2/` |
 
 The current project inventory exposed one conversation belonging to `ghost ai`. Its readable learner questions covered Clerk, Clerk CLI, MCP, SDK, and Express.js.
 

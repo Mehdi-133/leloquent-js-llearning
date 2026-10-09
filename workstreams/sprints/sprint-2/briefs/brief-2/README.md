@@ -5,6 +5,7 @@
 ## 🔗 Official brief
 
 - Source: brief text provided by the learner in chat on 2026-10-09
+- Repository copy: [Brief content](./brief-content/)
 - Stable link: ⬜ **Not provided yet**
 - Rule: use the original brief document or official school/project page as the source of truth.
 
@@ -40,16 +41,18 @@
 
 | Area | Purpose | Status |
 | --- | --- | --- |
+| [Brief content](./brief-content/) | Supplied requirements and source details | ✅ Saved |
+| [Brief analysis](./brief-analysis/) | Plain-language explanation, current gaps, risks, and visual roadmap | ✅ Analysis and visual pack ready |
 | [Concepts](./concepts/) | Ordered technical learning roadmap | 🟡 Twelve concepts mapped; Concept 1 started |
 | [Notes](./notes/) | Brief analysis, decisions, questions, and team responsibilities | 🟡 Full intake and current-code baseline recorded |
-| [Exercises](./exercises/) | One focused practice task for every concept | 🟡 Exercise roadmap ready; no new exercise started |
+| [Exercises](./exercises/) | Short understanding practice for every concept | 🟡 Exercise roadmap ready; Concept 1 started |
 
 ## 🧭 Concept-by-concept workflow
 
 1. Open the next concept in the [ordered roadmap](./concepts/).
-2. Learn the idea with one small prediction or explanation check.
+2. Learn the idea with a 5 to 15 minute prediction, explanation, or micro-task.
 3. Mehdi completes the linked exercise before receiving a full correction.
-4. Run the required behavior and edge-case checks.
+4. Keep full feature implementation and broad project verification in later checkpoints.
 5. Save the concept lesson and visuals only after understanding is demonstrated.
 6. Update the trackers and move to the next concept only when the checkpoint is verified.
 
@@ -59,4 +62,4 @@ The concept path focuses on the JavaScript backend: Node.js, Express, Mongoose, 
 
 ## 🎯 Next step
 
-Answer the prediction questions in [Concept 1's exercise](./exercises/api-takeover-non-regression.md). Then inventory the current routes, seed, database startup, and catalog behavior before changing feature code.
+Complete the short scenario in [Concept 1's exercise](./exercises/api-takeover-non-regression.md) and explain non-regression in your own words.

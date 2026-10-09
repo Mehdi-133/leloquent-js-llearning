@@ -6,20 +6,21 @@
 - Current focus: starting the ordered concept path for Sprint 2 — Brief 2 with API takeover and non-regression
 - Chapter status: In progress for the class presentation preparation
 - Earlier chapters: Not completed; Chapter 1 remains not started
-- Last meaningful update: 2026-10-09 - Analyzed the full LMS brief, inspected the existing API baseline, and mapped twelve ordered concepts with one exercise each
-- Next learning target: understand why a stable baseline and non-regression check come before new feature code
-- Next repository target: record and run a repeatable smoke-test matrix for setup, seed, catalog routes, authentication routes, Swagger, and Docker
+- Last meaningful update: 2026-10-09 - Added separate Brief 2 content and analysis areas, including two reviewed diagrams for roles and dependency order
+- Next learning target: explain non-regression using one simple API-route scenario
+- Next repository target: review the three answers in the Concept 1 quick exercise before any implementation work
 
 ## 🤝 Sprint 2 — Brief 2 checkpoint
 
-> 🟡 **In progress:** the briefing intake has started, and the confirmed facts are recorded in [`workstreams/briefs/brief-2/`](workstreams/briefs/brief-2/).
+> 🟡 **In progress:** the full brief and its learning workspace are stored under [`workstreams/sprints/sprint-2/briefs/brief-2/`](workstreams/sprints/sprint-2/briefs/brief-2/).
 
 | Brief area | Current status |
 | --- | --- |
 | Sprint and brief identity | ✅ Sprint 2 — Brief 2 |
 | Team | ✅ Binôme with Maroua |
 | Full brief intake | ✅ Requirements, deadline, assessment, deliverables, and risks recorded |
-| Concept and exercise roadmap | ✅ Twelve ordered concepts with one focused exercise each |
+| Brief content and analysis | ✅ Original source, structured guide, learner-friendly analysis, and two reviewed diagrams saved |
+| Concept and exercise roadmap | ✅ Twelve ordered concepts with one short understanding exercise each |
 | Existing API baseline | 🟡 Read-only code inventory complete; runtime smoke test pending |
 | Confirmed technical task | 🟡 Secure the full LMS backend from authentication through sequential progress |
 | JWT dependency and environment safety | ✅ Verified |

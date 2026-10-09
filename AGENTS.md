@@ -70,9 +70,10 @@ Before creating concepts, notes, exercises, feedback, or deliverables, identify 
 
 - Presentation work belongs under `workstreams/presentations/<presentation-name>/`.
 - Live-coding work belongs under `workstreams/live-coding/<session-name>/`.
-- Brief or project-assessment work belongs under `workstreams/briefs/<brief-name>/`.
+- Sprint briefs belong under `workstreams/sprints/<sprint-name>/briefs/<brief-name>/`.
+- A brief whose sprint is still unknown may remain under `workstreams/briefs/<brief-name>/` until its correct sprint is confirmed.
 
-Every activity workspace should keep its own `README.md`, `concepts/`, `notes/`, and `exercises/`. Add specialized folders only when they help the activity, such as `slides/`, `quiz/`, and `rehearsal/` for presentations; `reviews/` for live coding; or `feedback/` and `deliverables/` for briefs.
+Every activity workspace should keep its own `README.md`, `concepts/`, `notes/`, and `exercises/`. Every sprint brief also keeps `brief-content/` for the supplied brief and its source details, plus `brief-analysis/` for the learner-friendly explanation, diagrams, priorities, risks, and dependency order. Add specialized folders only when they help the activity, such as `slides/`, `quiz/`, and `rehearsal/` for presentations; `reviews/` for live coding; or `feedback/` and `deliverables/` for briefs.
 
 Keep `chapters/` as the book-learning path and `notes/concepts/` as the shared concept library. When knowledge belongs to one activity, store it in that workstream. When the same concept genuinely serves several activities, keep one shared note and link to it instead of duplicating it.
 
@@ -82,15 +83,17 @@ Do not move or recreate learner-owned exercise files merely to satisfy the folde
 
 Whenever the learner provides a new brief, analyze it before starting implementation:
 
-1. Record the confirmed context, objectives, requirements, constraints, deliverables, deadline, and assessment criteria without inventing missing details.
+1. Save the supplied brief under its `brief-content/` folder, then explain it in `brief-analysis/` without inventing missing details. The analysis should connect requirements, priorities, dependencies, risks, and current project evidence in plain language.
 2. Inspect the related project code and separate what already exists, what needs verification, what needs correction, and what is genuinely new.
 3. Build an ordered concept roadmap based on dependencies and sprint risk. Connect each concept to the exact brief requirement it supports.
-4. Give every concept one focused learner exercise and one observable completion check. Keep non-concept delivery work, such as Jira, Git reviews, documentation, and Docker verification, visible in a separate delivery track.
+4. Give every concept one short learner exercise and one observable completion check. A concept exercise should usually take 5 to 15 minutes, contain at most three short questions or one micro-task, and test understanding rather than implement a full feature. Split larger practice into later checkpoints.
 5. Study only one concept at a time: clarify the idea, ask for a prediction or explanation, let the learner attempt the exercise, run the relevant checks, then review the result.
 6. Create the full concept lesson, visual pack, and review note only after the learner demonstrates understanding. A roadmap entry is not evidence that the concept is understood.
 7. Update the brief README, concept index, exercise index, progress tracker, and current session after each verified checkpoint. Preserve unfinished concepts as `🟡 In progress`, `🔁 Review needed`, or `⬜ Not started`.
 
 Do not scaffold empty concept folders for the whole brief. Create each concept workspace when its lesson actually starts, reuse existing verified material, and keep implementation evidence tied to the real project.
+
+Every brief analysis should include at least one meaningful visual. Use reviewed SVG, Mermaid, or another deterministic format for exact roles, flows, dependencies, priorities, and architecture. Store analysis visuals under `brief-analysis/images/`, explain each one beside the image, and record its visual verification in `brief-analysis/images/README.md`.
 
 ## Coding rules
 

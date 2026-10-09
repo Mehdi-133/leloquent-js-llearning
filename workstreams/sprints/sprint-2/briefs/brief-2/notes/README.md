@@ -4,7 +4,7 @@ This folder records the confirmed requirements, decisions, questions, and team r
 
 ## 🧭 Tracking
 
-- [Full brief analysis](./brief-analysis.md) — requirements, existing-code baseline, gaps, risks, dependencies, and delivery obligations.
+- [Full brief analysis](../brief-analysis/) — plain-language requirements, current-code baseline, gaps, risks, dependencies, and diagrams.
 - [Authentication skills tracker](./skills-tracker.md) — verified, in-progress, and not-started backend authentication skills.
 - [Clerk authentication tools](../concepts/clerk-authentication/) — the difference between Clerk, its SDK, CLI, MCP support, and Express integration.
 - [`ghost ai` project review](./ghost-ai-project-review.md) — source questions, repository mapping, evidence limits, and visual coverage.

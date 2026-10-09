@@ -6,6 +6,29 @@
 
 Take over the existing LMS API without regression, secure it for learners, trainers, and administrators, and add the backend learning flow: course ownership, enrollment, protected resources, strict sequential progress, trainer reporting, tests, documentation, and a reproducible runtime.
 
+## 💡 The brief in plain language
+
+This brief asks the team to turn an existing **public course catalog** into the backend of a real learning platform.
+
+The work has four connected ideas:
+
+1. **Know the user:** registration, login, password hashing, JWT, and account status.
+2. **Control access:** roles decide the general permission; ownership decides whether a trainer may access this specific course.
+3. **Control the learning journey:** enrollment gives access, ordered modules define the path, and backend progress rules decide what unlocks next.
+4. **Prove the behavior:** tests, API documentation, Git review, and Docker make the result repeatable and reviewable.
+
+## 🗺️ Big-picture scope
+
+![Diagram showing visitors, learners, trainers, and administrators passing through authentication, role, and ownership checks before accessing LMS data.](./images/brief-scope-and-roles.svg)
+
+The four role cards show **who is making the request**. The center shows the three decisions the API makes before protected data is returned:
+
+1. Is the JWT valid?
+2. Does this role allow the action?
+3. Does this user own or have access to this course and its data?
+
+The database row shows the main information those decisions protect. Exact endpoint behavior remains defined by the [supplied brief](../brief-content/).
+
 ## ✅ Confirmed boundaries
 
 | Area | Confirmed requirement |
@@ -63,6 +86,10 @@ This is a read-only code inspection, not runtime proof.
 
 ## 🧩 Dependency order
 
+![Roadmap showing six dependent stages from stabilizing the existing API through authentication, authorization, learning data, progress, testing, documentation, and Docker.](./images/brief-dependency-roadmap.svg)
+
+Read the roadmap from left to right. Progress cannot be trusted before enrollment, ordering, authentication, and permissions are coherent. Tests and documentation appear at the end as a delivery stage, but small tests and documentation updates should still accompany each earlier feature.
+
 ```text
 Stable API baseline
   -> response and error contracts
@@ -78,6 +105,16 @@ Stable API baseline
   -> complete documentation and reproducible runtime
 ```
 
+## 🚦 Priority guide
+
+| Priority | Meaning | Examples |
+| --- | --- | --- |
+| 🔴 Mandatory foundation | Required for the brief to succeed | JWT, roles, ownership, enrollment uniqueness, uploads, sequential progress, critical tests |
+| 🟠 Recommended after stability | Useful when the mandatory foundation works | Archiving, reordering endpoints, trainer status filters |
+| 🟢 Bonus or postponable | Start only when required behavior is verified | Refresh tokens, cloud storage, advanced logs, advanced pagination |
+
+This separation protects the deadline: a working secure learning flow is more valuable than several unfinished bonus features.
+
 ## 🛠️ Delivery obligations
 
 - Record the preserved, modified, removed, and postponed endpoints.
@@ -88,4 +125,4 @@ Stable API baseline
 
 ## 🎯 First checkpoint
 
-Create a baseline matrix for installation, MongoDB, seed execution, catalog routes, current authentication routes, Swagger, and Docker. Run the checks and record exact results before changing feature code.
+Complete the short non-regression scenario and explain why one existing route must be checked before and after a feature change. Full baseline verification comes later as project work.
