@@ -9,4 +9,4 @@ The mentor validated these technical areas:
 - Sequelize usage
 - Express routes and EJS views
 
-Detailed reusable concepts can link to [`notes/concepts/`](../../../../../../notes/concepts/) instead of being duplicated.
+Detailed concept notes belong in [this brief's notes folder](../notes/). When another activity needs the same explanation, it links back here instead of creating a general duplicate.

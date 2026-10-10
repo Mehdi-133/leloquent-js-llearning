@@ -5,6 +5,8 @@ This folder records the confirmed requirements, decisions, questions, and team r
 ## 🧭 Tracking
 
 - [Full brief analysis](../brief-analysis/) — plain-language requirements, current-code baseline, gaps, risks, dependencies, and diagrams.
+- [Express and Zod validation](./zod-validation-middleware.md) — validate and clean request data before a controller uses it.
+- [Mongoose core concepts](./mongoose-core-concepts.md) — schema, model, document, and the application-to-database boundary.
 - [JWT authentication quick notes](./jwt-authentication.md) — token purpose, `jwt.verify()` middleware flow, verified evidence, common traps, and later-review questions.
 - [Clerk authentication quick notes](./clerk-authentication.md) — service, SDK, CLI, MCP, and responsibility boundaries.
 - [Authentication skills tracker](./skills-tracker.md) — verified, in-progress, and not-started backend authentication skills.
@@ -14,6 +16,7 @@ This folder records the confirmed requirements, decisions, questions, and team r
 ## ✨ Note style
 
 - Give every discussed concept its own short note.
+- Keep concept notes in this workstream instead of a general root notes folder.
 - Use a big idea, short emoji sections, and point-based explanations.
 - Connect the relevant *Eloquent JavaScript* chapter and pages to the practical MERN use.
 - State clearly when a library or service is not directly taught by the book.

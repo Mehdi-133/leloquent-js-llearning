@@ -30,4 +30,8 @@ A Mongoose schema does not replace API validation or every database constraint. 
 
 Mongoose is an ODM. It maps application objects to MongoDB documents. The schema belongs to the application, while MongoDB remains the database.
 
+## 🔗 Related learning
+
+- [Brief 2 concept roadmap](../concepts/)
+
 > ✅ **Remember:** schema describes, model operates, document represents one record.

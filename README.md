@@ -49,7 +49,7 @@ For the full evidence, open [PROGRESS.md](./PROGRESS.md). For the latest handoff
 | Explore book exercises and examples | [Chapter trail](./chapters/) |
 | See presentations, live coding, and school briefs | [Applied workstreams](./workstreams/) |
 | Resume from the latest checkpoint | [Current session](./sessions/CURRENT.md) |
-| Review reusable JavaScript explanations | [Concept field notes](./notes/concepts/) |
+| Review concept explanations in context | [Applied workstreams](./workstreams/) |
 | Understand the repository workflow | [Git workflow](./docs/GIT_WORKFLOW.md) |
 | Collaborate with an AI assistant | [Shared agent guide](./AGENTS.md) |
 
@@ -86,7 +86,7 @@ The book supplies the JavaScript foundation. School projects show where that fou
 
 - **Book learning** — chapter notes, examples, exercises, and experiments.
 - **Applied learning** — presentations, live-coding sessions, sprints, and briefs.
-- **Concept notes** — short explanations connected to genuine book foundations.
+- **Activity-owned concept notes** — short explanations kept beside the brief, presentation, live-coding session, or chapter that uses them.
 - **Visual learning** — reviewed diagrams, concept cards, and technical flows.
 - **Progress evidence** — passed checks, failed checks, feedback, and next actions.
 - **Session continuity** — clear handoffs so another tool can continue safely.
@@ -102,7 +102,6 @@ The book supplies the JavaScript foundation. School projects show where that fou
 |-- Eloquent_JavaScript.pdf   # Local book source; never modified
 |-- chapters/                 # The chapter-by-chapter learning path
 |-- workstreams/              # Presentations, live coding, and school briefs
-|-- notes/                    # Shared concepts, questions, and vocabulary
 |-- sessions/                 # Current handoff and milestone history
 |-- templates/                # Reusable learning structures
 |-- docs/                     # Git, integration, and repository guidance

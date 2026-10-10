@@ -7,6 +7,10 @@
 
 ## ✅ Last completed action
 
+- Removed the general root concept-note library so every concept note now has a clear activity owner.
+- Moved the Zod validation and Mongoose core-concept notes into Sprint 2 — Brief 2.
+- Updated the Brief 2 concept roadmap so started concepts link to their workstream notes and future notes are created only when study starts.
+- Updated repository and agent guidance so new notes belong to an owning workstream or chapter instead of `notes/concepts/`.
 - Redesigned the public repository README as a professional coding journey with a focused camping identity.
 - Added a custom Code Camp hero banner that combines a JavaScript terminal, forest, tent, and campfire.
 - Preserved the repository's honest progress, beginner-first workflow, book-to-MERN direction, setup guidance, and current next exercise.
@@ -41,6 +45,10 @@
 
 ## 📁 Files changed
 
+- `AGENTS.md`, `README.md`, and `workstreams/README.md` — replaced the general note-library rule with activity-owned concept notes.
+- `workstreams/sprints/sprint-2/briefs/brief-2/notes/` — now owns the relocated Zod and Mongoose notes and indexes them beside the other Brief 2 notes.
+- Brief 2 and Brief 3 concept/note indexes — removed shared-library links and made note ownership explicit.
+- `notes/` — removed the general concept library and its empty repository-wide placeholders.
 - `README.md` — professional public trailhead with the current checkpoint, navigation, learning workflow, MERN map, setup, and contribution guidance.
 - `docs/images/readme-code-camp.svg` — accessible 1200 × 420 hero banner connecting the coding and camping identity.
 - `workstreams/sprints/sprint-2/briefs/brief-2/notes/jwt-authentication.md` — complete `jwt.verify()` review notes, evidence, traps, and three later-review questions.
@@ -58,14 +66,17 @@
 - `workstreams/sprints/sprint-2/briefs/brief-2/brief-analysis/README.md` — learner-friendly explanation, baseline, priorities, risks, and diagram guidance.
 - `workstreams/sprints/sprint-2/briefs/brief-2/brief-analysis/images/` — two reviewed SVG diagrams and their asset tracker.
 - Brief 2 concept, exercise, note, and README files — short exercise wording, updated paths, and point-based JWT and Clerk notes.
-- `notes/concepts/README.md` — shared point-based style, honest status, and book-to-MERN rule.
-- `notes/concepts/express-validation/zod-middleware.md` — book foundation and MERN connection added to the reference note.
+- Brief 2 notes index — point-based style, honest status, and book-to-MERN rule for activity-owned notes.
+- Brief 2 Zod validation note — book foundation and MERN connection preserved after relocation.
 - `templates/concept-note.md` — reusable note structure for every future concept.
 - `templates/learning-situation.md` — reusable dashboard for complete learning-status answers.
 - `PROGRESS.md` and `sessions/CURRENT.md` — current status and exact next step.
 
 ## 🧪 Verification
 
+- Confirmed that no repository Markdown file links to `notes/concepts/` after the move.
+- Checked the relocated Zod book link and all changed local Markdown links.
+- Confirmed that the pre-existing learner exercise and package-file deletions remain untouched.
 - Rendered the README hero SVG to PNG and visually inspected its text, contrast, layout, terminal, tent, and campfire at 1200 × 420.
 - Checked the redesigned README's local links, image path, headings, and Markdown whitespace.
 - Confirmed the saved notes match the recovered LMS session and do not claim a protected route was tested.

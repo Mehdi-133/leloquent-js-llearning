@@ -19,4 +19,4 @@
 - No separate review notes have been recorded yet.
 - Create the first one after the next Brief 3 practice discussion.
 
-> 💡 Keep reusable programming explanations in the [shared concept library](../../../../../../notes/concepts/) and link to them from here.
+> 💡 Keep Brief 3 explanations here. Other activities should link to the original note instead of copying it into a general notes library.

@@ -40,6 +40,7 @@
 
 ## 🔗 Related learning
 
-- [Local book](../../../Eloquent_JavaScript.pdf)
+- [Brief 2 concept roadmap](../concepts/)
+- [Local book](../../../../../../Eloquent_JavaScript.pdf)
 
 > ✅ **Remember:** validate, clean the result, then continue.
