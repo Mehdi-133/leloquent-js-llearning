@@ -28,6 +28,8 @@
 - Consulted the local book sections on errors and tests, modules and NPM, asynchronous programming, HTTP, and Node.js.
 - Updated the Zod, JWT, and Clerk notes with exact chapters, printed page ranges, book boundaries, and MERN connections.
 - Added `templates/concept-note.md` so future notes keep the same learning structure.
+- Added the `give me situation` dashboard rule with current mission, verified wins, development needs, exercise scoreboard, MERN map, book connection, blockers, and one next mission.
+- Added `templates/learning-situation.md` so every future learning-status response stays complete, visual, and evidence-based.
 - Added the rule that concept exercises should take about 5 to 15 minutes, contain at most three short questions or one micro-task, and check understanding rather than implement a feature.
 - Replaced the large non-regression matrix with one short route scenario and three questions.
 - Reduced the login and JWT practice to two separate quick exercises.
@@ -54,6 +56,7 @@
 - `notes/concepts/README.md` — shared point-based style, honest status, and book-to-MERN rule.
 - `notes/concepts/express-validation/zod-middleware.md` — book foundation and MERN connection added to the reference note.
 - `templates/concept-note.md` — reusable note structure for every future concept.
+- `templates/learning-situation.md` — reusable dashboard for complete learning-status answers.
 - `PROGRESS.md` and `sessions/CURRENT.md` — current status and exact next step.
 
 ## 🧪 Verification
@@ -68,6 +71,7 @@
 - All local Markdown links and whitespace checks passed after both moves.
 - Rendered and visually inspected the Brief 3 practice-flow SVG at 1200 × 675; its labels, arrows, and order are readable.
 - Checked the relevant local book pages before adding the Zod, JWT, and Clerk connections.
+- Verified that the learning-situation template contains every required dashboard section and that all local Markdown links still resolve.
 - Confirmed that all Brief 2 navigation points to the Sprint 2 workspace.
 - Rendered and visually inspected both brief-analysis diagrams at 1200 × 675; labels, arrows, grouping, and explanations are readable and consistent.
 - No LMS runtime, database, API route, or Docker behavior was tested because this change only reorganizes learning documentation.

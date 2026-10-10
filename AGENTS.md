@@ -140,6 +140,26 @@ If a check cannot be run, state exactly what remains unverified and why.
 
 At the start of a learning session, use `sessions/CURRENT.md` to resume from the last known state.
 
+### Learning situation dashboard 📊
+
+When the learner says **`give me situation`**, **`my situation`**, **`my status`**, or asks where they currently are in their learning, inspect the repository and answer with a fresh learner dashboard. Do not rely only on chat memory.
+
+Read at least `PROGRESS.md`, `sessions/CURRENT.md`, the active workstream or chapter README, its exercise index, and Git status. Use [`templates/learning-situation.md`](./templates/learning-situation.md) as the response structure.
+
+The dashboard must include:
+
+1. A one-sentence honest overall assessment of the learner's current level.
+2. `🎯 Current mission` — the exact concept, brief, chapter, or exercise being worked on now.
+3. `✅ What is correct` — only demonstrated or verified strengths and completed work.
+4. `🧠 What to develop` — specific skills, misunderstandings, or behaviors that need practice.
+5. `🧪 Exercise scoreboard` — exercises grouped as complete, in progress, review needed, and not started. Name the exercises when the repository provides them.
+6. `🧩 MERN map` — the current MongoDB, Express, React, and Node.js evidence, with honest status labels.
+7. `📖 Book connection` — the current *Eloquent JavaScript* chapter and how it supports the practical work.
+8. `🚧 Blockers or open questions` — include only issues that currently affect progress.
+9. `🚀 Next mission` — exactly one small action, why it comes next, and an observable completion check.
+
+Make the answer motivating and visually clear with meaningful emojis, short sections, compact tables, and visible status labels. Do not invent percentages, completed exercises, mastery, or runtime success. Clearly distinguish **discussed**, **saved**, **attempted**, and **verified** work. Mention uncommitted learning changes only when they affect the situation, and do not modify repository files merely because the learner requested a status report.
+
 ### Automatic chat naming 🏷️
 
 At the start of every new chat, rename the chat automatically once the main programming concept is clear.

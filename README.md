@@ -13,6 +13,7 @@ The goal is not to present a perfect collection of finished solutions. The goal 
 | I want to... | Start here |
 | --- | --- |
 | See the learner's current position | [Learning progress](./PROGRESS.md) |
+| Get a complete learning dashboard from an assistant | Say **`give me situation`** |
 | Follow the complete book roadmap | [Learning plan](./LEARNING_PLAN.md) |
 | Study the book chapter by chapter | [Chapter index](./chapters/) |
 | Explore presentations, live coding, and briefs | [Learning workstreams](./workstreams/) |
