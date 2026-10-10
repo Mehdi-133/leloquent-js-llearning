@@ -7,6 +7,9 @@
 
 ## ✅ Last completed action
 
+- Refined the public README into the **MERN BaseCamp** identity while preserving the repository's honest learning status.
+- Added and visually inspected a generated camping hero and a MERN layer trail diagram.
+- Added a README asset tracker and corrected the clone instructions to match the configured GitHub repository.
 - Removed the general root concept-note library so every concept note now has a clear activity owner.
 - Moved the Zod validation and Mongoose core-concept notes into Sprint 2 — Brief 2.
 - Updated the Brief 2 concept roadmap so started concepts link to their workstream notes and future notes are created only when study starts.
@@ -45,6 +48,10 @@
 
 ## 📁 Files changed
 
+- `README.md` — refined public BaseCamp story, MERN trail, navigation, setup, and honest current checkpoint.
+- `docs/images/mern-basecamp-hero.png` — memorable coding-and-camping hero artwork.
+- `docs/images/mern-trail.svg` — MERN layer map with the request and response direction.
+- `docs/images/README.md` — purpose, usage, and verification status for README visuals.
 - `AGENTS.md`, `README.md`, and `workstreams/README.md` — replaced the general note-library rule with activity-owned concept notes.
 - `workstreams/sprints/sprint-2/briefs/brief-2/notes/` — now owns the relocated Zod and Mongoose notes and indexes them beside the other Brief 2 notes.
 - Brief 2 and Brief 3 concept/note indexes — removed shared-library links and made note ownership explicit.
@@ -74,6 +81,9 @@
 
 ## 🧪 Verification
 
+- Visually inspected the MERN BaseCamp hero for composition, readability, and README suitability.
+- Rendered the MERN trail SVG at 2400 × 1040 and visually inspected its labels, arrows, contrast, and layer order.
+- Confirmed the clone instructions match the configured `origin` repository.
 - Confirmed that no repository Markdown file links to `notes/concepts/` after the move.
 - Checked the relocated Zod book link and all changed local Markdown links.
 - Confirmed that the pre-existing learner exercise and package-file deletions remain untouched.

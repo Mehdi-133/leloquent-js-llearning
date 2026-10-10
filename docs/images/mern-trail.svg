@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title description">
+  <title id="title">The MERN learning trail</title>
+  <desc id="description">A request travels from a React interface through an Express API running on Node.js to MongoDB, with JavaScript as the shared foundation.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#12342d"/>
+    </linearGradient>
+    <linearGradient id="foundation" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f59e0b"/>
+      <stop offset="0.5" stop-color="#fbbf24"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#020617" flood-opacity="0.45"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 10 5 0 10Z" fill="#a7f3d0"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="520" rx="28" fill="url(#background)"/>
+
+  <g fill="#dbeafe" opacity="0.85">
+    <circle cx="76" cy="58" r="2"/><circle cx="173" cy="92" r="1.5"/>
+    <circle cx="308" cy="49" r="2"/><circle cx="468" cy="78" r="1.5"/>
+    <circle cx="790" cy="54" r="2"/><circle cx="884" cy="89" r="1.5"/>
+    <circle cx="1034" cy="48" r="2"/><circle cx="1128" cy="86" r="1.5"/>
+  </g>
+
+  <text x="600" y="58" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">THE MERN TRAIL</text>
+  <text x="600" y="88" text-anchor="middle" fill="#a7f3d0" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="1.5">ONE JAVASCRIPT FOUNDATION • FOUR CONNECTED LAYERS</text>
+
+  <g stroke="#a7f3d0" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M286 232H350"/>
+    <path d="M564 232H628"/>
+    <path d="M842 232H906"/>
+  </g>
+  <path d="M1010 348C930 404 290 404 190 348" fill="none" stroke="#60a5fa" stroke-width="2.5" stroke-dasharray="8 8" marker-end="url(#arrow)"/>
+  <text x="600" y="416" text-anchor="middle" fill="#93c5fd" font-family="Segoe UI, Arial, sans-serif" font-size="14">response returns to the interface</text>
+
+  <g filter="url(#shadow)" font-family="Segoe UI, Arial, sans-serif">
+    <g transform="translate(72 132)">
+      <rect width="214" height="216" rx="22" fill="#0f172a" stroke="#60a5fa" stroke-width="2"/>
+      <circle cx="107" cy="66" r="34" fill="#172554" stroke="#60a5fa" stroke-width="2"/>
+      <ellipse cx="107" cy="66" rx="29" ry="11" fill="none" stroke="#93c5fd" stroke-width="2"/>
+      <ellipse cx="107" cy="66" rx="29" ry="11" fill="none" stroke="#93c5fd" stroke-width="2" transform="rotate(60 107 66)"/>
+      <ellipse cx="107" cy="66" rx="29" ry="11" fill="none" stroke="#93c5fd" stroke-width="2" transform="rotate(120 107 66)"/>
+      <circle cx="107" cy="66" r="4" fill="#93c5fd"/>
+      <text x="107" y="128" text-anchor="middle" fill="#f8fafc" font-size="24" font-weight="700">React</text>
+      <text x="107" y="155" text-anchor="middle" fill="#93c5fd" font-size="14" font-weight="600">INTERFACE</text>
+      <text x="107" y="184" text-anchor="middle" fill="#cbd5e1" font-size="13">users see and interact</text>
+    </g>
+
+    <g transform="translate(350 132)">
+      <rect width="214" height="216" rx="22" fill="#0f172a" stroke="#e2e8f0" stroke-width="2"/>
+      <circle cx="107" cy="66" r="34" fill="#1e293b" stroke="#e2e8f0" stroke-width="2"/>
+      <path d="M80 72c18-26 36-26 54 0M80 59c18 26 36 26 54 0" fill="none" stroke="#f8fafc" stroke-width="3" stroke-linecap="round"/>
+      <text x="107" y="128" text-anchor="middle" fill="#f8fafc" font-size="24" font-weight="700">Express</text>
+      <text x="107" y="155" text-anchor="middle" fill="#e2e8f0" font-size="14" font-weight="600">API ROUTES</text>
+      <text x="107" y="184" text-anchor="middle" fill="#cbd5e1" font-size="13">requests meet business rules</text>
+    </g>
+
+    <g transform="translate(628 132)">
+      <rect width="214" height="216" rx="22" fill="#0f172a" stroke="#34d399" stroke-width="2"/>
+      <circle cx="107" cy="66" r="34" fill="#064e3b" stroke="#34d399" stroke-width="2"/>
+      <path d="M107 35 134 50v32l-27 15-27-15V50Z" fill="none" stroke="#6ee7b7" stroke-width="3"/>
+      <text x="107" y="72" text-anchor="middle" fill="#a7f3d0" font-size="17" font-weight="700">JS</text>
+      <text x="107" y="128" text-anchor="middle" fill="#f8fafc" font-size="24" font-weight="700">Node.js</text>
+      <text x="107" y="155" text-anchor="middle" fill="#6ee7b7" font-size="14" font-weight="600">RUNTIME</text>
+      <text x="107" y="184" text-anchor="middle" fill="#cbd5e1" font-size="13">JavaScript runs the server</text>
+    </g>
+
+    <g transform="translate(906 132)">
+      <rect width="214" height="216" rx="22" fill="#0f172a" stroke="#4ade80" stroke-width="2"/>
+      <circle cx="107" cy="66" r="34" fill="#052e16" stroke="#4ade80" stroke-width="2"/>
+      <path d="M107 34c-20 18-21 40 0 65 21-25 20-47 0-65Z" fill="#4ade80"/>
+      <path d="M107 43v46" stroke="#14532d" stroke-width="2"/>
+      <text x="107" y="128" text-anchor="middle" fill="#f8fafc" font-size="24" font-weight="700">MongoDB</text>
+      <text x="107" y="155" text-anchor="middle" fill="#86efac" font-size="14" font-weight="600">DATA</text>
+      <text x="107" y="184" text-anchor="middle" fill="#cbd5e1" font-size="13">documents persist safely</text>
+    </g>
+  </g>
+
+  <rect x="164" y="438" width="872" height="54" rx="18" fill="#0f172a" stroke="url(#foundation)" stroke-width="2"/>
+  <text x="600" y="472" text-anchor="middle" fill="#f8fafc" font-family="Consolas, monospace" font-size="18">JavaScript BaseCamp: values → functions → objects → async → HTTP</text>
+</svg>
