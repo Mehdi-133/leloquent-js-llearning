@@ -7,7 +7,7 @@
 
 ## ✅ Last completed action
 
-- Added a camping-style **MERN BaseCamp expedition poster** with five numbered learning checkpoints, trail tools, skills, and honest statuses.
+- Restored the previous wide camping hero as the public README cover after reviewing the alternate expedition poster.
 - Refined the public README into the **MERN BaseCamp** identity while preserving the repository's honest learning status.
 - Added and visually inspected a generated camping hero and a MERN layer trail diagram.
 - Added a README asset tracker and updated the clone instructions for the renamed **Mern-BaseCamp** GitHub repository.
@@ -49,7 +49,6 @@
 
 ## 📁 Files changed
 
-- `docs/images/mern-basecamp-expedition.svg` — GitHub-ready overview poster inspired by trail checkpoints and campsite progress markers.
 - `README.md` — refined public BaseCamp story, MERN trail, navigation, setup, and honest current checkpoint.
 - `docs/images/mern-basecamp-hero.png` — memorable coding-and-camping hero artwork.
 - `docs/images/mern-trail.svg` — MERN layer map with the request and response direction.
@@ -83,7 +82,7 @@
 
 ## 🧪 Verification
 
-- Rendered the MERN BaseCamp expedition poster at 2400 × 2840 and visually inspected its hierarchy, labels, checkpoint statuses, spacing, contrast, and camping details.
+- Confirmed the README again uses the visually inspected wide camping hero and its accessible description.
 - Visually inspected the MERN BaseCamp hero for composition, readability, and README suitability.
 - Rendered the MERN trail SVG at 2400 × 1040 and visually inspected its labels, arrows, contrast, and layer order.
 - Confirmed GitHub's repository-move notice and aligned the clone instructions and `origin` remote with the canonical **Mern-BaseCamp** URL.
