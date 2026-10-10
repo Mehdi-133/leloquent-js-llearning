@@ -142,8 +142,8 @@ The repository keeps two routes separate:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/Mehdi-133/leloquent-js-llearning.git
-cd leloquent-js-llearning
+git clone https://github.com/Mehdi-133/Mern-BaseCamp.git
+cd Mern-BaseCamp
 ```
 
 ### Check a JavaScript exercise

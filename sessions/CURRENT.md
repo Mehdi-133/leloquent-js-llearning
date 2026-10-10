@@ -9,7 +9,7 @@
 
 - Refined the public README into the **MERN BaseCamp** identity while preserving the repository's honest learning status.
 - Added and visually inspected a generated camping hero and a MERN layer trail diagram.
-- Added a README asset tracker and corrected the clone instructions to match the configured GitHub repository.
+- Added a README asset tracker and updated the clone instructions for the renamed **Mern-BaseCamp** GitHub repository.
 - Removed the general root concept-note library so every concept note now has a clear activity owner.
 - Moved the Zod validation and Mongoose core-concept notes into Sprint 2 — Brief 2.
 - Updated the Brief 2 concept roadmap so started concepts link to their workstream notes and future notes are created only when study starts.
@@ -83,7 +83,7 @@
 
 - Visually inspected the MERN BaseCamp hero for composition, readability, and README suitability.
 - Rendered the MERN trail SVG at 2400 × 1040 and visually inspected its labels, arrows, contrast, and layer order.
-- Confirmed the clone instructions match the configured `origin` repository.
+- Confirmed GitHub's repository-move notice and aligned the clone instructions and `origin` remote with the canonical **Mern-BaseCamp** URL.
 - Confirmed that no repository Markdown file links to `notes/concepts/` after the move.
 - Checked the relocated Zod book link and all changed local Markdown links.
 - Confirmed that the pre-existing learner exercise and package-file deletions remain untouched.
