@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./docs/images/mern-basecamp-hero.png" alt="A learner coding beside a campfire while a lantern-lit trail climbs toward the mountains" width="100%">
+  <img src="./docs/images/mern-basecamp-expedition.svg" alt="MERN BaseCamp poster with five camping-inspired learning checkpoints, their tools, skills, and honest progress statuses" width="100%">
 </p>
 
 <h1 align="center">🏕️ MERN BaseCamp</h1>

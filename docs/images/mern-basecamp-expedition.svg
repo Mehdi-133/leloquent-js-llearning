@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1420" viewBox="0 0 1200 1420" role="img" aria-labelledby="title description">
+  <title id="title">MERN BaseCamp learning expedition</title>
+  <desc id="description">A camping-inspired poster showing five learning checkpoints from JavaScript foundations to React, with tools, skills, and honest progress statuses.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0b1728"/>
+      <stop offset="1" stop-color="#10261f"/>
+    </linearGradient>
+    <linearGradient id="titleGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.48" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="trailGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#fbbf24"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#020617" flood-opacity="0.55"/>
+    </filter>
+    <style>
+      .sans { font-family: "Segoe UI", Arial, sans-serif; }
+      .mono { font-family: Consolas, "Courier New", monospace; }
+      .small { font-size: 16px; }
+      .body { font-size: 18px; }
+      .label { font-size: 15px; font-weight: 700; letter-spacing: 1.8px; }
+      .card-title { font-size: 27px; font-weight: 800; }
+      .muted { fill: #a9b7ca; }
+      .light { fill: #f8fafc; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="1420" rx="38" fill="url(#background)"/>
+  <rect x="18" y="18" width="1164" height="1384" rx="28" fill="none" stroke="#24354a" stroke-width="2"/>
+
+  <!-- Night-sky details -->
+  <g fill="#dbeafe" opacity="0.8">
+    <circle cx="72" cy="72" r="2.5"/><circle cx="161" cy="52" r="2"/><circle cx="287" cy="84" r="2.5"/>
+    <circle cx="865" cy="64" r="2"/><circle cx="1080" cy="54" r="2.5"/><circle cx="1130" cy="126" r="2"/>
+  </g>
+
+  <!-- Header identity -->
+  <g class="sans">
+    <g transform="translate(62 54)">
+      <path d="M0 70 L42 12 L84 70 Z" fill="#34d399" opacity="0.22"/>
+      <path d="M20 70 L43 34 L66 70 Z" fill="#38bdf8" opacity="0.45"/>
+      <path d="M12 74 H72" stroke="#fbbf24" stroke-width="6" stroke-linecap="round"/>
+      <path d="M42 39 V74" stroke="#f8fafc" stroke-width="4" opacity="0.9"/>
+    </g>
+    <text x="164" y="91" class="label" fill="#93c5fd">THE JAVASCRIPT-TO-MERN LEARNING TRAIL</text>
+    <text x="160" y="151" font-size="58" font-weight="900" fill="url(#titleGradient)">MERN BASECAMP</text>
+    <text x="164" y="188" font-size="22" fill="#cbd5e1">Build foundations. Follow the trail. Verify every checkpoint.</text>
+  </g>
+
+  <!-- Mountain campsite illustration -->
+  <g transform="translate(770 76)">
+    <path d="M0 112 L78 28 L130 88 L184 12 L304 112 Z" fill="#132b3b" stroke="#3b82f6" stroke-width="2"/>
+    <path d="M141 112 L204 58 L255 112 Z" fill="#0f3a31"/>
+    <path d="M78 28 L96 58 L78 51 L62 65 Z" fill="#dbeafe" opacity="0.85"/>
+    <path d="M184 12 L207 48 L184 38 L162 54 Z" fill="#f8fafc" opacity="0.9"/>
+    <path d="M46 112 L78 72 L110 112 Z" fill="#f59e0b" opacity="0.92"/>
+    <path d="M78 72 V112" stroke="#0b1728" stroke-width="4"/>
+    <path d="M244 111 C250 96 264 96 270 111" fill="none" stroke="#fb923c" stroke-width="5"/>
+    <path d="M253 109 Q258 88 263 109" fill="#fbbf24"/>
+  </g>
+
+  <!-- Method pills -->
+  <g class="sans" transform="translate(55 235)">
+    <rect width="1090" height="70" rx="18" fill="#0d1b2f" stroke="#2b415d"/>
+    <g transform="translate(22 16)">
+      <rect width="245" height="38" rx="19" fill="#102b42"/><circle cx="24" cy="19" r="8" fill="#38bdf8"/>
+      <text x="44" y="25" class="body light" font-weight="700">Read &amp; understand</text>
+    </g>
+    <g transform="translate(286 16)">
+      <rect width="245" height="38" rx="19" fill="#12352e"/><circle cx="24" cy="19" r="8" fill="#34d399"/>
+      <text x="44" y="25" class="body light" font-weight="700">Predict &amp; attempt</text>
+    </g>
+    <g transform="translate(550 16)">
+      <rect width="245" height="38" rx="19" fill="#392817"/><circle cx="24" cy="19" r="8" fill="#fbbf24"/>
+      <text x="44" y="25" class="body light" font-weight="700">Run &amp; compare</text>
+    </g>
+    <g transform="translate(814 16)">
+      <rect width="254" height="38" rx="19" fill="#2e2143"/><circle cx="24" cy="19" r="8" fill="#a78bfa"/>
+      <text x="44" y="25" class="body light" font-weight="700">Explain &amp; record</text>
+    </g>
+  </g>
+
+  <!-- Trail line -->
+  <path d="M98 355 C42 430 155 485 98 560 C42 635 155 690 98 765 C42 840 155 895 98 970 C42 1045 155 1100 98 1185"
+        fill="none" stroke="url(#trailGradient)" stroke-width="5" stroke-dasharray="10 12" opacity="0.65"/>
+
+  <!-- Checkpoint 1 -->
+  <g class="sans" transform="translate(55 335)" filter="url(#shadow)">
+    <rect width="1090" height="170" rx="20" fill="#0d1a2d" stroke="#38bdf8" stroke-width="2"/>
+    <rect width="94" height="170" rx="20" fill="#0c3654"/>
+    <text x="47" y="72" text-anchor="middle" font-size="22" font-weight="800" fill="#bae6fd">CAMP</text>
+    <text x="47" y="113" text-anchor="middle" font-size="42" font-weight="900" fill="#38bdf8">01</text>
+    <line x1="500" y1="24" x2="500" y2="146" stroke="#28425d"/>
+    <line x1="775" y1="24" x2="775" y2="146" stroke="#28425d"/>
+    <text x="125" y="44" class="card-title" fill="#38bdf8">JavaScript Foundations</text>
+    <text x="125" y="76" class="body muted">Core language skills for every MERN layer.</text>
+    <rect x="125" y="104" width="128" height="36" rx="18" fill="#12324d"/>
+    <text x="189" y="128" text-anchor="middle" class="small" fill="#bae6fd" font-weight="700">IN PROGRESS</text>
+    <text x="528" y="43" class="label" fill="#7dd3fc">TRAIL TOOLS</text>
+    <text x="528" y="78" class="body light">Eloquent JavaScript</text>
+    <text x="528" y="108" class="body light">Node.js exercises</text>
+    <text x="803" y="43" class="label" fill="#7dd3fc">SKILLS AT THIS CAMP</text>
+    <text x="803" y="76" class="body muted">• Values, functions, objects</text>
+    <text x="803" y="105" class="body muted">• Arrays, modules, async</text>
+    <text x="803" y="134" class="body muted">• Predict, run, explain</text>
+  </g>
+
+  <!-- Checkpoint 2 -->
+  <g class="sans" transform="translate(55 525)" filter="url(#shadow)">
+    <rect width="1090" height="170" rx="20" fill="#0d1a2d" stroke="#34d399" stroke-width="2"/>
+    <rect width="94" height="170" rx="20" fill="#103b31"/>
+    <text x="47" y="72" text-anchor="middle" font-size="22" font-weight="800" fill="#a7f3d0">CAMP</text>
+    <text x="47" y="113" text-anchor="middle" font-size="42" font-weight="900" fill="#34d399">02</text>
+    <line x1="500" y1="24" x2="500" y2="146" stroke="#28425d"/>
+    <line x1="775" y1="24" x2="775" y2="146" stroke="#28425d"/>
+    <text x="125" y="44" class="card-title" fill="#34d399">Node &amp; Express Trail</text>
+    <text x="125" y="76" class="body muted">Turn JavaScript knowledge into working APIs.</text>
+    <rect x="125" y="104" width="128" height="36" rx="18" fill="#153c32"/>
+    <text x="189" y="128" text-anchor="middle" class="small" fill="#a7f3d0" font-weight="700">IN PROGRESS</text>
+    <text x="528" y="43" class="label" fill="#6ee7b7">TRAIL TOOLS</text>
+    <text x="528" y="78" class="body light">Node.js</text>
+    <text x="528" y="108" class="body light">Express</text>
+    <text x="803" y="43" class="label" fill="#6ee7b7">SKILLS AT THIS CAMP</text>
+    <text x="803" y="76" class="body muted">• Routes and controllers</text>
+    <text x="803" y="105" class="body muted">• Middleware and HTTP</text>
+    <text x="803" y="134" class="body muted">• Non-regression checks</text>
+  </g>
+
+  <!-- Checkpoint 3 -->
+  <g class="sans" transform="translate(55 715)" filter="url(#shadow)">
+    <rect width="1090" height="170" rx="20" fill="#0d1a2d" stroke="#fbbf24" stroke-width="2"/>
+    <rect width="94" height="170" rx="20" fill="#493315"/>
+    <text x="47" y="72" text-anchor="middle" font-size="22" font-weight="800" fill="#fde68a">CAMP</text>
+    <text x="47" y="113" text-anchor="middle" font-size="42" font-weight="900" fill="#fbbf24">03</text>
+    <line x1="500" y1="24" x2="500" y2="146" stroke="#28425d"/>
+    <line x1="775" y1="24" x2="775" y2="146" stroke="#28425d"/>
+    <text x="125" y="44" class="card-title" fill="#fbbf24">MongoDB Data Camp</text>
+    <text x="125" y="76" class="body muted">Store application data and model relationships.</text>
+    <rect x="125" y="104" width="128" height="36" rx="18" fill="#493315"/>
+    <text x="189" y="128" text-anchor="middle" class="small" fill="#fde68a" font-weight="700">IN PROGRESS</text>
+    <text x="528" y="43" class="label" fill="#fcd34d">TRAIL TOOLS</text>
+    <text x="528" y="78" class="body light">MongoDB</text>
+    <text x="528" y="108" class="body light">Mongoose</text>
+    <text x="803" y="43" class="label" fill="#fcd34d">SKILLS AT THIS CAMP</text>
+    <text x="803" y="76" class="body muted">• Documents and schemas</text>
+    <text x="803" y="105" class="body muted">• Queries and relationships</text>
+    <text x="803" y="134" class="body muted">• Persistence verification</text>
+  </g>
+
+  <!-- Checkpoint 4 -->
+  <g class="sans" transform="translate(55 905)" filter="url(#shadow)">
+    <rect width="1090" height="170" rx="20" fill="#0d1a2d" stroke="#a78bfa" stroke-width="2"/>
+    <rect width="94" height="170" rx="20" fill="#302153"/>
+    <text x="47" y="72" text-anchor="middle" font-size="22" font-weight="800" fill="#ddd6fe">CAMP</text>
+    <text x="47" y="113" text-anchor="middle" font-size="42" font-weight="900" fill="#a78bfa">04</text>
+    <line x1="500" y1="24" x2="500" y2="146" stroke="#28425d"/>
+    <line x1="775" y1="24" x2="775" y2="146" stroke="#28425d"/>
+    <text x="125" y="44" class="card-title" fill="#a78bfa">Authentication Summit</text>
+    <text x="125" y="76" class="body muted">Protect routes and validate every boundary.</text>
+    <rect x="125" y="104" width="146" height="36" rx="18" fill="#332454"/>
+    <text x="198" y="128" text-anchor="middle" class="small" fill="#ddd6fe" font-weight="700">REVIEW NEEDED</text>
+    <text x="528" y="43" class="label" fill="#c4b5fd">TRAIL TOOLS</text>
+    <text x="528" y="78" class="body light">JWT</text>
+    <text x="528" y="108" class="body light">Zod</text>
+    <text x="803" y="43" class="label" fill="#c4b5fd">SKILLS AT THIS CAMP</text>
+    <text x="803" y="76" class="body muted">• Validation and tokens</text>
+    <text x="803" y="105" class="body muted">• Identity and permissions</text>
+    <text x="803" y="134" class="body muted">• Safe error handling</text>
+  </g>
+
+  <!-- Checkpoint 5 -->
+  <g class="sans" transform="translate(55 1095)" filter="url(#shadow)">
+    <rect width="1090" height="170" rx="20" fill="#0d1a2d" stroke="#f472b6" stroke-width="2"/>
+    <rect width="94" height="170" rx="20" fill="#4a1834"/>
+    <text x="47" y="72" text-anchor="middle" font-size="22" font-weight="800" fill="#fbcfe8">CAMP</text>
+    <text x="47" y="113" text-anchor="middle" font-size="42" font-weight="900" fill="#f472b6">05</text>
+    <line x1="500" y1="24" x2="500" y2="146" stroke="#28425d"/>
+    <line x1="775" y1="24" x2="775" y2="146" stroke="#28425d"/>
+    <text x="125" y="44" class="card-title" fill="#f472b6">React Lookout</text>
+    <text x="125" y="76" class="body muted">Build the interface after the foundation is ready.</text>
+    <rect x="125" y="104" width="130" height="36" rx="18" fill="#4a1834"/>
+    <text x="190" y="128" text-anchor="middle" class="small" fill="#fbcfe8" font-weight="700">NOT STARTED</text>
+    <text x="528" y="43" class="label" fill="#f9a8d4">TRAIL TOOLS</text>
+    <text x="528" y="78" class="body light">React</text>
+    <text x="528" y="108" class="body light">Browser APIs</text>
+    <text x="803" y="43" class="label" fill="#f9a8d4">SKILLS AT THIS CAMP</text>
+    <text x="803" y="76" class="body muted">• Components and state</text>
+    <text x="803" y="105" class="body muted">• Events and interaction</text>
+    <text x="803" y="134" class="body muted">• Frontend-to-API flow</text>
+  </g>
+
+  <!-- Footer -->
+  <g class="sans" transform="translate(55 1300)">
+    <rect width="1090" height="75" rx="18" fill="#101f33" stroke="#334155"/>
+    <circle cx="42" cy="37" r="22" fill="#f59e0b" opacity="0.18"/>
+    <path d="M35 48 C24 37 36 28 42 19 C48 29 60 37 49 48 C45 54 39 54 35 48 Z" fill="#fb923c"/>
+    <text x="82" y="31" class="label" fill="#fbbf24">BASECAMP RULE</text>
+    <text x="82" y="55" class="body light">Progress is not claimed—it is demonstrated, tested, explained, and recorded.</text>
+    <text x="1035" y="47" text-anchor="end" class="mono small" fill="#6ee7b7">CODE • CAMP • CLIMB</text>
+  </g>
+</svg>
