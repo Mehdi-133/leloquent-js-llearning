@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title description">
+  <title id="title">Code Camp learning journey</title>
+  <desc id="description">A night forest campsite with a glowing campfire and a terminal showing a JavaScript learning message.</desc>
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="1" stop-color="#12342d"/>
+    </linearGradient>
+    <linearGradient id="terminal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <radialGradient id="fire-glow">
+      <stop offset="0" stop-color="#fbbf24" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#f97316" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft-glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="420" rx="24" fill="url(#sky)"/>
+
+  <g fill="#dbeafe" opacity="0.9">
+    <circle cx="85" cy="70" r="2"/>
+    <circle cx="182" cy="44" r="1.5"/>
+    <circle cx="295" cy="82" r="2"/>
+    <circle cx="420" cy="42" r="1.5"/>
+    <circle cx="534" cy="71" r="2"/>
+    <circle cx="695" cy="45" r="1.5"/>
+    <circle cx="824" cy="86" r="2"/>
+    <circle cx="1040" cy="52" r="2"/>
+    <circle cx="1128" cy="92" r="1.5"/>
+  </g>
+
+  <path d="M0 248 145 155 258 232 390 126 535 236 676 142 825 237 974 137 1200 245V420H0Z" fill="#0d2a27"/>
+  <path d="M0 296 160 213 300 279 462 187 620 282 792 200 944 278 1095 210 1200 264V420H0Z" fill="#0b211f"/>
+
+  <g fill="#102f2a">
+    <path d="m70 190-40 84h28l-40 76h104l-40-76h28Z"/>
+    <path d="m1120 174-44 92h30l-44 84h116l-44-84h30Z"/>
+    <path d="m1020 230-30 62h20l-30 58h80l-30-58h20Z"/>
+  </g>
+
+  <g transform="translate(105 112)">
+    <rect width="650" height="238" rx="18" fill="url(#terminal)" stroke="#34d399" stroke-opacity="0.45" stroke-width="2"/>
+    <rect width="650" height="42" rx="18" fill="#172033"/>
+    <path d="M0 24h650v18H0Z" fill="#172033"/>
+    <circle cx="24" cy="21" r="6" fill="#fb7185"/>
+    <circle cx="45" cy="21" r="6" fill="#fbbf24"/>
+    <circle cx="66" cy="21" r="6" fill="#34d399"/>
+    <text x="92" y="27" fill="#94a3b8" font-family="Segoe UI, Arial, sans-serif" font-size="14">learning-trail — javascript</text>
+
+    <text x="34" y="90" fill="#34d399" font-family="Consolas, monospace" font-size="22">$ node journey.js</text>
+    <text x="34" y="132" fill="#f8fafc" font-family="Consolas, monospace" font-size="19">const direction = "JavaScript → MERN";</text>
+    <text x="34" y="168" fill="#f8fafc" font-family="Consolas, monospace" font-size="19">const method = "learn • build • verify";</text>
+    <text x="34" y="210" fill="#fbbf24" font-family="Consolas, monospace" font-size="18">✓ one honest checkpoint at a time</text>
+  </g>
+
+  <g transform="translate(875 225)">
+    <circle cx="95" cy="92" r="88" fill="url(#fire-glow)" filter="url(#soft-glow)"/>
+    <path d="M30 130 98 30l68 100Z" fill="#cbd5e1" stroke="#f8fafc" stroke-width="4"/>
+    <path d="M98 30v100" stroke="#94a3b8" stroke-width="4"/>
+    <path d="M98 30 58 130h80Z" fill="#475569" opacity="0.5"/>
+    <path d="m65 167 72-35M62 132l78 35" stroke="#78350f" stroke-width="11" stroke-linecap="round"/>
+    <path d="M99 157c-27-17-19-38 2-57 1 18 16 21 13 42 12-10 16-23 12-38 28 25 29 55-1 71-24 13-45-2-26-18Z" fill="#f97316"/>
+    <path d="M105 160c-12-10-8-23 3-34 2 10 11 15 7 27 7-5 9-10 9-18 11 14 9 30-5 38-11 6-21 0-14-13Z" fill="#fbbf24"/>
+  </g>
+
+  <text x="870" y="74" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">CODE CAMP</text>
+  <text x="870" y="104" fill="#a7f3d0" font-family="Segoe UI, Arial, sans-serif" font-size="16" letter-spacing="2">LEARN • BUILD • EXPLORE</text>
+</svg>
